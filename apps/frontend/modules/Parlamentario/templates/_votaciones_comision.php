@@ -7,7 +7,7 @@
 
 <?php $debate=$voto->getProyectoLey()->getDebate(); if ($debate!=null && (count($votoscom = $parlamentario->getVotacionesComisionDebate($debate[0]->getIdDebate())) > 0)): ?>
 
-  <div class="voto_boton_comision"><a href="#" id="button_<?php echo $voto->getIdVotacion() ?>"><img src="/images/votacion/comision.png" align="left" /> <span>ve su voto en comisión.</span></a></div>
+  <?php/*<div class="voto_boton_comision"><a href="#" id="button_<?php echo $voto->getIdVotacion() ?>"><img src="/images/votacion/comision.png" align="left" /> <span>ve su voto en comisión.</span></a></div> */?>
 
   <div id="voto_com_<?php echo $voto->getIdVotacion() ?>">
 
