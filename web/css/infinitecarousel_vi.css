@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { background-image:url(../images/bg_blog.jpg); background-repeat:repeat-x; background-position:center top;}
+
+#featured_projects { margin-top:60px;}
+#featured_projects h2 { color:#6c829c; font-size:16px; font-family:Georgia,Times,"Times New Roman",serif ; margin-bottom:20px;}
+#featured_project_list strong { color:#000000; font-family:"Trebuchet MS","Lucida Sans Unicode","Lucida Grande"," Lucida Sans",Arial,sans-serif ; font-size:14px; line-height:16px;}
+#featured_project_list { margin-left:0; padding-left:0;}
+#featured_project_list li { padding-bottom: 15px; list-style-type:none; margin-bottom:15px; height:45px; font-family:Georgia,Times,"Times New Roman",serif ;}
+#featured_project_list li a { display:block; padding:.7em 0 .6em 1em; text-decoration:none; color:#666666;}
+#featured_project_list li a:hover { background-color:#f6f8fb; color:#2d73bf; -moz-border-radius: 5px; -webkit-border-radius: 5px; height:45px; }#featured_icon { float:left; margin-right:10px;}
+
+#carousel { height:150px; margin-bottom:40px; margin-top:20px;}
+.infiniteCarousel { width: 920px; position: relative; margin-right:auto; margin-left:auto; }
+.infiniteCarousel .wrapper { width: 840px; overflow: auto; min-height: 180px; margin: 0 30px 0 40px; position: absolute; top: 0; }
+.infiniteCarousel ul a img { }
+
+.infiniteCarousel .wrapper ul { width: 9999px; list-style-image:none; list-style-position:outside; list-style-type:none; margin:0; padding:0; position: absolute; top: 0; }
+
+.infiniteCarousel ul li { display:block; float:left; padding: 10px 15px 0 15px; height: 148px; width: 180px; }
+
+.infiniteCarousel ul li a img { display:block; }
+a.carr_itemborder { 
+border:1px solid #b0b0b0;
+ -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+   height:138px; width:180px;
+   display:block;
+   background-position: top; }
+ a:hover.carr_itemborder {
+ background-position: bottom;
+ 
+ }
+
+.infiniteCarousel .arrow { display: block; height: 150px; width: 29px; background: url(http://www.votainteligente.cl/images/modgrales_j/infinite_arrows.png) no-repeat 0 0; text-indent: -9999px; position: absolute; margin-top: 0; cursor: pointer; }
+.infiniteCarousel .forward { background-position: 0 -150px; right: 0; }
+.infiniteCarousel .back { background-position: 0 0; left: 0; }
+.infiniteCarousel .forward:hover { background-position: 0 -300px; }
+.infiniteCarousel .back:hover { background-position: 0 -450px; }
+
+#feature_list li { display:block; width:180px; height:148px; background-image:url(http://www.votainteligente.cl/images/modgrales_j/hover_shadow.png); background-position:bottom; background-repeat:no-repeat; }
+
+#feature_list li.empty {background-image:none; }
+
+
+
+
+
+
+
+/*--------------------------------PROYECTOS O APLICACIONES--------------------------*/
+/*SINTAXIS: .app_nombreapp 
+más de una palabra: usar camel*/
+.app_intereses{
+background-image: url("http://www.votainteligente.cl/images/aplicaciones/APP_intereses.png");
+}
+.app_ciudadanoInformado{
+background-image: url("http://www.votainteligente.cl/images/aplicaciones/APP_ciudadano_informado.png");
+}
+.app_acceso{
+background-image: url("http://www.votainteligente.cl/images/aplicaciones/APP_acceso_inteligente.png");
+}
+.app_donar{
+background-image: url(http://www.votainteligente.cl/images/aplicaciones/APP_donar.png);
+}
+.app_inspector{
+background-image: url(http://www.votainteligente.cl/images/aplicaciones/APP_inspector_intereses.png);
+}
+.app_monitoreo{
+background-image: url(http://www.votainteligente.cl/images/aplicaciones/APP_monitoreo_parlamentario.png);
+}
+.app_perfiles{
+background-image: url(http://www.votainteligente.cl/images/aplicaciones/APP_perfiles_parlamentarios.png);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+# data/fixtures/region.yml
+Region:
+  I:
+    sigla: I
+    nombre: Tarapacá
+  II:
+    sigla: II
+    nombre: Antofagasta
+  III:
+    sigla: III
+    nombre: Atacama
+  IV:
+    sigla: IV
+    nombre: Coquimbo
+  V:
+    sigla: V
+    nombre: Valparaíso
+  VI:
+    sigla: VI
+    nombre: Libertador General Bernardo O'Higgins
+  VII:
+    sigla: VII
+    nombre: Maule
+  VIII:
+    sigla: VIII
+    nombre: Biobío
+  IX:
+    sigla: IX
+    nombre: Araucanía
+  X:
+    sigla: X
+    nombre: Los Lagos
+  XI:
+    sigla: XI
+    nombre: Aisén del General Carlos Ibáñez del Campo
+  XII:
+    sigla: XII
+    nombre: Magallanes y la Antártica Chilena
+  XIV:
+    sigla: XIV
+    nombre: Los Ríos
+  XV:
+    sigla: XV
+    nombre: Arica y Parinacota
+  RM:
+    sigla: RM
+    nombre: Metropolitana de Santiago
+

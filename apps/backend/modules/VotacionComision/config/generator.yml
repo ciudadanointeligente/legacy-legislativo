@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           VotacionComision
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          votacion_comision
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:   Gestión de Votaciones en Comisión
+        display: [=proyecto_ley, comision, camara, tipo, articulo, resultado, debate]
+        sort:    camara asc, id_proyecto_ley desc, articulo
+      filter:
+        class: false
+      form:    ~
+      edit:    ~
+      new:     ~

@@ -1,0 +1,722 @@
+Autor:
+  tableName: Autor
+  actAs: 
+    Timestampable: ~
+  columns:
+    id_autor:
+      type: integer
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(100)
+      notnull: true
+    apellidos:
+      type: string(100)
+      notnull: true
+    cargo:
+      type: string(30)
+    periodos:
+      type: string(255)
+    id_parlamentario:
+      type: integer
+  relations:
+    AutorProyectoLey:
+      onDelete: CASCADE
+      local: id_autor
+      foreign: id_autor
+      type: many
+    Parlamentario:
+      local: id_parlamentario
+      foreign: id_parlamentario
+      type: one
+
+AutorProyectoLey:
+  tableName: AutorProyectoLey
+  columns:
+    id_autor:
+      type: integer
+      primary: true
+    id_proyecto_ley:
+      type: integer
+      primary: true
+  relations:
+    ProyectoLey:
+      local: id_proyecto_ley
+      foreign: id_proyecto_ley
+      type: one
+    Autor:
+      local: id_autor
+      foreign: id_autor
+      type: one
+
+Debate:
+  tableName: Debate
+  actAs:
+    Timestampable: ~
+  columns:
+    id_debate:
+      type: integer
+      primary: true
+      autoincrement: true
+    id_proyecto_ley:
+      type: integer
+      notnull: true
+    comision_sala:
+      type: integer(4)
+      notnull: true
+    comisiones_unidas:
+      type: integer(4)
+    camara:
+      type: string(30)
+    fecha:
+      type: date
+      notnull: true
+    hora:
+      type: time
+      notnull: true
+    discusion:
+      type: integer(4)
+    tema:
+      type: string(255)
+      notnull: true
+    debate:
+      type: string(5000)
+    tags:
+      type: string(255)
+    docs:
+      type: string(5000)
+  relations:
+    ProyectoLey:
+      local: id_proyecto_ley
+      foreign: id_proyecto_ley
+      type: one
+    Votacion:
+      local: id_debate
+      foreign: id_debate
+      type: many
+    Comision:
+      onDelete: CASCADE
+      class: Comision
+      refClass: DebateComision
+      foreignAlias: Debate
+      local: id_debate
+      foreign: id_comision
+
+DebateComision:
+  tableName: DebateComision
+  columns:
+    id_debate:
+      type: integer
+      primary: true
+    id_comision:
+      type: integer
+      primary: true
+
+Materia:
+  tableName: Materia
+  actAs: 
+    Timestampable: ~
+  columns:
+    id_materia:
+      type: integer
+      primary: true
+      notnull: true
+    nombre:
+      type: string(255)
+      unique: true
+      notnull: true
+    super_materia:
+      type: string(255)      
+      notnull: true
+  relations:
+    ProyectoLey:
+      local: id_materia
+      foreign: id_materia
+      type: many
+
+ProyectoLey:
+  tableName: ProyectoLey
+  actAs: 
+    Timestampable: ~
+  columns:
+    id_proyecto_ley:
+      type: integer
+      primary: true
+      autoincrement: true
+    nro_boletin:
+      type: string(10)
+      unique: true
+      notnull: true
+    titulo:
+      type: string(500)
+      notnull: true
+    titulo_sesion:
+      type: string(255)
+    fecha_ingreso:
+      type: date
+      notnull: true
+    iniciativa:
+      type: string(30)
+      notnull: true
+    tipo:
+      type: string(30)
+      notnull: true
+    camara_origen:
+      type: string(30)
+      notnull: true
+    urgencia:
+      type: string(255)
+    etapa:
+      type: string(255)
+    sub_etapa:
+      type: string(255)
+    ley:
+      type: integer
+    ley_bcn:
+      type: string(255)
+    decreto:
+      type: integer
+    decreto_bcn:
+      type: string(255)
+    fecha_publicacion:
+      type: date
+    id_materia:
+      type: integer
+    nro_interno:
+      type: integer
+    avance:
+      type: integer(4)
+    nro_tramitacion:
+      type: integer
+    tramitacion_act:
+      type: string(2)
+    resumen:
+      type: string(5000)
+  relations:
+    Materia:
+      local: id_materia
+      foreign: id_materia
+      type: one
+    AutorProyectoLey:
+      onDelete: CASCADE
+      local: id_proyecto_ley
+      foreign: id_proyecto_ley
+      type: many
+    Comision:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      class: Comision
+      refClass: ProyectoLeyEnComision
+      foreignAlias: ProyectoLey
+      local: id_proyecto_ley
+      foreign: id_comision
+    Debate:
+      local: id_proyecto_ley
+      foreign: id_proyecto_ley
+      type: many
+    Sesion:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      class: Sesion
+      refClass: ProyectoLeyEnSesion
+      foreignAlias: ProyectoLey
+      local: id_proyecto_ley
+      foreign: id_sesion
+    ProyectoLey:
+      class: ProyectoLey
+      refClass: ProyectoLeyRefundido
+      foreignAlias: ProyectoLey
+      local: id_proyecto_ley
+      foreign: id_proyecto_ley2
+
+ProyectoLeyRefundido:
+  tableName: ProyectoLeyRefundido
+  columns:
+    id_proyecto_ley:
+      type: integer
+      primary: true
+    id_proyecto_ley2:
+      type: integer
+      primary: true
+
+ProyectoLeyEnComision:
+  tableName: ProyectoLeyEnComision
+  columns:
+    id_proyecto_ley:
+      type: integer
+      primary: true
+    id_comision:
+      type: integer
+      primary: true
+
+ProyectoLeyEnSesion:
+  tableName: ProyectoLeyEnSesion
+  columns:
+    id_sesion:
+      type: integer
+      primary: true
+    id_proyecto_ley:
+      type: integer
+      primary: true
+
+Comision:
+  tableName: Comision
+  actAs: 
+    Timestampable: ~
+  columns:
+    id_comision:
+      type: integer
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(255)
+      unique: true
+      notnull: true
+    tipo:
+      type: string(100)
+      notnull: true
+    camara:
+      type: string(30)
+    contacto_mail:
+      type: string(100)
+    contacto_tel:
+      type: string(100)
+    contacto_form:
+      type: string(255)
+    abogado_secretario:
+      type: string(255)
+    abogado_ayudante:
+      type: string(255)
+    secretario_ejecutivo:
+      type: string(255)
+  relations:
+    Debate:
+      class: Debate
+      refClass: DebateComision
+      foreignAlias: Comision
+      local: id_comision
+      foreign: id_debate
+    Parlamentario:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      class: Parlamentario
+      refClass: ParlamentarioEnComision
+      foreignAlias: Comision
+      local: id_comision
+      foreign: id_parlamentario
+    ProyectoLey:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      class: ProyectoLey
+      refClass: ProyectoLeyEnComision
+      foreignAlias: Comision
+      local: id_comision
+      foreign: id_proyecto_ley
+
+ParlamentarioEnComision:
+  tableName: ParlamentarioEnComision
+  columns:
+    id_parlamentario:
+      type: integer
+      primary: true
+    id_comision:
+      type: integer
+      primary: true
+    cargo:
+      type: string(1)
+
+Parlamentario:
+  tableName: Parlamentario
+  actAs: 
+    Timestampable: ~
+  columns:
+    id_parlamentario:
+      type: integer
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(100)
+      notnull: true
+    apellidos:
+      type: string(100)
+      notnull: true
+    senador_diputado:
+      type: string(10)
+      notnull: true
+    id_circunscripcion:
+      type: integer
+    id_distrito:
+      type: integer
+    pacto:
+      type: string(100)
+    id_partido:
+      type: integer
+      notnull: true
+    sexo:
+      type: string(1)
+      notnull: true
+    fecha_nacimiento:
+      type: date
+    profesion:
+      type: string(100)
+    mesa_directiva:
+      type: string(100)
+    periodos_senador:
+      type: integer
+    periodos_diputado:
+      type: integer
+    periodos_senador_desc:
+      type: string(100)
+    periodos_diputado_desc:
+      type: string(100)
+    primera_vez:
+      type: string(2)
+    comisiones_anteriores:
+      type: string(500)
+    comisiones_actuales:
+      type: string(500)
+    voto_nro:
+      type: integer
+    voto_porcentaje:
+      type: float
+    gasto_electoral2005:
+      type: integer
+    financiamiento_electoral2005:
+      type: integer
+    gasto_electoral2009:
+      type: integer
+    financiamiento_electoral2009:
+      type: integer
+    comite_parlamentario:
+      type: string(500)
+    mail:
+      type: string(255)
+    web:
+      type: string(255)
+    twitter:
+      type: string(255)
+    facebook:
+      type: string(255)
+    dietas:
+      type: integer
+    declaracion_interes:
+      type: string(500)
+    declaracion_patrimonio:
+      type: string(500)
+    educacion_universitaria:
+      type: string(255)
+    educacion_postgrado:
+      type: string(255)
+    cargos_gobierno:
+      type: string(255)
+    cargos_eleccion:
+      type: string(500)
+    experiencia_politica:
+      type: string(1000)
+    experiencia_laboral:
+      type: string(1000)
+    id_parlamento:
+      type: integer    voto_abs:
+      type: integer
+      notnull: true
+  relations:
+    Autor:
+      local: id_parlamentario
+      foreign: id_parlamentario
+      type: many
+    Distrito:
+      local: id_distrito
+      foreign: id_distrito
+      type: one
+    Circunscripcion:
+      local: id_circunscripcion
+      foreign: id_circunscripcion
+      type: one
+    Partido:
+      local: id_partido
+      foreign: id_partido
+      type: one
+    Votacion:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      class: Votacion
+      refClass: VotacionParlamentario
+      foreignAlias: Parlamentario
+      local: id_parlamentario
+      foreign: id_votacion
+    Comision:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      class: Comision
+      refClass: ParlamentarioEnComision
+      foreignAlias: Parlamentario
+      local: id_parlamentario
+      foreign: id_comision
+
+Circunscripcion:
+  tableName: Circunscripcion
+  columns:
+    id_circunscripcion:
+      type: integer
+      primary: true
+      notnull: true
+    nombre:
+      type: string(255)
+      unique: true
+      notnull: true
+  relations:
+    Parlamentario:
+      local: id_circunscripcion
+      foreign: id_circunscripcion
+      type: many
+    Distrito:
+      local: id_circunscripcion
+      foreign: id_circunscripcion
+      type: many
+
+Distrito:
+  tableName: Distrito
+  columns:
+    id_distrito:
+      type: integer
+      primary: true
+      notnull: true
+    id_circunscripcion:
+      type: integer
+      notnull: true
+    id_region:
+      type: integer
+      notnull: true
+  relations:
+    Parlamentario:
+      local: id_distrito
+      foreign: id_distrito
+      type: many
+    Circunscripcion:
+      local: id_circunscripcion
+      foreign: id_circunscripcion
+      type: one
+    Region:
+      local: id_region
+      foreign: id_region
+      type: one
+    Comuna:
+      local: id_distrito
+      foreign: id_distrito
+      type: many
+
+Comuna:
+  tableName: Comuna
+  columns:
+    id_comuna:
+      type: integer
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(255)
+      notnull: true
+    id_distrito:
+      type: integer
+      notnull: true
+  relations:
+    Distrito:
+      local: id_distrito
+      foreign: id_distrito
+      type: one
+
+Region:
+  tableName: Region
+  columns:
+    id_region:
+      type: integer
+      primary: true
+      autoincrement: true
+    sigla:
+      type: string(4)
+      unique: true
+      notnull: true
+    nombre:
+      type: string(255)
+      unique: true
+      notnull: true
+  relations:
+    Distrito:
+      local: id_region
+      foreign: id_region
+      type: many
+
+Partido:
+  tableName: Partido
+  actAs: 
+    Timestampable: ~
+  columns:
+    id_partido:
+      type: integer
+      primary: true
+      autoincrement: true
+    nombre: 
+      type: string(255)
+      notnull: true
+    sigla: 
+      type: string(10)
+      notnull: true
+    fecha_nacimiento: 
+      type: string(100)
+    mesa_adulta: 
+      type: string(500)
+    mesa_juventud: 
+      type: string(500)
+    nro_diputados_2010: 
+      type: integer
+      notnull: true
+    nro_senadores_2010: 
+      type: integer
+      notnull: true
+    direccion: 
+      type: string(255)
+    telefono: 
+      type: string(20)
+    mail: 
+      type: string(100)
+    web: 
+      type: string(100)
+    historia: 
+      type: string(5000)
+    principios: 
+      type: string(255)
+  relations:
+    Parlamentario:
+      local: id_partido
+      foreign: id_partido
+      type: many
+
+Sesion:
+  tableName: Sesion
+  actAs: 
+    Timestampable: ~
+  columns:
+    id_sesion:
+      type: integer
+      primary: true
+      autoincrement: true
+    fecha: 
+      type: date
+      notnull: true
+    camara:
+      type: string(30)
+      notnull: true
+    nro:
+      type: integer
+  relations:
+    Votacion:
+      local: id_sesion
+      foreign: id_sesion
+      type: many
+    ProyectoLey:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      class: ProyectoLey
+      refClass: ProyectoLeyEnSesion
+      foreignAlias: Sesion
+      local: id_sesion
+      foreign: id_proyecto_ley
+
+Votacion:
+  tableName: Votacion
+  actAs: 
+    Timestampable: ~
+  columns:
+    id_votacion:
+      type: integer
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    camara:
+      type: string(30)
+      notnull: true
+    en_sala:
+      type: integer(4)
+      notnull: true
+    tipo:
+      type: string(30)
+      notnull: true
+    articulo:
+      type: string(255)
+    materia:
+      type: string(500)
+    fecha:
+      type: date
+      notnull: true
+    hora:
+      type: time
+      notnull: true
+    voto_si:
+      type: integer
+      notnull: true
+    voto_no:
+      type: integer
+      notnull: true
+    voto_abs:
+      type: integer
+      notnull: true
+    voto_disp:
+      type: integer
+    voto_pareos:
+      type: integer
+      notnull: true
+    voto_aus:
+      type: integer
+    resultado:
+      type: string(10)
+      notnull: true
+    quorum:
+      type: string(100)
+    id_proyecto_ley:
+      type: integer
+    id_sesion:
+      type: integer
+    id_debate:
+      type: integer
+    id_parlamento:
+      type: integer
+      notnull: true
+      unique: true
+    visible:
+      type: integer(4)
+      default: 1
+  relations:
+    ProyectoLey:
+      local: id_proyecto_ley
+      foreign: id_proyecto_ley
+      type: one
+    Sesion:
+      local: id_sesion
+      foreign: id_sesion
+      type: one
+    Debate:
+      local: id_debate
+      foreign: id_debate
+      type: one
+    Parlamentario:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      class: Parlamentario
+      refClass: VotacionParlamentario
+      foreignAlias: Votacion
+      local: id_votacion
+      foreign: id_parlamentario
+
+VotacionParlamentario:
+  tableName: VotacionParlamentario
+  columns:
+    id_votacion:
+      type: integer
+      primary: true
+    id_parlamentario:
+      type: integer
+      primary: true
+    voto:
+      type: string(1)
+      notnull: true

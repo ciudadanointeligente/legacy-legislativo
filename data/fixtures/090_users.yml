@@ -1,0 +1,9 @@
+# data/fixtures/sfGuardUser.yml
+sfGuardUser:
+  admin:
+    username: admin
+    password: Apollo13
+  editor:
+    username: editor
+    password: botaar
+

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.btn{
+padding: 0px;
+height: 35px;
+}
+
+.btn p{
+padding-top: 10px;
+}
+.marcoboton { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 196px;
+	height: 46px;
+	margin: 3px 3px 0px 3px;
+	text-align: center;
+}
+
+a.boton {
+    background: transparent url(http://www.votainteligente.cl/templates/prototipo/images/apps/bg-bt-app.png) no-repeat scroll top left;
+    color: #808080;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    margin-right: 6px;
+	height: 46px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+	width: 190px;
+}
+
+a.boton span.txtbts {  
+    padding: 0px;
+	color: #2a2a2a;
+	} 
+a.boton .icono {  
+    display: block;
+	float:left;
+    padding: 0px; 
+	margin-right: 8px;
+	text-decoration: none;
+} 
+a.boton:hover  span.icono {  
+    display: block;
+	float:left;
+    padding: 0px; 
+	margin-top: -46px;
+	text-decoration: none;
+	
+} 
+
+a.boton:hover {
+ 	background: transparent url(http://www.votainteligente.cl/templates/prototipo/images/apps/bg-bt-app.png) no-repeat scroll bottom left;
+    color: #2a2a2a;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    margin-right: 6px;
+	height: 46;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+a.boton td.{
+line-height:100%;
+padding:2px;
+text-align:left;
+vertical-align:middle;
+padding-right:4px;
+}
+span.txtbts table {  
+    	height:46px;
+		font-size: 11px;
+		}
+div.mod-black{
+display: block;
+background: #D4D4D4;
+
+margin-bottom: 15px;
+}
+div.mod-black h3{
+background:#808080 none repeat scroll 0 0;
+color:#FFFFFF;
+display:block;
+font-family:Arial,Helvetica,sans-serif;
+font-size:130%;
+font-variant:small-caps;
+
+padding:5px;
+text-indent:10px;
+}
+
+div.mod-blank{
+margin-bottom: 15px;
+}
+
+
+
+.tdtextoboton{
+padding-top: 4px;
+vertical-align: top;
+text-align: left;
+font-size: 11px;
+}

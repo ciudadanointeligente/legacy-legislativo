@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        PRUEBA ::::::::::::::::::::::: Votainteligente - Monitoreo Parlamentario
+    author:       Carlos E. Martínez Ulloa (@cmartinez)
+    description:  Vota Inteligente es un proyecto de la fundación Ciudadano Inteligente, que busca promover el accountability y la transparencia
+    keywords:     vota, votainteligente, Vota Inteligente, elecciones, accountability, transparencia, rendición de cuentas, corrupción, corrupcion, presidenciales, acountability, acontability, piñera, frei, meo, marco, diputados, parlamento, parlamentarios, cámara, senado, legislación, fuentes, comisión, pablo carvacho, participación, ciudadania, ciudadano, sociedad civil, ong, ONG, Chile, chile, financiamiento, sistema electoral, rendición de cuentas, voto, democracia, derecho acceso, derecho información posible, consejo para la transparencia, chile transparente, pro acceso, transparencia internacional, participa, corporacion participa, avina, giro pais UDI, PS, RN, DC, PRSD, PRI, PPD
+    language:     es
+    robots:       index, follow
+
+  stylesheets:    [dev/main.css, dev/dejoomla.css, dev/btn.css]
+
+  javascripts:    []
+
+  has_layout:     true
+  layout:         layout2

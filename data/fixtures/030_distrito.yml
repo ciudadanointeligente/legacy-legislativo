@@ -1,0 +1,243 @@
+# data/fixtures/distrito.yml
+Distrito:
+  1:
+    id_distrito: 1
+    id_circunscripcion: 1
+    Region: IV
+  2:
+    id_distrito: 2
+    id_circunscripcion: 1
+    Region: I
+  3:
+    id_distrito: 3
+    id_circunscripcion: 2
+    Region: II
+  4:
+    id_distrito: 4
+    id_circunscripcion: 2
+    Region: II
+  5:
+    id_distrito: 5
+    id_circunscripcion: 3
+    Region: III
+  6:
+    id_distrito: 6
+    id_circunscripcion: 3
+    Region: III
+  7:
+    id_distrito: 7
+    id_circunscripcion: 4
+    Region: IV
+  8:
+    id_distrito: 8
+    id_circunscripcion: 4
+    Region: IV
+  9:
+    id_distrito: 9
+    id_circunscripcion: 4
+    Region: IV
+  10:
+    id_distrito: 10
+    id_circunscripcion: 5
+    Region: V
+  11:
+    id_distrito: 11
+    id_circunscripcion: 5
+    Region: V
+  12:
+    id_distrito: 12
+    id_circunscripcion: 5
+    Region: V
+  13:
+    id_distrito: 13
+    id_circunscripcion: 6
+    Region: V
+  14:
+    id_distrito: 14
+    id_circunscripcion: 6
+    Region: V
+  15:
+    id_distrito: 15
+    id_circunscripcion: 6
+    Region: V
+  16:
+    id_distrito: 16
+    id_circunscripcion: 7
+    Region: RM
+  17:
+    id_distrito: 17
+    id_circunscripcion: 7
+    Region: RM
+  18:
+    id_distrito: 18
+    id_circunscripcion: 7
+    Region: RM
+  19:
+    id_distrito: 19
+    id_circunscripcion: 7
+    Region: RM
+  20:
+    id_distrito: 20
+    id_circunscripcion: 7
+    Region: RM
+  21:
+    id_distrito: 21
+    id_circunscripcion: 8
+    Region: RM
+  22:
+    id_distrito: 22
+    id_circunscripcion: 7
+    Region: RM
+  23:
+    id_distrito: 23
+    id_circunscripcion: 8
+    Region: RM
+  24:
+    id_distrito: 24
+    id_circunscripcion: 8
+    Region: RM
+  25:
+    id_distrito: 25
+    id_circunscripcion: 8
+    Region: RM
+  26:
+    id_distrito: 26
+    id_circunscripcion: 8
+    Region: RM
+  27:
+    id_distrito: 27
+    id_circunscripcion: 8
+    Region: RM
+  28:
+    id_distrito: 28
+    id_circunscripcion: 8
+    Region: RM
+  29:
+    id_distrito: 29
+    id_circunscripcion: 8
+    Region: RM
+  30:
+    id_distrito: 30
+    id_circunscripcion: 7
+    Region: RM
+  31:
+    id_distrito: 31
+    id_circunscripcion: 7
+    Region: RM
+  32:
+    id_distrito: 32
+    id_circunscripcion: 9
+    Region: VI
+  33:
+    id_distrito: 33
+    id_circunscripcion: 9
+    Region: VI
+  34:
+    id_distrito: 34
+    id_circunscripcion: 9
+    Region: VI
+  35:
+    id_distrito: 35
+    id_circunscripcion: 10
+    Region: VI
+  36:
+    id_distrito: 36
+    id_circunscripcion: 10
+    Region: VII
+  37:
+    id_distrito: 37
+    id_circunscripcion: 10
+    Region: VII
+  38:
+    id_distrito: 38
+    id_circunscripcion: 10
+    Region: VII
+  39:
+    id_distrito: 39
+    id_circunscripcion: 11
+    Region: VII
+  40:
+    id_distrito: 40
+    id_circunscripcion: 11
+    Region: VII
+  41:
+    id_distrito: 41
+    id_circunscripcion: 13
+    Region: VIII
+  42:
+    id_distrito: 42
+    id_circunscripcion: 12
+    Region: VIII
+  43:
+    id_distrito: 43
+    id_circunscripcion: 12
+    Region: VIII
+  44:
+    id_distrito: 44
+    id_circunscripcion: 12
+    Region: VIII
+  45:
+    id_distrito: 45
+    id_circunscripcion: 12
+    Region: VIII
+  46:
+    id_distrito: 46
+    id_circunscripcion: 13
+    Region: VIII
+  47:
+    id_distrito: 47
+    id_circunscripcion: 13
+    Region: VIII
+  48:
+    id_distrito: 48
+    id_circunscripcion: 14
+    Region: IX
+  49:
+    id_distrito: 49
+    id_circunscripcion: 14
+    Region: IX
+  50:
+    id_distrito: 50
+    id_circunscripcion: 15
+    Region: IX
+  51:
+    id_distrito: 51
+    id_circunscripcion: 15
+    Region: IX
+  52:
+    id_distrito: 52
+    id_circunscripcion: 15
+    Region: IX
+  53:
+    id_distrito: 53
+    id_circunscripcion: 16
+    Region: XIV
+  54:
+    id_distrito: 54
+    id_circunscripcion: 16
+    Region: XIV
+  55:
+    id_distrito: 55
+    id_circunscripcion: 17
+    Region: X
+  56:
+    id_distrito: 56
+    id_circunscripcion: 17
+    Region: X
+  57:
+    id_distrito: 57
+    id_circunscripcion: 17
+    Region: X
+  58:
+    id_distrito: 58
+    id_circunscripcion: 17
+    Region: X
+  59:
+    id_distrito: 59
+    id_circunscripcion: 18
+    Region: XI
+  60:
+    id_distrito: 60
+    id_circunscripcion: 19
+    Region: XII
+

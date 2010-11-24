@@ -1,0 +1,406 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.busca a, a:link{
+font-weight:normal;
+text-decoration:underline;
+color:#000000; !important
+}
+.selecciona{
+float: left;
+padding: 10px;
+height: 450px;
+}
+
+#listaparlamentarios{
+height: 400px; 
+overflow: scroll;
+
+}
+#parlamentarioseleccionado{
+width:250px;
+float:left;
+clear:none;}
+.leftpad{
+float:left;
+padding:10px;
+background:url("http://legislativo.votainteligente.cl/images/modgrales/module_gradient.png") repeat-x scroll right bottom #ffffff;
+font-family: arial, trebuchet MS, calibri, helvetica, sans-serif;
+}
+.grispad{
+padding:10px;
+background:url("http://legislativo.votainteligente.cl/images/modgrales/module_gradient.png") repeat-x scroll right bottom #ffffff;
+}
+#tb_listadocomovotan{
+float:left; 
+width: 600px;
+height: 400px;
+display:block;
+}
+
+img.listaimagen{
+margin: 0px 5px 5px 0px;
+display:block;
+float:left;
+
+}
+#headercomovotan{
+
+}
+
+#headercomovotan #logo img{ margin: -10px;}
+
+#leftcomovotan_flecha{
+background:url("http://legislativo.votainteligente.cl/images/modgrales/flechanegradown.png") no-repeat scroll 20px 5px transparent;
+border-right:1px dotted #DCDCDC;
+clear:left;
+display:block;
+float:left;
+margin-left:-10px;
+margin-top:-6px;
+position:relative;
+width:300px;
+} 
+
+#comovotan_flecha {
+background:url("http://legislativo.votainteligente.cl/images/modgrales/menudark_flechanegradown.png") no-repeat scroll center top transparent;
+clear:both;
+display:block;
+float:none;
+margin:-10px auto;
+position:relative;
+} 
+
+
+.proyecto{
+padding:3px;
+vertical-align:middle;
+width:100%;}
+
+h1.titulares {
+font-family:calibri,trebuchet MS,arial,sans-serif;
+font-variant:small-caps;
+font-size:1.3em; 
+font-weight: bold;
+}
+
+#buscaparlam h1{
+display:block;
+float:left;
+font-family:calibri,trebuchet MS,arial,sans-serif;
+font-size:1.3em;
+font-variant:small-caps;
+height:35px;
+margin-right:10px;
+overflow:hidden;
+position:relative;
+width:289px;
+}
+#buscaparlam .busca{
+width: 289px;
+margin-right:10px;
+}
+.busca{
+display:block;
+float:left;
+margin-bottom:10px;
+
+min-height:200px;
+font-family:calibri,trebuchet MS,arial,sans-serif;
+}
+.busca li{
+clear:both;
+float:left;
+margin-bottom:4px;
+padding:5px;
+width:100%;
+
+}
+
+#leftcomovotan .selecciona li{
+float:left;
+margin-bottom:4px;
+padding:5px;
+width:100%;
+}
+
+.busca li.odd{
+background-color: #ffffff;
+ display: block;
+
+}
+.busca li.even{
+background-color: #a9abbb;
+}
+
+.busca li.odd2{
+background-color: #9697a8;
+}
+.busca li div, #leftcomovotan .selecciona li div{
+float:left;
+}
+.busca li div.n, #leftcomovotan .selecciona li div.n{
+padding-left:10px;
+position:absolute;
+right:15px;
+text-align:right;
+}
+.busca li div.nombrearea, #leftcomovotan .selecciona li div.nombrearea{
+margin-right: 20px; 
+}
+#leftcomovotan .busca li{
+
+}
+#leftcomovotan2{
+} 
+
+#buscaparlam{
+display:block;
+margin:auto;
+overflow:hidden;
+padding:10px;
+width:600px;
+}
+.busca #accordion li {
+float: none; 
+}
+/** CURVED**/
+.busca #accordion h3, .busca li, .bg_dcdcdc{
+border-radius: 5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+behavior:url(border-radius.htc);}
+
+.busca #accordion h3 {
+background:url("http://legislativo.votainteligente.cl/images/flecha-acc.png") no-repeat scroll right center #b4b6c4;
+color:#000000;
+display:block;
+font-family:Arial,Helvetica,sans-serif;
+font-size:90%;
+letter-spacing:1.8px;
+padding:4px 18px 4px 8px;
+margin-top: 4px; 
+
+}
+.headbusca_2, .headbusca {
+float: left; 
+width:720px;
+background-image:url("../images/relinteres/unodos.png");
+background-repeat:no-repeat;
+height:46px;
+overflow:hidden;
+}
+.headbusca{
+background-position: right bottom;
+}
+.headbusca_2{
+background-position: right top;
+
+}
+.headbusca div, .headbusca_2 div{padding: 5px; float:left;}
+
+.headbusca h1.perfil, .headbusca_2 h1.perfil{display:block; color: #FFFFFF; padding-left: 55px; }
+.lupas{
+background:url("../images/relinteres/bg-lupas.png") repeat scroll left top #dcdcdc;
+}
+
+
+.contentpad .busca #accordion h3 {
+margin-left: 0px;
+}
+
+
+.busca #accordion .ui-accordion-content{ margin-top: -3px;}
+
+
+.busca #accordion .ui-accordion-content a {
+font-weight:normal;
+
+}
+.titrel{
+color:white;
+background: url("http://legislativo.votainteligente.cl/images/modgrales/modgrad-dark.png") repeat-x scroll center bottom #4C4D4F;
+display:block;
+font-family: calibri, trebuchet MS, arial,sans-serif;
+font-size:12pt;
+font-weight:bold;
+font-variant:small-caps;
+padding: 5px 10px;
+letter-spacing:1.7px;
+margin-top: 10px;
+text-transform:lowercase;}
+
+#leftcomovotan .selecciona h3.titrel, h4.titrel{
+background:url("http://legislativo.votainteligente.cl/images/relinteres/bg-breadcrumbsrelacion.png") repeat-x scroll center bottom #792F90;
+letter-spacing:1px;
+margin-top:2px;
+padding:3px 10px 1px;
+}
+h4.titrel{
+font-variant:normal;
+font-weight:normal;
+font-size:110%;
+text-transform:none;
+}
+
+
+
+/*h4.titrel{
+color:white;
+display:block;
+font-family:calibri,trebuchet MS,arial,sans-serif;
+font-variant:small-caps;
+font-weight:bold;
+letter-spacing:1.7px;
+padding:5px 10px;
+}*/
+#leftcomovotan .selecciona li a, #leftcomovotan .selecciona li a:link{
+color: #551A96;
+}
+
+
+#listaresults{
+font-family: calibri, trebuchet MS, arial,sans-serif;
+width: 100%;
+}
+
+#listaresults .nombre {
+height:30px;
+margin:0 30px;
+padding:4px 5px 4px 15px;
+text-align:left;
+border: none;
+}
+
+#listaresults th{
+background-color: #e6e6e6;
+font-size: 10px;
+}
+
+
+.bg_dcdcdc #listaresults th{
+background-color: #b4b6c4;
+}
+
+#listaresults img{
+ vertical-align: middle;
+ padding: 0px 3px; 
+
+}
+#listaresults tr{
+background: url("http://legislativo.votainteligente.cl/images/modgrales/module_gradient.png") repeat-x scroll center bottom #ffffff;
+
+}
+
+.bg_dcdcdc{
+background-color: #dcdcdc;
+margin: 10px;}
+
+#listaresults .
+
+ img{
+padding:0px;
+}
+
+#tb_listadocomovotan #listaresults td.imgcell img{
+margin-left: 10px; 
+}
+#listaresults td.imgcell {
+width: 30px;
+}
+#listaresults td{
+padding: 3px;
+}
+#listaresults .titulos th {
+padding:3px 3px 3px 15px;
+text-align:left;
+}
+#listaresults .partido{
+padding: 0px 0px 0 15px;
+text-align:left;
+}
+
+.arrowbody table{ vertical-align: middle;
+}
+.bajadagrafico{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+text-align:center;
+line-height:120%;
+vertical-align:baseline;  
+padding-bottom: 10px; 
+border-bottom: 1px dotted #dcdcdc;
+}
+.bajadagrafico span{ 
+font-size:28px;
+font-weight:bold;
+
+}
+
+.morado{
+color:#551A96;
+}
+.azul{
+color:#11497f;
+}
+li.acertijo{
+background-color: #510960;
+}
+.leginteres div{
+padding:10px 10px 30px;
+background:url("http://legislativo.votainteligente.cl/images/modgrales/module_gradient.png") repeat-x scroll right bottom #ffffff;
+
+}
+.leginteres {
+margin-left:210px;
+position:absolute;
+top:65px;
+}
+
+/*--------------------------------- div flotante----------------------------*/
+
+
+.sac{ color:#666666;}
+
+#fixedbox{
+background:url("../../../joomla-explotacion/images/modgrales_j/bg-black80.png") repeat scroll 0 0 transparent;
+display:block;
+height:100%;
+overflow:hidden;
+padding:10px 10px 30px;
+position:fixed;
+top:0;
+width:100%;
+z-index:999;
+
+}
+
+.floatbox{
+background-color:#000000;
+border:6px solid #FFFFFF;
+float:none;
+margin:auto;
+min-height:400px;
+position:relative;
+top:100px;
+width:400px;
+z-index:1000;}
+#fixedbox .contentpad{
+background-color:#000000;
+color:#AAAAAA;
+font-size:120%;
+letter-spacing:0.3px;
+line-height:140%;
+padding:15px 15px 25px;
+}
+#cerrar {
+display:block;
+float:right;
+margin:-20px;
+overflow:hidden;
+position:inherit;
+}
+#fixedbox #warn{
+color: #d4d4d4;
+}

@@ -1,0 +1,82 @@
+/* Copyright (C) 2007 - 2009 YOOtheme GmbH */
+
+/* (C) 2007 YOOtheme.com */
+
+div.list div.yoo-tweet ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: 1px solid #c8c8c8;
+}
+
+div.list div.yoo-tweet ul li {
+border-color:#FFFFFF;
+border-style:solid;
+border-width:4px 4px medium;
+display:block;
+font-family:arial;
+margin:0;
+overflow:hidden;
+padding:8px;
+}
+
+div.list div.yoo-tweet ul li.first {
+	border: none;
+}
+
+div.list div.yoo-tweet ul li.odd {
+	background:none repeat scroll 0 0 #DDDCDC;
+}
+
+div.list div.yoo-tweet ul li.even {
+	background: #f5f5f5;
+}
+
+div.list div.yoo-tweet a.image {
+	display: block;
+	margin-right: 15px;
+	padding: 3px;
+	border: 1px solid #c8c8c8;
+	background: #ffffff;
+	float: left;
+}
+
+div.list div.yoo-tweet p.text {
+	margin: 5px 0px 0px 0px;
+}
+
+div.list div.yoo-tweet p.meta {
+	margin: 0px;
+	font-size: 10px;
+	font-family:arial;
+	
+}
+div.list div.yoo-tweet a {
+	text-decoration:none;
+}
+
+div.list div.yoo-tweet p.meta span.autor {
+}
+
+div.list div.yoo-tweet p.meta span.date {
+}
+/*-----------------------NOTICIAS-----------------------*/
+#news_update_list h3{
+background-color:#aaaaaa;
+color:#FFFFFF;
+display:block;
+font-family:arial;
+font-size:14px;
+font-variant:small-caps;
+padding:2px 10px;
+}
+
+#twitter  h3{
+background-color:#d4d4d4;
+color:#FFFFFF;
+display:block;
+font-family:arial;
+font-size:14px;
+font-variant:small-caps;
+padding:2px 10px;
+}

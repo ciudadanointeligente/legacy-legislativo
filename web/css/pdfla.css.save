@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#fci_dentro{
+background-color:#FF6633;
+margin-top: -25px;
+}
+
+.fci_Estilo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	background-color:#00FFFF;
+}
+.fci_Estilo2 {
+	color: #FF3300;
+	font-weight: bold;
+}
+
+fci_formulario{
+}
+.fci_test.fci_Estilo2 {
+	color: #FF3300;
+	font-weight: bold;
+}
+{}

@@ -1,0 +1,1683 @@
+# data/fixtures/autor.yml
+Autor:
+  1:
+    id_autor: 1
+    nombre: Marcos
+    apellidos: Aburto Ochoa
+    cargo: Senador
+    periodos: S: 1998:2006
+  2:
+    id_autor: 2
+    nombre: Enrique
+    apellidos: Accorsi Opazo
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  3:
+    id_autor: 3
+    nombre: René
+    apellidos: Aedo Ormeño
+    cargo: Diputado
+    periodos: D: 2006:2010
+  4:
+    id_autor: 4
+    nombre: Sergio
+    apellidos: Aguiló Melo
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  5:
+    id_autor: 5
+    nombre: Arturo
+    apellidos: Alessandri Besa
+    cargo: Senador
+    periodos: S: 1990:1998
+  6:
+    id_autor: 6
+    nombre: René
+    apellidos: Alinco Bustos
+    cargo: Diputado
+    periodos: D: 2006:2010
+  7:
+    id_autor: 7
+    nombre: Andrés
+    apellidos: Allamand Zavala
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 1994:1998
+  8:
+    id_autor: 8
+    nombre: Isabel
+    apellidos: Allende Bussi
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  9:
+    id_autor: 9
+    nombre: Isabel
+    apellidos: Allende Bussi
+    cargo: Senador
+    periodos: S: 2010:2014
+  10:
+    id_autor: 10
+    nombre: Claudio
+    apellidos: Alvarado Andrade
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  11:
+    id_autor: 11
+    nombre: Rodrigo
+    apellidos: Alvarez Zenteno
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  12:
+    id_autor: 12
+    nombre: Pedro Pablo
+    apellidos: Alvarez:Salamanca Büchi
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  13:
+    id_autor: 13
+    nombre: Soledad
+    apellidos: Alvear Valenzuela
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014
+  14:
+    id_autor: 14
+    nombre: Jorge
+    apellidos: Arancibia Reyes
+    cargo: Senador
+    periodos: S: 2002:2010
+  15:
+    id_autor: 15
+    nombre: Pedro
+    apellidos: Araya Guerrero
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  16:
+    id_autor: 16
+    nombre: Gonzalo
+    apellidos: Arenas Hödar
+    cargo: Diputado
+    periodos: D: 2006:2010
+  17:
+    id_autor: 17
+    nombre: Gabriel
+    apellidos: Ascencio Mansilla
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  18:
+    id_autor: 18
+    nombre: Nelson
+    apellidos: Ávila Contreras
+    cargo: Senador
+    periodos: S: 2002:2010, D: 1998:2002, D: 1994:1998
+  19:
+    id_autor: 19
+    nombre: Ramón
+    apellidos: Barros Montero
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  20:
+    id_autor: 20
+    nombre: Eugenio
+    apellidos: Bauer Jouanne
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  21:
+    id_autor: 21
+    nombre: Francisco
+    apellidos: Bayo Veloso
+    cargo: Diputado
+    periodos: D: 2002:2006
+  22:
+    id_autor: 22
+    nombre: Germán
+    apellidos: Becker Alvear
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  23:
+    id_autor: 23
+    nombre: Mario
+    apellidos: Bertolino Rendic
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  24:
+    id_autor: 24
+    nombre: Carlos
+    apellidos: Bianchi Chelech
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014
+  25:
+    id_autor: 25
+    nombre: Sergio
+    apellidos: Bitar Chacra
+    cargo: Senador
+    periodos: S: 1994:2002
+  26:
+    id_autor: 26
+    nombre: Sergio
+    apellidos: Bobadilla Muñoz
+    cargo: Diputado
+    periodos: D: 2006:2010
+  27:
+    id_autor: 27
+    nombre: Edgardo
+    apellidos: Boeninger Kausel
+    cargo: Senador
+    periodos: S: 1998:2006
+  28:
+    id_autor: 28
+    nombre: Carlos
+    apellidos: Bombal Otaegui
+    cargo: Senador
+    periodos: S: 1998:2006, D: 1994:1998, D: 1990:1994
+  29:
+    id_autor: 29
+    nombre: Jorge
+    apellidos: Burgos Varela
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  30:
+    id_autor: 30
+    nombre: Juan
+    apellidos: Bustos Ramírez
+    cargo: Diputado
+    periodos: D: 2006:2008, D: 2002:2006
+  31:
+    id_autor: 31
+    nombre: Rolando
+    apellidos: Calderón Aranguiz
+    cargo: Senador
+    periodos: S: 1990:1998
+  32:
+    id_autor: 32
+    nombre: Julio
+    apellidos: Canessa Robert
+    cargo: Senador
+    periodos: S: 1998:2006
+  33:
+    id_autor: 33
+    nombre: Carlos
+    apellidos: Cantero Ojeda
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, S: 1998:2006, D: 1994:1998, D: 1990:1994
+  34:
+    id_autor: 34
+    nombre: Eugenio
+    apellidos: Cantuarias Larrondo
+    cargo: Senador
+    periodos: S: 1990:1998
+  35:
+    id_autor: 35
+    nombre: Eliana
+    apellidos: Caraball Martínez
+    cargo: Diputado
+    periodos: D: 2002:2006
+  36:
+    id_autor: 36
+    nombre: Alberto
+    apellidos: Cardemil Herrera
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  37:
+    id_autor: 37
+    nombre: Marco
+    apellidos: Cariola Barroilhet
+    cargo: Senador
+    periodos: S: 1998:2006
+  38:
+    id_autor: 38
+    nombre: Ma Elena
+    apellidos: Carrera Villavicencio
+    cargo: Senador
+    periodos: S: 1994:1998
+  39:
+    id_autor: 39
+    nombre: Guillermo
+    apellidos: Ceroni Fuentes
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  40:
+    id_autor: 40
+    nombre: Andrés
+    apellidos: Chadwick Piñera
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, S: 1998:2006, D: 1994:1998, D: 1990:1994
+  41:
+    id_autor: 41
+    nombre: Francisco
+    apellidos: Chahuán Chahuán
+    cargo: Senador
+    periodos: S: 2010:2014
+  42:
+    id_autor: 42
+    nombre: Francisco
+    apellidos: Chahuán Chahuán
+    cargo: Diputado
+    periodos: D: 2006:2010
+  43:
+    id_autor: 43
+    nombre: Juan Antonio
+    apellidos: Coloma Correa
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2002:2010, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  44:
+    id_autor: 44
+    nombre: Alberto
+    apellidos: Cooper Valencia
+    cargo: Senador
+    periodos: S: 1990:1998
+  45:
+    id_autor: 45
+    nombre: Fernando
+    apellidos: Cordero Rusque
+    cargo: Senador
+    periodos: S: 1998:2006
+  46:
+    id_autor: 46
+    nombre: Patricio
+    apellidos: Cornejo Vidaurrázaga
+    cargo: Diputado
+    periodos: D: 2002:2006
+  47:
+    id_autor: 47
+    nombre: Sergio
+    apellidos: Correa De la Cerda
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  48:
+    id_autor: 48
+    nombre: María Angélica
+    apellidos: Cristi Marfil
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  49:
+    id_autor: 49
+    nombre: Marcela
+    apellidos: Cubillos Sigall
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  50:
+    id_autor: 50
+    nombre: Alfonso
+    apellidos: De Urresti Longton
+    cargo: Diputado
+    periodos: D: 2006:2010
+  51:
+    id_autor: 51
+    nombre: Roberto
+    apellidos: Delmastro Naso
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  52:
+    id_autor: 52
+    nombre: Eduardo
+    apellidos: Díaz Del Río
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  53:
+    id_autor: 53
+    nombre: Marcelo
+    apellidos: Díaz Díaz
+    cargo: Diputado
+    periodos: D: 2006:2010
+  54:
+    id_autor: 54
+    nombre: Nicolás
+    apellidos: Díaz Sánchez
+    cargo: Senador
+    periodos: S: 1990:1998
+  55:
+    id_autor: 55
+    nombre: Sergio
+    apellidos: Díez Urzua
+    cargo: Senador
+    periodos: S: 1994:2002, S: 1990:1994
+  56:
+    id_autor: 56
+    nombre: Julio
+    apellidos: Dittborn Cordúa
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  57:
+    id_autor: 57
+    nombre: Gonzalo
+    apellidos: Duarte Leiva
+    cargo: Diputado
+    periodos: D: 2006:2010
+  58:
+    id_autor: 58
+    nombre: Andrés
+    apellidos: Egaña Respaldiza
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  59:
+    id_autor: 59
+    nombre: Edmundo
+    apellidos: Eluchans Urenda
+    cargo: Diputado
+    periodos: D: 2006:2010
+  60:
+    id_autor: 60
+    nombre: Francisco
+    apellidos: Encina Moriamez
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  61:
+    id_autor: 61
+    nombre: Marco
+    apellidos: Enríquez:Ominami Gumucio
+    cargo: Diputado
+    periodos: D: 2006:2010
+  62:
+    id_autor: 62
+    nombre: Maximiano
+    apellidos: Errázuriz Eguiguren
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  63:
+    id_autor: 63
+    nombre: Francisco
+    apellidos: Errázuriz Talavera
+    cargo: Senador
+    periodos: S: 1994:2002
+  64:
+    id_autor: 64
+    nombre: Camilo
+    apellidos: Escalona Medina
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 2002:2006, D: 1994:1998, D: 1990:1994
+  65:
+    id_autor: 65
+    nombre: Camilo
+    apellidos: Escalona Medina
+    cargo: Diputado
+    periodos: D: 2002:2006
+  66:
+    id_autor: 66
+    nombre: Alvaro
+    apellidos: Escobar Rufatt
+    cargo: Diputado
+    periodos: D: 2006:2010
+  67:
+    id_autor: 67
+    nombre: Mario
+    apellidos: Escobar Urbina
+    cargo: Diputado
+    periodos: D: 2002:2006
+  68:
+    id_autor: 68
+    nombre: Alberto
+    apellidos: Espina Otero
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2002:2010, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  69:
+    id_autor: 69
+    nombre: Marcos
+    apellidos: Espinosa Monardes
+    cargo: Diputado
+    periodos: D: 2006:2010
+  70:
+    id_autor: 70
+    nombre: Fidel
+    apellidos: Espinoza Sandoval
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  71:
+    id_autor: 71
+    nombre: Enrique
+    apellidos: Estay Peñaloza
+    cargo: Diputado
+    periodos: D: 2006:2010
+  72:
+    id_autor: 72
+    nombre: Ramón
+    apellidos: Farías Ponce
+    cargo: Diputado
+    periodos: D: 2006:2010
+  73:
+    id_autor: 73
+    nombre: Olga
+    apellidos: Feliu Segovia
+    cargo: Senador
+    periodos: S: 1990:1998
+  74:
+    id_autor: 74
+    nombre: Sergio
+    apellidos: Fernández Fernández
+    cargo: Senador
+    periodos: S: 1998:2006, S: 1990:1998
+  75:
+    id_autor: 75
+    nombre: Fernando
+    apellidos: Flores Labra
+    cargo: Senador
+    periodos: S: 2002:2010
+  76:
+    id_autor: 76
+    nombre: Marcelo
+    apellidos: Forni Lobos
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  77:
+    id_autor: 77
+    nombre: Alejandro
+    apellidos: Foxley Rioseco
+    cargo: Senador
+    periodos: S: 1998:2006
+  78:
+    id_autor: 78
+    nombre: Arturo
+    apellidos: Frei Bolivar
+    cargo: Senador
+    periodos: S: 1990:1998
+  79:
+    id_autor: 79
+    nombre: Carmen
+    apellidos: Frei Ruiz:Tagle
+    cargo: Senador
+    periodos: S: 1998:2006, S: 1990:1998
+  80:
+    id_autor: 80
+    nombre: Eduardo
+    apellidos: Frei Ruiz:Tagle
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, S: 2000:2006, S: 1990:1994
+  81:
+    id_autor: 81
+    nombre: Renán
+    apellidos: Fuentealba Vildósola
+    cargo: Diputado
+    periodos: D: 2006:2010
+  82:
+    id_autor: 82
+    nombre: Pablo
+    apellidos: Galilea Carrillo
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  83:
+    id_autor: 83
+    nombre: José Antonio
+    apellidos: Galilea Vidaurre
+    cargo: Diputado
+    periodos: D: 2002:2006
+  84:
+    id_autor: 84
+    nombre: René Manuel
+    apellidos: García García
+    cargo: Diputado
+    periodos: D: 2002:2006
+  85:
+    id_autor: 85
+    nombre: René Manuel
+    apellidos: García García
+    cargo: Diputado
+    periodos: D: 2006:2010
+  86:
+    id_autor: 86
+    nombre: José
+    apellidos: García Ruminot
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2002:2010, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  87:
+    id_autor: 87
+    nombre: Alejandro
+    apellidos: García:Huidobro Sanfuentes
+    cargo: Diputado
+    periodos: D: 2002:2006
+  88:
+    id_autor: 88
+    nombre: Alejandro
+    apellidos: García:Huidobro Sanfuentes
+    cargo: Diputado
+    periodos: D: 2006:2010
+  89:
+    id_autor: 89
+    nombre: Jaime
+    apellidos: Gazmuri Mujica
+    cargo: Senador
+    periodos: S: 2002:2010, S: 1994:2002, S: 1990:1994
+  90:
+    id_autor: 90
+    nombre: Guido
+    apellidos: Girardi Briere
+    cargo: Diputado
+    periodos: D: 2006:2010
+  91:
+    id_autor: 91
+    nombre: Guido
+    apellidos: Girardi Lavín
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 2002:2006, D: 1998:2002, D: 1994:1998
+  92:
+    id_autor: 92
+    nombre: Guido
+    apellidos: Girardi Lavín
+    cargo: Diputado
+    periodos: D: 2002:2006
+  93:
+    id_autor: 93
+    nombre: Joaquín
+    apellidos: Godoy Ibáñez
+    cargo: Diputado
+    periodos: D: 2006:2010
+  94:
+    id_autor: 94
+    nombre: Carolina
+    apellidos: Goic Boroevic
+    cargo: Diputado
+    periodos: D: 2006:2010
+  95:
+    id_autor: 95
+    nombre: José Antonio
+    apellidos: Gómez Urrutia
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014
+  96:
+    id_autor: 96
+    nombre: Carlos
+    apellidos: González Márquez
+    cargo: Senador
+    periodos: S: 1990:1994
+  97:
+    id_autor: 97
+    nombre: Rosa
+    apellidos: González Román
+    cargo: Diputado
+    periodos: D: 2002:2006
+  98:
+    id_autor: 98
+    nombre: Rodrigo
+    apellidos: González Torres
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  99:
+    id_autor: 99
+    nombre: Jaime
+    apellidos: Guzmán Errázuriz
+    cargo: Senador
+    periodos: S: 1990:1994
+  100:
+    id_autor: 100
+    nombre: Pía
+    apellidos: Guzmán Mena
+    cargo: Diputado
+    periodos: D: 2002:2006
+  101:
+    id_autor: 101
+    nombre: Patricio
+    apellidos: Hales Dib
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  102:
+    id_autor: 102
+    nombre: Juan
+    apellidos: Hamilton Depassier
+    cargo: Senador
+    periodos: S: 1994:2002
+  103:
+    id_autor: 103
+    nombre: Felipe
+    apellidos: Harboe Bascuñán
+    cargo: Diputado
+    periodos: : 2006:2010
+  104:
+    id_autor: 104
+    nombre: Javier
+    apellidos: Hernández Hernández
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  105:
+    id_autor: 105
+    nombre: Amelia
+    apellidos: Herrera Silva
+    cargo: Diputado
+    periodos: D: 2006:2010
+  106:
+    id_autor: 106
+    nombre: Carlos
+    apellidos: Hidalgo González
+    cargo: Diputado
+    periodos: D: 2002:2006
+  107:
+    id_autor: 107
+    nombre: Ricardo
+    apellidos: Hormazábal Sánchez
+    cargo: Senador
+    periodos: S: 1990:1998
+  108:
+    id_autor: 108
+    nombre: Antonio
+    apellidos: Horvath Kiss
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2002:2010, S: 1994:2002, D: 1990:1994
+  109:
+    id_autor: 109
+    nombre: Claudio
+    apellidos: Huepe García
+    cargo: Diputado
+    periodos: D: 1990:1994
+  110:
+    id_autor: 110
+    nombre: Vicente
+    apellidos: Huerta Célis
+    cargo: Senador
+    periodos: S: 1990:1998
+  111:
+    id_autor: 111
+    nombre: Gonzalo
+    apellidos: Ibáñez Santa María
+    cargo: Diputado
+    periodos: D: 2002:2006
+  112:
+    id_autor: 112
+    nombre: Carmen
+    apellidos: Ibáñez Soto
+    cargo: Diputado
+    periodos: D: 2002:2006
+  113:
+    id_autor: 113
+    nombre: Jorge
+    apellidos: Insunza Gregorio de las Heras
+    cargo: Diputado
+    periodos: D: 2006:2010
+  114:
+    id_autor: 114
+    nombre: Marta
+    apellidos: Isasi Barbieri
+    cargo: Diputado
+    periodos: D: 2006:2010
+  115:
+    id_autor: 115
+    nombre: Enrique
+    apellidos: Jaramillo Becker
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  116:
+    id_autor: 116
+    nombre: Sergio O.
+    apellidos: Jarpa Reyes
+    cargo: Senador
+    periodos: S: 1990:1994
+  117:
+    id_autor: 117
+    nombre: Carlos Abel
+    apellidos: Jarpa Wevar
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  118:
+    id_autor: 118
+    nombre: Víctor
+    apellidos: Jeame Barrueto
+    cargo: Diputado
+    periodos: D: 2002:2006
+  119:
+    id_autor: 119
+    nombre: Tucapel
+    apellidos: Jiménez Fuentes
+    cargo: Diputado
+    periodos: D: 2006:2010
+  120:
+    id_autor: 120
+    nombre: Jaime
+    apellidos: Jiménez Villavicencio
+    cargo: Diputado
+    periodos: D: 2002:2006
+  121:
+    id_autor: 121
+    nombre: Néstor
+    apellidos: Jofré Núñez
+    cargo: Diputado
+    periodos: D: 2002:2006
+  122:
+    id_autor: 122
+    nombre: José Antonio
+    apellidos: Kast Rist
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  123:
+    id_autor: 123
+    nombre: Carlos Ignacio
+    apellidos: Kuschel Silva
+    cargo: Diputado
+    periodos: D: 2002:2006
+  124:
+    id_autor: 124
+    nombre: Carlos Ignacio
+    apellidos: Kuschel Silva
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 2002:2006, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  125:
+    id_autor: 125
+    nombre: Julio
+    apellidos: Lagos Cosgrove
+    cargo: Senador
+    periodos: S: 1994:2002, S: 1990:1994
+  126:
+    id_autor: 126
+    nombre: Eduardo
+    apellidos: Lagos Herrera
+    cargo: Diputado
+    periodos: D: 2002:2006
+  127:
+    id_autor: 127
+    nombre: Ricardo
+    apellidos: Lagos Weber
+    cargo: Senador
+    periodos: S: 2010:2014
+  128:
+    id_autor: 128
+    nombre: Hernán
+    apellidos: Larraín Fernández
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2002:2010, S: 1994:2002
+  129:
+    id_autor: 129
+    nombre: Enrique
+    apellidos: Larre Asenjo
+    cargo: Senador
+    periodos: S: 1990:1998
+  130:
+    id_autor: 130
+    nombre: Juan Carlos
+    apellidos: Latorre Carmona
+    cargo: Diputado
+    periodos: D: 2006:2010
+  131:
+    id_autor: 131
+    nombre: Jorge
+    apellidos: Lavandero Illanes
+    cargo: Senador
+    periodos: S: 2002:2005, S: 1994:2002, S: 1990:1994
+  132:
+    id_autor: 132
+    nombre: Antonio
+    apellidos: Leal Labrín
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  133:
+    id_autor: 133
+    nombre: Cristián
+    apellidos: Leay Morán
+    cargo: Diputado
+    periodos: D: 2002:2006
+  134:
+    id_autor: 134
+    nombre: Roberto
+    apellidos: León Ramírez
+    cargo: Diputado
+    periodos: D: 2006:2010
+  135:
+    id_autor: 135
+    nombre: Carlos
+    apellidos: Letelier Bobadilla
+    cargo: Senador
+    periodos: S: 1990:1998
+  136:
+    id_autor: 136
+    nombre: Juan Pablo
+    apellidos: Letelier Morel
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 2002:2006, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  137:
+    id_autor: 137
+    nombre: Juan Pablo
+    apellidos: Letelier Morel
+    cargo: Diputado
+    periodos: D: 2002:2006
+  138:
+    id_autor: 138
+    nombre: Felipe
+    apellidos: Letelier Norambuena
+    cargo: Diputado
+    periodos: D: 2002:2006
+  139:
+    id_autor: 139
+    nombre: Juan
+    apellidos: Lobos Krause
+    cargo: Diputado
+    periodos: D: 2006:2010
+  140:
+    id_autor: 140
+    nombre: Arturo
+    apellidos: Longton Guerrero
+    cargo: Diputado
+    periodos: D: 2002:2006
+  141:
+    id_autor: 141
+    nombre: Pablo
+    apellidos: Longueira Montes
+    cargo: Diputado
+    periodos: D: 2002:2006
+  142:
+    id_autor: 142
+    nombre: Pablo
+    apellidos: Longueira Montes
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 2002:2006, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  143:
+    id_autor: 143
+    nombre: Pablo
+    apellidos: Lorenzini Basso
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  144:
+    id_autor: 144
+    nombre: Zarko
+    apellidos: Luksic Sandoval
+    cargo: Diputado
+    periodos: D: 2002:2006
+  145:
+    id_autor: 145
+    nombre: Ricardo
+    apellidos: Martin Díaz
+    cargo: Senador
+    periodos: S: 1990:1998
+  146:
+    id_autor: 146
+    nombre: Jorge
+    apellidos: Martínez Busch
+    cargo: Senador
+    periodos: S: 1998:2006
+  147:
+    id_autor: 147
+    nombre: Rosauro
+    apellidos: Martínez Labbé
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  148:
+    id_autor: 148
+    nombre: Juan
+    apellidos: Masferrer Pellizzari
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  149:
+    id_autor: 149
+    nombre: Manuel Antonio
+    apellidos: Matta Aragay
+    cargo: Senador
+    periodos: S: 1994:2002
+  150:
+    id_autor: 150
+    nombre: Evelyn
+    apellidos: Matthei Fornet
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, S: 1998:2006, D: 1994:1998, D: 1990:1994
+  151:
+    id_autor: 151
+    nombre: Ronald
+    apellidos: McIntyre Mendoza
+    cargo: Senador
+    periodos: S: 1990:1998
+  152:
+    id_autor: 152
+    nombre: Patricio
+    apellidos: Melero Abaroa
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  153:
+    id_autor: 153
+    nombre: María Eugenia
+    apellidos: Mella Gajardo
+    cargo: Diputado
+    periodos: D: 2002:2006
+  154:
+    id_autor: 154
+    nombre: Fernando
+    apellidos: Meza Moncada
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  155:
+    id_autor: 155
+    nombre: Darío
+    apellidos: Molina Sanhueza
+    cargo: Diputado
+    periodos: D: 2002:2006
+  156:
+    id_autor: 156
+    nombre: Cristián
+    apellidos: Monckeberg Bruner
+    cargo: Diputado
+    periodos: D: 2006:2010
+  157:
+    id_autor: 157
+    nombre: Nicolás
+    apellidos: Monckeberg Díaz
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  158:
+    id_autor: 158
+    nombre: Manuel
+    apellidos: Monsalve Benavides
+    cargo: Diputado
+    periodos: D: 2006:2010
+  159:
+    id_autor: 159
+    nombre: Carlos
+    apellidos: Montes Cisternas
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  160:
+    id_autor: 160
+    nombre: Waldo
+    apellidos: Mora Longa
+    cargo: Diputado
+    periodos: D: 2002:2006
+  161:
+    id_autor: 161
+    nombre: Iván
+    apellidos: Moreira Barros
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  162:
+    id_autor: 162
+    nombre: Rafael
+    apellidos: Moreno Rojas
+    cargo: Senador
+    periodos: S: 1998:2006
+  163:
+    id_autor: 163
+    nombre: Jaime
+    apellidos: Mulet Martínez
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  164:
+    id_autor: 164
+    nombre: Pedro
+    apellidos: Muñoz Aburto
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 2002:2006, D: 1998:2002, D: 1994:1998
+  165:
+    id_autor: 165
+    nombre: Pedro
+    apellidos: Muñoz Aburto
+    cargo: Diputado
+    periodos: D: 2002:2006
+  166:
+    id_autor: 166
+    nombre: Roberto
+    apellidos: Muñoz Barra
+    cargo: Senador
+    periodos: S: 2002:2010, S: 1994:2002, D: 1990:1994
+  167:
+    id_autor: 167
+    nombre: Jaime
+    apellidos: Naranjo Ortiz
+    cargo: Senador
+    periodos: S: 2002:2010, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  168:
+    id_autor: 168
+    nombre: Ricardo
+    apellidos: Navarrete B.
+    cargo: Senador
+    periodos: S: 1990:1994
+  169:
+    id_autor: 169
+    nombre: Alejandro
+    apellidos: Navarro Brain
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 2002:2006, D: 1998:2002, D: 1994:1998
+  170:
+    id_autor: 170
+    nombre: Alejandro
+    apellidos: Navarro Brain
+    cargo: Diputado
+    periodos: D: 2002:2006
+  171:
+    id_autor: 171
+    nombre: Claudia
+    apellidos: Nogueira Fernández
+    cargo: Diputado
+    periodos: D: 2006:2010
+  172:
+    id_autor: 172
+    nombre: Iván
+    apellidos: Norambuena Farías
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  173:
+    id_autor: 173
+    nombre: Jovino
+    apellidos: Novoa Vásquez
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, S: 1998:2006
+  174:
+    id_autor: 174
+    nombre: Marco Antonio
+    apellidos: Núñez Lozano
+    cargo: Diputado
+    periodos: D: 2006:2010
+  175:
+    id_autor: 175
+    nombre: Ricardo
+    apellidos: Núñez Muñoz
+    cargo: Senador
+    periodos: S: 2002:2010, S: 1994:2002, S: 1990:1994
+  176:
+    id_autor: 176
+    nombre: Sergio
+    apellidos: Ojeda Uribe
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  177:
+    id_autor: 177
+    nombre: Carlos
+    apellidos: Olivares Zepeda
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  178:
+    id_autor: 178
+    nombre: Carlos
+    apellidos: Ominami Pascual
+    cargo: Senador
+    periodos: S: 2002:2010, S: 1994:2002
+  179:
+    id_autor: 179
+    nombre: Jaime
+    apellidos: Orpis Bouchon
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2002:2010, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  180:
+    id_autor: 180
+    nombre: Hugo
+    apellidos: Ortiz De Filippi
+    cargo: Senador
+    periodos: S: 1990:1994
+  181:
+    id_autor: 181
+    nombre: José Miguel
+    apellidos: Ortiz Novoa
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  182:
+    id_autor: 182
+    nombre: Miguel
+    apellidos: Otero Lathrop
+    cargo: Senador
+    periodos: S: 1990:1998
+  183:
+    id_autor: 183
+    nombre: Máximo
+    apellidos: Pacheco Gómez
+    cargo: Senador
+    periodos: S: 1990:1994
+  184:
+    id_autor: 184
+    nombre: Clemira
+    apellidos: Pacheco Rivas
+    cargo: Diputado
+    periodos: D: 2006:2010
+  185:
+    id_autor: 185
+    nombre: Sergio
+    apellidos: Páez Verdugo
+    cargo: Senador
+    periodos: S: 1998:2006, S: 1990:1998
+  186:
+    id_autor: 186
+    nombre: Osvaldo
+    apellidos: Palma Flores
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  187:
+    id_autor: 187
+    nombre: Humberto
+    apellidos: Palza Corvacho
+    cargo: Senador
+    periodos: S: 1990:1994
+  188:
+    id_autor: 188
+    nombre: Mario
+    apellidos: Papi Bayer
+    cargo: Senador
+    periodos: S: 1990:1994
+  189:
+    id_autor: 189
+    nombre: Iván
+    apellidos: Paredes Fierro
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  190:
+    id_autor: 190
+    nombre: Cristian
+    apellidos: Pareto Vergara
+    cargo: Diputado
+    periodos: D: 2002:2006
+  191:
+    id_autor: 191
+    nombre: Augusto
+    apellidos: Parra Muñoz
+    cargo: Senador
+    periodos: S: 1998:2006
+  192:
+    id_autor: 192
+    nombre: Denise
+    apellidos: Pascal Allende
+    cargo: Diputado
+    periodos: D: 2006:2010
+  193:
+    id_autor: 193
+    nombre: Darío
+    apellidos: Paya Mira
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  194:
+    id_autor: 194
+    nombre: José
+    apellidos: Pérez Arriagada
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  195:
+    id_autor: 195
+    nombre: Aníbal
+    apellidos: Pérez Lobos
+    cargo: Diputado
+    periodos: D: 2002:2006
+  196:
+    id_autor: 196
+    nombre: Ramón
+    apellidos: Pérez Opazo
+    cargo: Diputado
+    periodos: D: 2002:2006
+  197:
+    id_autor: 197
+    nombre: Lily
+    apellidos: Pérez San Martín
+    cargo: Diputado
+    periodos: D: 2008:2010, D: 2002:2006
+  198:
+    id_autor: 198
+    nombre: Lily
+    apellidos: Pérez San Martín
+    cargo: Senador
+    periodos: S: 2010:2014
+  199:
+    id_autor: 199
+    nombre: Víctor
+    apellidos: Pérez Varela
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, D: 2002:2006, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  200:
+    id_autor: 200
+    nombre: Víctor
+    apellidos: Pérez Varela
+    cargo: Diputado
+    periodos: D: 2002:2006
+  201:
+    id_autor: 201
+    nombre: Ignacio
+    apellidos: Pérez Walker
+    cargo: Senador
+    periodos: S: 1994:2002, S: 1990:1994
+  202:
+    id_autor: 202
+    nombre: Augusto
+    apellidos: Pinochet Ugarte
+    cargo: Senador
+    periodos: S: 1998:2002
+  203:
+    id_autor: 203
+    nombre: Sebastian
+    apellidos: Piñera Echeñique
+    cargo: Senador
+    periodos: S: 1990:1998
+  204:
+    id_autor: 204
+    nombre: Jorge
+    apellidos: Pizarro Soto
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, S: 1998:2006, D: 1994:1998, D: 1990:1994
+  205:
+    id_autor: 205
+    nombre: Francisco
+    apellidos: Prat Alemparte
+    cargo: Senador
+    periodos: S: 1994:2002, S: 1990:1994
+  206:
+    id_autor: 206
+    nombre: Pablo
+    apellidos: Prieto Lorca
+    cargo: Diputado
+    periodos: D: 2002:2006
+  207:
+    id_autor: 207
+    nombre: Baldo
+    apellidos: Prokurica Prokurica
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2002:2010, D: 1998:2002, D: 1994:1998, D: 1990:1994
+  208:
+    id_autor: 208
+    nombre: Jaime
+    apellidos: Quintana Leal
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  209:
+    id_autor: 209
+    nombre: Jaime
+    apellidos: Quintana Leal
+    cargo: Senador
+    periodos: S: 2010:2014
+  210:
+    id_autor: 210
+    nombre: Víctor Manuel
+    apellidos: Rebolledo González
+    cargo: Diputado
+    periodos: D: 2002:2006
+  211:
+    id_autor: 211
+    nombre: Carlos
+    apellidos: Recondo Lavanderos
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  212:
+    id_autor: 212
+    nombre: Ximena
+    apellidos: Rincón González
+    cargo: Senador
+    periodos: S: 2010:2014
+  213:
+    id_autor: 213
+    nombre: Mario
+    apellidos: Ríos Santander
+    cargo: Senador
+    periodos: S: 1998:2006, S: 1990:1998
+  214:
+    id_autor: 214
+    nombre: Edgardo
+    apellidos: Riveros Marín
+    cargo: Diputado
+    periodos: D: 2002:2006
+  215:
+    id_autor: 215
+    nombre: Alberto
+    apellidos: Robles Pantoja
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  216:
+    id_autor: 216
+    nombre: Manuel
+    apellidos: Rojas Molina
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  217:
+    id_autor: 217
+    nombre: Sergio
+    apellidos: Romero Pizarro
+    cargo: Senador
+    periodos: S: 2002:2010, S: 1994:2002, S: 1990:1994
+  218:
+    id_autor: 218
+    nombre: Fulvio
+    apellidos: Rossi Ciocca
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  219:
+    id_autor: 219
+    nombre: Fulvio
+    apellidos: Rossi Ciocca
+    cargo: Senador
+    periodos: S: 2010:2014
+  220:
+    id_autor: 220
+    nombre: Karla
+    apellidos: Rubilar Barahona
+    cargo: Diputado
+    periodos: D: 2006:2010
+  221:
+    id_autor: 221
+    nombre: César
+    apellidos: Ruiz Danyau
+    cargo: Senador
+    periodos: S: 1990:1994
+  222:
+    id_autor: 222
+    nombre: José
+    apellidos: Ruiz De Giorgio
+    cargo: Senador
+    periodos: S: 1998:2006, S: 1990:1998
+  223:
+    id_autor: 223
+    nombre: Mariano
+    apellidos: Ruiz:Esquide Jara
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, S: 1998:2006, S: 1990:1998
+  224:
+    id_autor: 224
+    nombre: María Antonieta
+    apellidos: Saa Díaz
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  225:
+    id_autor: 225
+    nombre: Hosaín
+    apellidos: Sabag Castillo
+    cargo: Senador
+    periodos: S: 2010:2014, S: 2006:2014, S: 1998:2006, D: 1994:1998, D: 1990:1994
+  226:
+    id_autor: 226
+    nombre: Jorge
+    apellidos: Sabag Villalobos
+    cargo: Diputado
+    periodos: D: 2006:2010
+  227:
+    id_autor: 227
+    nombre: Eduardo
+    apellidos: Saffirio Suárez
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  228:
+    id_autor: 228
+    nombre: Felipe
+    apellidos: Salaberry Soto
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  229:
+    id_autor: 229
+    nombre: Edmundo
+    apellidos: Salas De la Fuente
+    cargo: Diputado
+    periodos: D: 2002:2006
+  230:
+    id_autor: 230
+    nombre: Leopoldo
+    apellidos: Sánchez Grunert
+    cargo: Diputado
+    periodos: D: 2002:2006
+  231:
+    id_autor: 231
+    nombre: Marcelo
+    apellidos: Schilling Rodríguez
+    cargo: Diputado
+    periodos: D: 2008:2010
+  232:
+    id_autor: 232
+    nombre: Rodolfo
+    apellidos: Seguel Molina
+    cargo: Diputado
+    periodos: D: 2002:2006
+  233:
+    id_autor: 233
+    nombre: Roberto
+    apellidos: Sepúlveda Hermosilla
+    cargo: Diputado
+    periodos: D: 2006:2010
+  234:
+    id_autor: 234
+    nombre: Alejandra
+    apellidos: Sepúlveda Orbenes
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  235:
+    id_autor: 235
+    nombre: Bruno
+    apellidos: Siebert Held
+    cargo: Senador
+    periodos: S: 1990:1998
+  236:
+    id_autor: 236
+    nombre: Gabriel
+    apellidos: Silber Romo
+    cargo: Diputado
+    periodos: D: 2006:2010
+  237:
+    id_autor: 237
+    nombre: Enrique
+    apellidos: Silva Cimma
+    cargo: Senador
+    periodos: S: 1998:2006
+  238:
+    id_autor: 238
+    nombre: Exequiel
+    apellidos: Silva Ortíz
+    cargo: Diputado
+    periodos: D: 2002:2006
+  239:
+    id_autor: 239
+    nombre: Santiago
+    apellidos: Sinclair Oyaneder
+    cargo: Senador
+    periodos: S: 1990:1998
+  240:
+    id_autor: 240
+    nombre: Laura
+    apellidos: Soto González
+    cargo: Diputado
+    periodos: S: 1990:1994, D: 2006:2010, D: 2002:2006
+  241:
+    id_autor: 241
+    nombre: Rodolfo
+    apellidos: Stange Oelckers
+    cargo: Senador
+    periodos: S: 1998:2006
+  242:
+    id_autor: 242
+    nombre: Anselmo
+    apellidos: Sule Candia
+    cargo: Senador
+    periodos: S: 1990:1998
+  243:
+    id_autor: 243
+    nombre: Alejandro
+    apellidos: Sule Fernández
+    cargo: Diputado
+    periodos: D: 2006:2010
+  244:
+    id_autor: 244
+    nombre: Raúl
+    apellidos: Sunico Galdames
+    cargo: Diputado
+    periodos: D: 2006:2010
+  245:
+    id_autor: 245
+    nombre: Boris
+    apellidos: Tapia Martínez
+    cargo: Diputado
+    periodos: D: 2002:2006
+  246:
+    id_autor: 246
+    nombre: Jorge
+    apellidos: Tarud Daccarett
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  247:
+    id_autor: 247
+    nombre: William
+    apellidos: Thayer Arteaga
+    cargo: Senador
+    periodos: S: 1990:1998
+  248:
+    id_autor: 248
+    nombre: Carolina
+    apellidos: Tohá Morales
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  249:
+    id_autor: 249
+    nombre: Eugenio
+    apellidos: Tuma Zedan
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  250:
+    id_autor: 250
+    nombre: Eugenio
+    apellidos: Tuma Zedán
+    cargo: Senador
+    periodos: S: 2010:2014
+  251:
+    id_autor: 251
+    nombre: Marisol
+    apellidos: Turres Figueroa
+    cargo: Diputado
+    periodos: D: 2006:2010
+  252:
+    id_autor: 252
+    nombre: Jorge
+    apellidos: Ulloa Aguillón
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  253:
+    id_autor: 253
+    nombre: Beltrán
+    apellidos: Urenda Zegers
+    cargo: Senador
+    periodos: S: 1994:2002, S: 1990:1994
+  254:
+    id_autor: 254
+    nombre: Gonzalo
+    apellidos: Uriarte Herrera
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  255:
+    id_autor: 255
+    nombre: Ignacio
+    apellidos: Urrutia Bonilla
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  256:
+    id_autor: 256
+    nombre: Ximena
+    apellidos: Valcarce Becerra
+    cargo: Diputado
+    periodos: D: 2006:2010
+  257:
+    id_autor: 257
+    nombre: Gabriel
+    apellidos: Valdés Subercaseaux
+    cargo: Senador
+    periodos: S: 1998:2006, S: 1990:1998
+  258:
+    id_autor: 258
+    nombre: Esteban
+    apellidos: Valenzuela Van Treek
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  259:
+    id_autor: 259
+    nombre: Patricio
+    apellidos: Vallespín López
+    cargo: Diputado
+    periodos: D: 2006:2010
+  260:
+    id_autor: 260
+    nombre: Mario
+    apellidos: Varela Herrera
+    cargo: Diputado
+    periodos: D: 2002:2006
+  261:
+    id_autor: 261
+    nombre: Alfonso
+    apellidos: Vargas Lyng
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  262:
+    id_autor: 262
+    nombre: Guillermo
+    apellidos: Vásquez Úbeda
+    cargo: Senador
+    periodos: S: 2005:2010
+  263:
+    id_autor: 263
+    nombre: Ramón
+    apellidos: Vega Hidalgo
+    cargo: Senador
+    periodos: S: 1998:2006
+  264:
+    id_autor: 264
+    nombre: Mario
+    apellidos: Venegas Cárdenas
+    cargo: Diputado
+    periodos: D: 2006:2010
+  265:
+    id_autor: 265
+    nombre: Samuel
+    apellidos: Venegas Rubio
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  266:
+    id_autor: 266
+    nombre: Germán
+    apellidos: Verdugo Soto
+    cargo: Diputado
+    periodos: D: 2006:2010
+  267:
+    id_autor: 267
+    nombre: Ximena
+    apellidos: Vidal Lázaro
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  268:
+    id_autor: 268
+    nombre: José Antonio
+    apellidos: Viera:Gallo Quesney
+    cargo: Senador
+    periodos: S: 1998:2006, D: 1994:1998, D: 1990:1994
+  269:
+    id_autor: 269
+    nombre: Carlos
+    apellidos: Vilches Guzmán
+    cargo: Diputado
+    periodos: D: 2002:2006
+  270:
+    id_autor: 270
+    nombre: Edmundo
+    apellidos: Villouta Concha
+    cargo: Diputado
+    periodos: D: 2002:2006
+  271:
+    id_autor: 271
+    nombre: Hernán
+    apellidos: Vodanovic Schnake
+    cargo: Senador
+    periodos: S: 1990:1994
+  272:
+    id_autor: 272
+    nombre: Gastón
+    apellidos: Von Mühlenbrock Zamora
+    cargo: Diputado
+    periodos: D: 2002:2006
+  273:
+    id_autor: 273
+    nombre: Gastón
+    apellidos: Von Mülehnbrock Zamora
+    cargo: Diputado
+    periodos: D: 2006:2010
+  274:
+    id_autor: 274
+    nombre: Ignacio
+    apellidos: Walker Prieto
+    cargo: Senador
+    periodos: S: 2010:2014
+  275:
+    id_autor: 275
+    nombre: Patricio
+    apellidos: Walker Prieto
+    cargo: Diputado
+    periodos: D: 2006:2010, D: 2002:2006
+  276:
+    id_autor: 276
+    nombre: Patricio
+    apellidos: Walker Prieto
+    cargo: Senador
+    periodos: S: 2010:2014
+  277:
+    id_autor: 277
+    nombre: Felipe
+    apellidos: Ward Edwards
+    cargo: Diputado
+    periodos: D: 2006:2010
+  278:
+    id_autor: 278
+    nombre: Adolfo
+    apellidos: Zaldívar Larraín
+    cargo: Senador
+    periodos: S: 2002:2010, S: 1994:2002
+  279:
+    id_autor: 279
+    nombre: Andrés
+    apellidos: Zaldívar Larraín
+    cargo: Senador
+    periodos: S: 2010:2014, S: 1998:2006, S: 1990:1998
+  280:
+    id_autor: 280
+    nombre: Enrique
+    apellidos: Zurita Camps
+    cargo: Senador
+    periodos: S: 1998:2006
+

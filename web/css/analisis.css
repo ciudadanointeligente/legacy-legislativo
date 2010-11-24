@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* ANALISIS LEGISLATIVO */
+
+
+#sessiones{
+background-color:#F3F3F3;
+width: 700px;
+height: auto;
+overflow-x: scroll;
+overflow-y: hidden;
+padding: 10px 0px;
+border: 2px solid #d4d4d4;
+border-collapse: collapse;
+border-spacing: 0px;
+}
+.border-naranjo{
+width:700px;
+background-color: #f79420;
+}
+
+/*_________________ TABLA SESIONES_________________*/
+
+.tb_sessiones{
+width: 320px;
+}
+.tb_sessiones thead{ 
+background-color:#F7931E;
+height: 30 px;
+color:#FFFFFF;
+font-family: Arial;
+font-variant: small-caps;
+font-size:10pt;
+letter-spacing:1pt;
+padding: 5px;
+display: block;
+height:18px;
+}  /* este es el header de las tablas, donde va el titulo */
+
+tr.odd, tr.even{
+font-family: georgia;
+}
+ 
+.tb_sessiones tr.odd{
+background-color:#d4d4d4;
+}
+
+.tb_sessiones tr.even{
+background-color:#f3f3f3;
+}
+
+.tb_sessiones td{
+height: 20px;
+font-family: georgia;
+color: #bcbcbc;
+
+}
+
+.tb_sessiones img{
+padding-right: 5px;
+padding:3px 10px 3px 3px;
+float: left;
+}
+
+.tb_sessiones a{
+font-weight: normal; 
+color:#555555; 
+text-decoration: none; !important
+}
+
+.tb_sessiones a:hover{
+text-decoration: underline; !important
+}
+
+
+.session, .session_ex{
+float: left;
+display: block;
+ border: 1px solid #d4d4d4;
+ margin: 0px 7px;
+ height: 300px;
+ background-color:#FFFFFF;
+ }
+ 
+  .session_ex{
+ border: 1px solid #aaaaaa;
+ }
+ .session{
+ border: 2px solid #F7931E;
+ }
+ 
+  .session tr.odd{
+  background-color:#d4d4d4;
+ }
+ 
+ .session_ex .tb_sessiones thead{ 
+ background-color: #aaaaaa;
+ height:18px;
+ 
+ }
+
+.scrollContent {
+  display:block;
+  width:100%;
+}
+
+.scrollContent img{
+
+
+}
+div.sessiones_body{
+overflow-y: scroll;
+overflow-x: hidden;
+height:272px;
+}
+
+ /*_________________ TABLA SESIONES_________________*/
+ .session_scroll{
+ width: 2700px; /* Cata, aquí tienes que darle el ancho total sumado de las tablas  session y los márgenes entre ellas, SUERTE!!!! */
+ }
+
+.tb_sessiones_head{
+width:100%;
+}
+.tb_sessiones_body td{
+padding: 5px; 
+}
+table.tb_sessiones_body {
+height: 100%;
+}
+/*-------------SESIONES DESTACADAS------------------------------*/
+#sesiones_destacadas{
+
+}
+.sesion_destacada{
+display:block;
+float:left;
+overflow:hidden;
+padding:10px;
+width:210px;
+}
+.bottomlegis .sesion_destacada{
+float: none;
+width:auto;
+}
+.sesion_destacada h2, .sesion_destacada h2 a {
+font: bold 13px/16px Arial, Helvetica, sans-serif;
+color: #000000; text-decoration:none;!important
+}
+.sesion_destacada h2 a:hover{
+text-decoration: underline;
+}
+
+/*materias:*/
+.m_distrital{
+}
+
+.m_1/*dedfensa*/{
+}
+.m_2, .m_3, .m_4, .m_5/*hacienda, economia....*/{
+}
+.m_6/*rel exteriore*/{
+}
+.m_7, .m_8, .m_9, .m_10/*admin, regionaliz, zonas extremas, etc*/{
+}
+.m_11/*salud*/{
+}
+.m_12, .m_13, .m_14/*medio ambte*/{
+}
+.m_15, .m_16, .m_17, .m_18/*OOPP, etc*/{
+}
+.m_19, .m_20 /*trabajo, etc*/{
+}
+.m_21, .m_22, .m_23/*educacion, etc*/{
+}
+.m_24, .m_25 /*transp*/{
+}
+.m_26, .m_27/* participacion*/{
+}
+.m_28 /*familia*/{
+}
+.m_29 /*seguridad*/{
+}
+.m_30, .m_31 /*derechs fundamentales*/{
+}
+.m_32/* reconstruccion terremioto{
+}

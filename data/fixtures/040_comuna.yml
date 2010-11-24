@@ -1,0 +1,1041 @@
+# data/fixtures/comuna.yml
+Comuna:
+  Arica:
+    nombre: Arica
+    id_distrito: 1
+  Camarones:
+    nombre: Camarones
+    id_distrito: 1
+  General Lagos:
+    nombre: General Lagos
+    id_distrito: 1
+  Putre:
+    nombre: Putre
+    id_distrito: 1
+  Alto Hospicio:
+    nombre: Alto Hospicio
+    id_distrito: 2
+  Camiña:
+    nombre: Camiña
+    id_distrito: 2
+  Colchane:
+    nombre: Colchane
+    id_distrito: 2
+  Huara:
+    nombre: Huara
+    id_distrito: 2
+  Iquique:
+    nombre: Iquique
+    id_distrito: 2
+  Pica:
+    nombre: Pica
+    id_distrito: 2
+  Pozo Almonte:
+    nombre: Pozo Almonte
+    id_distrito: 2
+  Antofagasta:
+    nombre: Antofagasta
+    id_distrito: 4
+  Calama:
+    nombre: Calama
+    id_distrito: 3
+  María Elena:
+    nombre: María Elena
+    id_distrito: 3
+  Mejillones:
+    nombre: Mejillones
+    id_distrito: 4
+  Ollagüe:
+    nombre: Ollagüe
+    id_distrito: 3
+  San Pedro de Atacama:
+    nombre: San Pedro de Atacama
+    id_distrito: 3
+  Sierra Gorda:
+    nombre: Sierra Gorda
+    id_distrito: 4
+  Taltal:
+    nombre: Taltal
+    id_distrito: 4
+  Tocopilla:
+    nombre: Tocopilla
+    id_distrito: 3
+  Alto del Carmen:
+    nombre: Alto del Carmen
+    id_distrito: 6
+  Caldera:
+    nombre: Caldera
+    id_distrito: 6
+  Chañaral:
+    nombre: Chañaral
+    id_distrito: 5
+  Copiapó:
+    nombre: Copiapó
+    id_distrito: 5
+  Diego de Almagro:
+    nombre: Diego de Almagro
+    id_distrito: 5
+  Freirina:
+    nombre: Freirina
+    id_distrito: 6
+  Huasco:
+    nombre: Huasco
+    id_distrito: 6
+  Tierra Amarilla:
+    nombre: Tierra Amarilla
+    id_distrito: 6
+  Vallenar:
+    nombre: Vallenar
+    id_distrito: 6
+  Andacollo:
+    nombre: Andacollo
+    id_distrito: 7
+  Canela:
+    nombre: Canela
+    id_distrito: 9
+  Combarbalá:
+    nombre: Combarbalá
+    id_distrito: 9
+  Coquimbo:
+    nombre: Coquimbo
+    id_distrito: 8
+  Illapel:
+    nombre: Illapel
+    id_distrito: 9
+  La Higuera:
+    nombre: La Higuera
+    id_distrito: 7
+  La Serena:
+    nombre: La Serena
+    id_distrito: 7
+  Los Vilos:
+    nombre: Los Vilos
+    id_distrito: 9
+  Monte Patria:
+    nombre: Monte Patria
+    id_distrito: 9
+  Ovalle:
+    nombre: Ovalle
+    id_distrito: 8
+  Paiguano:
+    nombre: Paiguano
+    id_distrito: 7
+  Punitaqui:
+    nombre: Punitaqui
+    id_distrito: 9
+  Río Hurtado:
+    nombre: Río Hurtado
+    id_distrito: 8
+  Salamanca:
+    nombre: Salamanca
+    id_distrito: 9
+  Vicuña:
+    nombre: Vicuña
+    id_distrito: 7
+  Algarrobo:
+    nombre: Algarrobo
+    id_distrito: 15
+  Cabildo:
+    nombre: Cabildo
+    id_distrito: 10
+  Calera:
+    nombre: Calera
+    id_distrito: 10
+  Calle Larga:
+    nombre: Calle Larga
+    id_distrito: 11
+  Cartagena:
+    nombre: Cartagena
+    id_distrito: 15
+  Casablanca:
+    nombre: Casablanca
+    id_distrito: 15
+  Catemu:
+    nombre: Catemu
+    id_distrito: 11
+  Concón:
+    nombre: Concón
+    id_distrito: 14
+  El Quisco:
+    nombre: El Quisco
+    id_distrito: 15
+  El Tabo:
+    nombre: El Tabo
+    id_distrito: 15
+  Hijuelas:
+    nombre: Hijuelas
+    id_distrito: 10
+  Isla de Pascua:
+    nombre: Isla de Pascua
+    id_distrito: 13
+  Juan Fernández:
+    nombre: Juan Fernández
+    id_distrito: 13
+  La Cruz:
+    nombre: La Cruz
+    id_distrito: 10
+  La Ligua:
+    nombre: La Ligua
+    id_distrito: 10
+  Limache:
+    nombre: Limache
+    id_distrito: 12
+  Llaillay:
+    nombre: Llaillay
+    id_distrito: 11
+  Los Andes:
+    nombre: Los Andes
+    id_distrito: 11
+  Nogales:
+    nombre: Nogales
+    id_distrito: 10
+  Olmué:
+    nombre: Olmué
+    id_distrito: 12
+  Panquehue:
+    nombre: Panquehue
+    id_distrito: 11
+  Papudo:
+    nombre: Papudo
+    id_distrito: 10
+  Petorca:
+    nombre: Petorca
+    id_distrito: 10
+  Puchuncaví:
+    nombre: Puchuncaví
+    id_distrito: 10
+  Putaendo:
+    nombre: Putaendo
+    id_distrito: 11
+  Quillota:
+    nombre: Quillota
+    id_distrito: 10
+  Quilpué:
+    nombre: Quilpué
+    id_distrito: 12
+  Quintero:
+    nombre: Quintero
+    id_distrito: 10
+  Rinconada:
+    nombre: Rinconada
+    id_distrito: 11
+  San Antonio:
+    nombre: San Antonio
+    id_distrito: 15
+  San Esteban:
+    nombre: San Esteban
+    id_distrito: 11
+  San Felipe:
+    nombre: San Felipe
+    id_distrito: 11
+  Santa María:
+    nombre: Santa María
+    id_distrito: 11
+  Santo Domingo:
+    nombre: Santo Domingo
+    id_distrito: 15
+  Valparaíso:
+    nombre: Valparaíso
+    id_distrito: 13
+  Villa Alemana:
+    nombre: Villa Alemana
+    id_distrito: 12
+  Viña del Mar:
+    nombre: Viña del Mar
+    id_distrito: 14
+  Zapallar:
+    nombre: Zapallar
+    id_distrito: 10
+  Chépica:
+    nombre: Chépica
+    id_distrito: 35
+  Chimbarongo:
+    nombre: Chimbarongo
+    id_distrito: 34
+  Codegua:
+    nombre: Codegua
+    id_distrito: 33
+  Coínco:
+    nombre: Coínco
+    id_distrito: 33
+  Coltauco:
+    nombre: Coltauco
+    id_distrito: 33
+  Doñihue:
+    nombre: Doñihue
+    id_distrito: 33
+  Graneros:
+    nombre: Graneros
+    id_distrito: 33
+  La Estrella:
+    nombre: La Estrella
+    id_distrito: 35
+  Las Cabras:
+    nombre: Las Cabras
+    id_distrito: 34
+  Litueche:
+    nombre: Litueche
+    id_distrito: 35
+  Lolol:
+    nombre: Lolol
+    id_distrito: 35
+  Machalí:
+    nombre: Machalí
+    id_distrito: 33
+  Malloa:
+    nombre: Malloa
+    id_distrito: 33
+  Marchihue:
+    nombre: Marchihue
+    id_distrito: 35
+  Mostazal:
+    nombre: Mostazal
+    id_distrito: 33
+  Nancagua:
+    nombre: Nancagua
+    id_distrito: 35
+  Navidad:
+    nombre: Navidad
+    id_distrito: 35
+  Olivar:
+    nombre: Olivar
+    id_distrito: 33
+  Palmilla:
+    nombre: Palmilla
+    id_distrito: 35
+  Paredones:
+    nombre: Paredones
+    id_distrito: 35
+  Peralillo:
+    nombre: Peralillo
+    id_distrito: 35
+  Peumo:
+    nombre: Peumo
+    id_distrito: 34
+  Pichidegua:
+    nombre: Pichidegua
+    id_distrito: 34
+  Pichilemu:
+    nombre: Pichilemu
+    id_distrito: 35
+  Placilla:
+    nombre: Placilla
+    id_distrito: 35
+  Pumanque:
+    nombre: Pumanque
+    id_distrito: 35
+  Quinta de Tilcoco:
+    nombre: Quinta de Tilcoco
+    id_distrito: 33
+  Rancagua:
+    nombre: Rancagua
+    id_distrito: 32
+  Rengo:
+    nombre: Rengo
+    id_distrito: 33
+  Requínoa:
+    nombre: Requínoa
+    id_distrito: 33
+  San Fernando:
+    nombre: San Fernando
+    id_distrito: 34
+  San Vicente:
+    nombre: San Vicente
+    id_distrito: 34
+  Santa Cruz:
+    nombre: Santa Cruz
+    id_distrito: 35
+  Cauquenes:
+    nombre: Cauquenes
+    id_distrito: 40
+  Chanco:
+    nombre: Chanco
+    id_distrito: 40
+  Colbún:
+    nombre: Colbún
+    id_distrito: 39
+  Constitución:
+    nombre: Constitución
+    id_distrito: 38
+  Curepto:
+    nombre: Curepto
+    id_distrito: 38
+  Curicó:
+    nombre: Curicó
+    id_distrito: 36
+  Empedrado:
+    nombre: Empedrado
+    id_distrito: 38
+  Hualañé:
+    nombre: Hualañé
+    id_distrito: 36
+  Licantén:
+    nombre: Licantén
+    id_distrito: 35
+  Linares:
+    nombre: Linares
+    id_distrito: 39
+  Longaví:
+    nombre: Longaví
+    id_distrito: 40
+  Maule:
+    nombre: Maule
+    id_distrito: 38
+  Molina:
+    nombre: Molina
+    id_distrito: 36
+  Parral:
+    nombre: Parral
+    id_distrito: 40
+  Pelarco:
+    nombre: Pelarco
+    id_distrito: 38
+  Pelluhue:
+    nombre: Pelluhue
+    id_distrito: 40
+  Pencahue:
+    nombre: Pencahue
+    id_distrito: 38
+  Rauco:
+    nombre: Rauco
+    id_distrito: 36
+  Retiro:
+    nombre: Retiro
+    id_distrito: 40
+  Río Claro:
+    nombre: Río Claro
+    id_distrito: 38
+  Romeral:
+    nombre: Romeral:
+    id_distrito: 36
+  Sagrada Familia:
+    nombre: Sagrada Familia
+    id_distrito: 36
+  San Clemente:
+    nombre: San Clemente
+    id_distrito: 38
+  San Javier:
+    nombre: San Javier
+    id_distrito: 39
+  San Rafael:
+    nombre: San Rafael
+    id_distrito: 38
+  Talca:
+    nombre: Talca
+    id_distrito: 37
+  Teno:
+    nombre: Teno 
+    id_distrito: 36
+  Vichuquén:
+    nombre: Vichuquén
+    id_distrito: 36
+  Villa Alegre:
+    nombre: Villa Alegre
+    id_distrito: 39
+  Yerbas Buenas:
+    nombre: Yerbas Buenas
+    id_distrito: 39
+  Alto Biobío:
+    nombre: Alto Biobío
+    id_distrito: 47
+  Antuco:
+    nombre: Antuco
+    id_distrito: 47
+  Arauco:
+    nombre: Arauco
+    id_distrito: 46
+  Bulnes:
+    nombre: Bulnes
+    id_distrito: 42
+  Cabrero:
+    nombre: Cabrero
+    id_distrito: 42
+  Cañete:
+    nombre: Cañete
+    id_distrito: 46
+  Chiguayante:
+    nombre: Chiguayante
+    id_distrito: 44
+  Chillán:
+    nombre: Chillán
+    id_distrito: 41
+  Chillán Viejo:
+    nombre: Chillán Viejo
+    id_distrito: 41
+  Cobquecura:
+    nombre: Cobquecura
+    id_distrito: 42
+  Coelemu:
+    nombre: Coelemu
+    id_distrito: 42
+  Coihueco:
+    nombre: Coihueco
+    id_distrito: 41
+  Concepción:
+    nombre: Concepción
+    id_distrito: 44
+  Contulmo:
+    nombre: Contulmo
+    id_distrito: 46
+  Coronel:
+    nombre: Coronel
+    id_distrito: 45
+  Curanilahue:
+    nombre: Curanilahue
+    id_distrito: 46
+  El Carmen:
+    nombre: El Carmen
+    id_distrito: 41
+  Florida:
+    nombre: Florida
+    id_distrito: 45
+  Hualpén:
+    nombre: Hualpén
+    id_distrito: 43
+  Hualqui:
+    nombre: Hualqui
+    id_distrito: 45
+  Laja:
+    nombre: Laja
+    id_distrito: 47
+  Lebu:
+    nombre: Lebu
+    id_distrito: 46
+  Los Alamos:
+    nombre: Los Alamos
+    id_distrito: 46
+  Los Angeles:
+    nombre: Los Angeles
+    id_distrito: 47
+  Lota:
+    nombre: Lota
+    id_distrito: 46
+  Mulchén:
+    nombre: Mulchén
+    id_distrito: 47
+  Nacimiento:
+    nombre: Nacimiento
+    id_distrito: 47
+  Negrete:
+    nombre: Negrete
+    id_distrito: 47
+  Ninhue:
+    nombre: Ninhue
+    id_distrito: 42
+  Ñiquén:
+    nombre: Ñiquén
+    id_distrito: 42
+  Pemuco:
+    nombre: Pemuco
+    id_distrito: 41
+  Penco:
+    nombre: Penco
+    id_distrito: 45
+  Pinto:
+    nombre: Pinto
+    id_distrito: 41
+  Portezuelo:
+    nombre: Portezuelo
+    id_distrito: 42
+  Quilaco:
+    nombre: Quilaco
+    id_distrito: 47
+  Quilleco:
+    nombre: Quilleco
+    id_distrito: 47
+  Quillón:
+    nombre: Quillón
+    id_distrito: 42
+  Quirihue:
+    nombre: Quirihue
+    id_distrito: 42
+  Ránquil:
+    nombre: Ránquil
+    id_distrito: 42
+  San Carlos:
+    nombre: San Carlos
+    id_distrito: 42
+  San Fabián:
+    nombre: San Fabián
+    id_distrito: 42
+  San Ignacio:
+    nombre: San Ignacio
+    id_distrito: 41
+  San Nicolás:
+    nombre: San Nicolás
+    id_distrito: 42
+  San Pedro de la Paz:
+    nombre: San Pedro de la Paz
+    id_distrito: 44
+  San Rosendo:
+    nombre: San Rosendo
+    id_distrito: 47
+  Santa Bárbara:
+    nombre: Santa Bárbara
+    id_distrito: 47
+  Santa Juana:
+    nombre: Santa Juana
+    id_distrito: 45
+  Talcahuano:
+    nombre: Talcahuano 
+    id_distrito: 43
+  Tirúa:
+    nombre: Tirúa
+    id_distrito: 46
+  Tomé:
+    nombre: Tomé 
+    id_distrito: 45
+  Treguaco:
+    nombre: Treguaco
+    id_distrito: 42
+  Tucapel:
+    nombre: Tucapel
+    id_distrito: 47
+  Yumbel:
+    nombre: Yumbel
+    id_distrito: 42
+  Yungay:
+    nombre: Yungay
+    id_distrito: 41
+  Angol:
+    nombre: Angol
+    id_distrito: 48
+  Carahue:
+    nombre: Carahue 
+    id_distrito: 51
+  Cholchol:
+    nombre: Cholchol
+    id_distrito: 51
+  Collipulli:
+    nombre: Collipulli
+    id_distrito: 48
+  Cunco:
+    nombre: Cunco
+    id_distrito: 52
+  Curacautín:
+    nombre: Curacautín
+    id_distrito: 49
+  Curarrehue:
+    nombre: Curarrehue
+    id_distrito: 52
+  Ercilla:
+    nombre: Ercilla
+    id_distrito: 48
+  Freire:
+    nombre: Freire
+    id_distrito: 51
+  Galvarino:
+    nombre: Galvarino
+    id_distrito: 49
+  Gorbea:
+    nombre: Gorbea
+    id_distrito: 52
+  Lautaro:
+    nombre: Lautaro
+    id_distrito: 49
+  Loncoche:
+    nombre: Loncoche
+    id_distrito: 52
+  Lonquimay:
+    nombre: Lonquimay
+    id_distrito: 49
+  Los Sauces:
+    nombre: Los Sauces
+    id_distrito: 48
+  Lumaco:
+    nombre: Lumaco
+    id_distrito: 48
+  Melipeuco:
+    nombre: Melipeuco
+    id_distrito: 49
+  Nueva Imperial:
+    nombre: Nueva Imperial
+    id_distrito: 51
+  Padre las Casas:
+    nombre: Padre las Casas
+    id_distrito: 50
+  Perquenco:
+    nombre: Perquenco
+    id_distrito: 49
+  Pitrufquén:
+    nombre: Pitrufquén
+    id_distrito: 51
+  Pucón:
+    nombre: Pucón
+    id_distrito: 52
+  Purén:
+    nombre: Purén
+    id_distrito: 48
+  Renaico:
+    nombre: Renaico
+    id_distrito: 48
+  Saavedra:
+    nombre: Saavedra
+    id_distrito: 51
+  Temuco:
+    nombre: Temuco
+    id_distrito: 50
+  Teodoro Schmidt:
+    nombre: Teodoro Schmidt
+    id_distrito: 51
+  Toltén:
+    nombre: Toltén
+    id_distrito: 52
+  Traiguén:
+    nombre: Traiguén
+    id_distrito: 48
+  Victoria:
+    nombre: Victoria
+    id_distrito: 49
+  Vilcún:
+    nombre: Vilcún
+    id_distrito: 49
+  Villarrica:
+    nombre: Villarrica
+    id_distrito: 52
+  Corral:
+    nombre: Corral
+    id_distrito: 53 
+  Futrono:
+    nombre: Futrono
+    id_distrito: 54
+  La Unión:
+    nombre: La Unión
+    id_distrito: 54
+  Lago Ranco:
+    nombre: Lago Ranco
+    id_distrito: 54
+  Lanco:
+    nombre: Lanco
+    id_distrito: 53
+  Los Lagos:
+    nombre: Los Lagos
+    id_distrito: 54
+  Máfil:
+    nombre: Máfil
+    id_distrito: 53
+  Mariquina:
+    nombre: Mariquina
+    id_distrito: 53
+  Paillaco:
+    nombre: Paillaco
+    id_distrito: 54
+  Panguipulli:
+    nombre: Panguipulli
+    id_distrito: 54
+  Río Bueno:
+    nombre: Río Bueno
+    id_distrito: 54
+  Valdivia:
+    nombre: Valdivia
+    id_distrito: 53
+  Ancud:
+    nombre: Ancud
+    id_distrito: 58
+  Calbuco:
+    nombre: Calbuco
+    id_distrito: 57
+  Castro:
+    nombre: Castro
+    id_distrito: 58
+  Chaitén:
+    nombre: Chaitén
+    id_distrito: 58
+  Chonchi:
+    nombre: Chonchi
+    id_distrito: 58
+  Cochamó:
+    nombre: Cochamó
+    id_distrito: 57
+  Curaco de Vélez:
+    nombre: Curaco de Vélez
+    id_distrito: 58
+  Dalcahue:
+    nombre: Dalcahue
+    id_distrito: 58
+  Fresia:
+    nombre: Fresia
+    id_distrito: 56
+  Frutillar:
+    nombre: Frutillar
+    id_distrito: 56
+  Futaleufú:
+    nombre: Futaleufú
+    id_distrito: 58
+  Hualaihué:
+    nombre: Hualaihué
+    id_distrito: 58
+  Llanquihue:
+    nombre: Llanquihue
+    id_distrito: 56
+  Los Muermos:
+    nombre: Los Muermos
+    id_distrito: 56
+  Maullín:
+    nombre: Maullín
+    id_distrito: 57
+  Osorno:
+    nombre: Osorno
+    id_distrito: 55
+  Palena:
+    nombre: Palena
+    id_distrito: 58
+  Puerto Montt:
+    nombre: Puerto Montt
+    id_distrito: 57
+  Puerto Octay:
+    nombre: Puerto Octay
+    id_distrito: 56
+  Puerto Varas:
+    nombre: Puerto Varas
+    id_distrito: 56
+  Puqueldón:
+    nombre: Puqueldón
+    id_distrito: 58
+  Purranque:
+    nombre: Purranque
+    id_distrito: 56 
+  Puyehue:
+    nombre: Puyehue
+    id_distrito: 56
+  Queilén:
+    nombre: Queilén
+    id_distrito: 58
+  Quellón:
+    nombre: Quellón
+    id_distrito: 58
+  Quemchi:
+    nombre: Quemchi
+    id_distrito: 58
+  Quinchao:
+    nombre: Quinchao
+    id_distrito: 58
+  Río Negro:
+    nombre: Río Negro
+    id_distrito: 56
+  San Juan de la Costa:
+    nombre: San Juan de la Costa
+    id_distrito: 55
+  San Pablo:
+    nombre: San Pablo
+    id_distrito: 55
+  Aisén:
+    nombre: Aisén
+    id_distrito: 59
+  Chile Chico:
+    nombre: Chile Chico
+    id_distrito: 59
+  Cisnes:
+    nombre: Cisnes
+    id_distrito: 59
+  Cochrane:
+    nombre: Cochrane
+    id_distrito: 59
+  Coihaique:
+    nombre: Coihaique
+    id_distrito: 59
+  Guaitecas:
+    nombre: Guaitecas
+    id_distrito: 59
+  Lago Verde:
+    nombre: Lago Verde
+    id_distrito: 59
+  O'Higgins:
+    nombre: O'Higgins
+    id_distrito: 59
+  Río Ibáñez:
+    nombre: Río Ibáñez
+    id_distrito: 59
+  Tortel:
+    nombre: Tortel
+    id_distrito: 59
+  Antártica:
+    nombre: Antártica
+    id_distrito: 60
+  Cabo de Hornos:
+    nombre: Cabo de Hornos
+    id_distrito: 60
+  Laguna Blanca:
+    nombre: Laguna Blanca
+    id_distrito: 60
+  Natales:
+    nombre: Natales
+    id_distrito: 60
+  Porvenir:
+    nombre: Porvenir
+    id_distrito: 60
+  Primavera:
+    nombre: Primavera
+    id_distrito: 60
+  Punta Arenas:
+    nombre: Punta Arenas
+    id_distrito: 60
+  Río Verde:
+    nombre: Río Verde
+    id_distrito: 60
+  San Gregorio:
+    nombre: San Gregorio
+    id_distrito: 60
+  Timaukel:
+    nombre: Timaukel
+    id_distrito: 60
+  Torres del Paine:
+    nombre: Torres del Paine
+    id_distrito: 60
+  Alhué:
+    nombre: Alhué
+    id_distrito: 31
+  Buin:
+    nombre: Buin
+    id_distrito: 30
+  Calera de Tango:
+    nombre: Calera de Tango
+    id_distrito: 30
+  Cerrillos:
+    nombre: Cerrillos
+    id_distrito: 20
+  Cerro Navia:
+    nombre: Cerro Navia
+    id_distrito: 18
+  Colina:
+    nombre: Colina
+    id_distrito: 16
+  Conchalí:
+    nombre: Conchalí
+    id_distrito: 17
+  Curacaví:
+    nombre: Curacaví
+    id_distrito: 31
+  El Bosque:
+    nombre: El Bosque
+    id_distrito: 27
+  El Monte:
+    nombre: El Monte
+    id_distrito: 31
+  Estación Central:
+    nombre: Estación Central
+    id_distrito: 20
+  Huechuraba:
+    nombre: Huechuraba
+    id_distrito: 17
+  Independencia:
+    nombre: Independencia
+    id_distrito: 19
+  Isla de Maipo:
+    nombre: Isla de Maipo
+    id_distrito: 31
+  La Cisterna:
+    nombre: La Cisterna
+    id_distrito: 27
+  La Florida:
+    nombre: La Florida
+    id_distrito: 26
+  La Granja:
+    nombre: La Granja
+    id_distrito: 25
+  La Pintana:
+    nombre: La Pintana
+    id_distrito: 29
+  La Reina:
+    nombre: La Reina
+    id_distrito: 24
+  Lampa:
+    nombre: Lampa
+    id_distrito: 16
+  Las Condes:
+    nombre: Las Condes
+    id_distrito: 23
+  Lo Barnechea:
+    nombre: Lo Barnechea
+    id_distrito: 23
+  Lo Espejo:
+    nombre: Lo Espejo
+    id_distrito: 28
+  Lo Prado:
+    nombre: Lo Prado
+    id_distrito: 18
+  Macul:
+    nombre: Macul
+    id_distrito: 25
+  Maipú:
+    nombre: Maipú
+    id_distrito: 20
+  María Pinto:
+    nombre: María Pinto
+    id_distrito: 31
+  Melipilla:
+    nombre: Melipilla
+    id_distrito: 31
+  Ñuñoa:
+    nombre: Ñuñoa
+    id_distrito: 21
+  Padre Hurtado:
+    nombre: Padre Hurtado
+    id_distrito: 31
+  Paine:
+    nombre: Paine
+    id_distrito: 30
+  Pedro Aguirre Cerda:
+    nombre: Pedro Aguirre Cerda
+    id_distrito: 28
+  Peñaflor:
+    nombre: Peñaflor
+    id_distrito: 31
+  Peñalolén:
+    nombre: Peñalolén
+    id_distrito: 24
+  Pirque:
+    nombre: Pirque
+    id_distrito: 29
+  Providencia:
+    nombre: Providencia
+    id_distrito: 21
+  Pudahuel:
+    nombre: Pudahuel
+    id_distrito: 16
+  Puente Alto:
+    nombre: Puente Alto
+    id_distrito: 29
+  Quilicura:
+    nombre: Quilicura
+    id_distrito: 16
+  Quinta Normal:
+    nombre: Quinta Normal
+    id_distrito: 18
+  Recoleta:
+    nombre: Recoleta
+    id_distrito: 19
+  Renca:
+    nombre: Renca
+    id_distrito: 17
+  San Bernardo:
+    nombre: San Bernardo
+    id_distrito: 30
+  San Joaquín:
+    nombre: San Joaquín
+    id_distrito: 25
+  San José de Maipo:
+    nombre: San José de Maipo
+    id_distrito: 29
+  San Miguel:
+    nombre: San Miguel
+    id_distrito: 28
+  San Pedro:
+    nombre: San Pedro
+    id_distrito: 31
+  San Ramón:
+    nombre: San Ramón
+    id_distrito: 27
+  Santiago:
+    nombre: Santiago
+    id_distrito: 22
+  Talagante:
+    nombre: Talagante
+    id_distrito: 31
+  Tiltil:
+    nombre: Tiltil
+    id_distrito: 16
+  Vitacura:
+    nombre: Vitacura
+    id_distrito: 23
+

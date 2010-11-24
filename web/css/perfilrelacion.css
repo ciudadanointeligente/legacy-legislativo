@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h4{ font-size: 12px;
+font-family: arial;
+font-weight: bold;
+color:#91278f;
+}
+h2{ color:#555555;
+font-family:arial;
+font-size:11px;
+}
+.familiares div{ 
+float: left;
+max-width: 260px;
+padding-right: 5px;
+
+}
+.pr_hijos{
+border-left: 1px solid #91278f;
+padding-left: 5px;
+}
+.bg_grey{
+background-color: #262626;
+}
+.bt_block{
+float: left;
+position:relative;
+
+}
+.bt_block a div {
+color:#2B5E86;
+display:block;
+left:10px;
+padding-bottom:10px;
+position:relative;
+text-align:left;
+width:170px;
+}
+.pos50{
+left: 65px;
+margin-left: 50px;
+}
+#accordion .bt_block{
+float: none; !important
+}
+#accordion .bt_block a img {
+display:block;
+float:left;
+width:12%;
+}
+
+
+/*tablas vinculaciones
+*/
+#tb_vinculaciones{
+border-collapse:collapse;
+font-family:Arial, Helvetica, sans-serif;
+width: 680px;
+margin: 10px;
+font-size:90%;
+}
+#tb_vinculaciones th{
+background-color:#D4D4D4;
+padding:3px;
+text-align:center;
+vertical-align: top;
+font-size:9px;
+}
+.tb_ficharel, .tb_ficharel2{
+font-family:Arial, Helvetica, sans-serif;
+margin: 10px;
+font-size:90%;
+border-spacing: 3px;
+}
+.tb_ficharel2{
+border-collapse: collapse;
+}
+
+.tb_ficharel{
+border-collapse:separate;
+background:none repeat scroll 0 0 #F3F3F3;
+border-collapse:separate;}
+
+
+.modulegradient .tb_ficharel {
+
+}
+.modulegradient .tb_ficharel th{
+background-color:#f3f3f3;
+}
+ .tb_ficharel td, .tb_ficharel2 td{
+ background-color:#FFFFFF;
+ }
+ .tb_ficharel th, .tb_ficharel2 th{
+background-color:#cbd0d4;
+padding:6px;
+vertical-align: middle;
+}
+
+#tb_vinculaciones h5, .tb_ficharel h5, .tb_ficharel2 h5{
+font-size:150%;
+font-weight:bold;
+}
+#tb_vinculaciones tr, .tb_ficharel2 td{ 
+border-bottom: 1px dotted #d4d4d4;
+}
+
+.tb_ficharel2 td:first-child{ 
+border-top: 1px dotted #d4d4d4;
+}
+
+.tb_ficharel2 th{ 
+border-bottom: 1px dotted #ffffff;
+font-weight: bold;
+}
+.bordetabla{border: 2px solid #DCDCDC;}
+
+#tb_vinculaciones td, .tb_ficharel td, .tb_ficharel2 td{
+padding:3px 8px;
+}
+.tb_ficharel2 caption{
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #DCDCDC;
+size: 110%;
+}
+
+#pr_declara, #pr_más{
+text-align:center;
+}
+.subt {
+padding: 3px 0px;
+margin-bottom: 10px;
+border-bottom: 1px solid #dcdcdc;
+border-top: 1px solid #dcdcdc;
+font-weight:bold;
+color: #989898;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*-----indicadores parlamentarios--------*/
+.indicador {
+color:#666666;
+font-family:calibri,trebuchet MS,arial;
+font-variant:small-caps;
+}
+#accordion .indicador {
+clear:both;
+display:block;
+float:none;
+margin-left:-10px;
+margin-right:-5px;
+min-height:50px;
+}
+
+.indicador h6 {
+font-size:1.05em;
+font-weight:bold;
+min-height:20px;
+text-indent:10px;
+background:url("http://legislativo.votainteligente.cl/images/modgrales/modulegrad_b.png") repeat-x scroll center -10px transparent;
+}
+.indicador-gris {
+background:url("http://legislativo.votainteligente.cl/images/relinteres/grisdegrad.png") repeat-y scroll center top transparent;
+display:block;
+float:left;
+margin:0 0 3px 5px;
+opacity:0.9;
+width:200px;
+border-radius: 2px 2px 0 0;
+-moz-border-radius: 2px 2px 0 0;
+-webkit-border-radius: 2px 2px 0 0;
+-khtml-border-radius: 2px 2px 0 0;
+behavior:url(border-radius.htc);
+}
+.indicador-linea {
+background:url("http://legislativo.votainteligente.cl/images/modgrales/module_gradient.png") repeat-x scroll center bottom transparent;
+clear:both;
+display:block;
+margin:0 5px;
+}
+
+
+.indicador_bajada {
+clear:right;
+display:block;
+font-size:1.1em;
+height:33px;
+line-height:100%;
+overflow:hidden;
+padding:5px 3px 3px 8px;
+text-transform:uppercase;
+}
+.indicador_bajada span{font-size:0.9em; text-transform:none;}
+.indicador_bajada span.chico{font-variant:normal; text-transform:none;}
+
+.indicador_valor {
+color:#2A2A2A;
+display:block;
+float:left;
+font-size:1.2em;
+height:25px;
+margin:0;
+overflow:hidden;
+padding:10px 0 0;
+text-align:center;
+width:35px;}
+
+/*formato imagen #D4D9DC url(http://legislativo.votainteligente.cl/images/modgrales/modulegrad_b.png) repeat-x scroll center bottom  */
+.sobremedia{ 
+background: transparent url(http://legislativo.votainteligente.cl/images/relinteres/botones.png) no-repeat scroll center -106px;}
+
+.enlamedia{background: transparent url(http://legislativo.votainteligente.cl/images/relinteres/botones.png) no-repeat scroll center -141px;}
+.bajolamedia{background: transparent url(http://legislativo.votainteligente.cl/images/relinteres/botones.png) no-repeat scroll center -176px;}
+.rojo{background: transparent url(http://legislativo.votainteligente.cl/images/relinteres/botones.png) no-repeat scroll center -71px;}
+.amarillo{background: transparent url(http://legislativo.votainteligente.cl/images/relinteres/botones.png) no-repeat scroll center -36px;}
+.verde {background: transparent url(http://legislativo.votainteligente.cl/images/relinteres/botones.png) no-repeat scroll center -1px;}
+
+
+/* PESTAÑAS*/
+.pestana {
+background-color:#D4D9DC;
+clear:right;
+right:-5px;
+width:135px;
+background-image: url(http://legislativo.votainteligente.cl/images/modgrales/modulegrad_t2.png);
+background-position:center -12px;
+background-repeat:repeat-x;
+color: #808080;
+}
+
+.pestanadark {
+background-color:#4c4d4f;
+right:3px;
+width:auto;
+color:#FFFFFF;
+}
+
+.pestanadark, .pestana{
+float:right;
+font-family:Arial,Helvetica,sans-serif;
+font-size:0.95em;
+font-weight:bold;
+height:20px;
+padding:5px 8px 0;
+position:relative;
+top:92px;
+}
+.off{
+background-image: url(http://legislativo.votainteligente.cl/images/modgrales/sombra.png);
+background-position:center bottom;
+background-repeat:repeat-x;}
+
+.contpestanas{
+overflow: visible;
+display: block;
+}
+.pestanadark img{
+margin:0px 5px -5px -8px;
+
+}
+
+h1.acertijo {
+color:#FFFFFF;
+font:bold 16px/18px arial;
+margin: 0px -10px 10px;
+padding:20px;
+text-decoration:none;
+vertical-align:middle;
+
+}
+
+.acertijo{
+background: transparent url(http://legislativo.votainteligente.cl/images/relinteres/acertijo.png) repeat-x scroll center top;}

@@ -1,0 +1,24 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+all:
+  is_secure: true
+index:
+  is_secure: false
+show:
+  is_secure: false
+situacion:
+  is_secure: false
+buscar:
+  is_secure: false
+filter:
+  is_secure: false
+balance:
+  is_secure: false
+balancelist:
+  is_secure: false
+show2:
+  is_secure: false
+votaciones:
+  is_secure: false
+

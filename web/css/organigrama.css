@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+background-color: #FFFFFF;
+
+}
+h3{
+font-size:1.4em;
+font-weight:bold;
+color:#66a0cd;
+}
+h2{
+font-size: 1.0em;
+font-weight:200;
+}
+
+
+.abre , .cierra{
+background-repeat:no-repeat;
+height:56px;
+margin:5px 2px 0;
+width:18px;
+opacity:0.7;
+}
+.abre{
+background-image:url("http://legislativo.votainteligente.cl/css/images/organigrama/abre.png");
+float:left;
+
+}
+.cierra{
+background-image:url("http://legislativo.votainteligente.cl/css/images/organigrama/cierra.png");
+float:right;
+
+}
+th h3,  td h2{
+height:25px;
+margin-top:25px;
+text-align:center;
+
+}
+
+div#organigrama{
+width: 930px;
+font-family:arial;
+line-height: 150%;
+background-color: #FFFFFF;
+display:block;
+
+}
+#organigrama a{
+text-decoration:none;
+font-weight: normal !important;
+color: inherit !important;
+
+}
+#organigrama td img{
+margin: 5px;
+}
+.directorio {
+margin-bottom:15px;
+position:relative;
+width:600px;
+z-index:10;
+}
+.directorio h3{
+
+}
+
+.consultivo{
+background-image:url("http://legislativo.votainteligente.cl/css/images/organigrama/circulo.png");
+background-position:center top;
+background-repeat:no-repeat;
+display:block;
+float:left;
+height:220px;
+margin-top: 50px;
+padding:10px;
+position:relative;
+text-align:center;
+vertical-align:middle;
+width:250px;
+
+ }
+ .consultivo h3{
+ margin-top: 40px;
+ }
+.ejecutivo{
+display:block;
+height:10px;
+width:600px;
+}
+.ejecutivo th, .directorio th{ }
+
+.ejecutivos{
+font-size:1em;
+display:block;
+float:left;
+margin-top: 20px;
+padding:10px;
+text-align:center;
+vertical-align:middle;
+width:100%;
+ }
+ td.proyecto h2{
+ margin: 25px  10px;
+ }
+ td.proyecto{
+ heigt: 52px;
+ vertical-align: middle;}
+ 
+ #organigrama td.proyecto img{margin:0px; padding: 0px; vertical-align: MIDDLE; margin: 10px;}
+ .directorio td{
+ color:#66A0CD;
+padding-left:30px;}
+ .directorio img{position:relative;
+top:4px;
+width:3%;}
+ 
+ .cv{
+ position:relative;
+ top: 20px;
+ right::-20px;
+ background-color:#282828;
+color:#FFFFFF !important;
+display:block;
+font-size:11px;
+line-height:14px;
+padding:4px 8px;
+white-space:nowrap;
+z-index:50;
+}
+.ejecutivos .abre {
+opacity:0.3;}
+.ejecutivos .cierra {
+opacity:0.3;
+}
+#marco-cv{
+background-color:#DCDCDC;
+background-image:url("http://legislativo.votainteligente.cl/css/images/modgrales/module_gradient.png");
+background-position:center bottom;
+background-repeat:repeat-x;
+color:#FFFFFF !important;
+float:right;
+font-size:11px;
+height:350px;
+line-height:14px;
+padding:4px 8px;
+position:relative;
+right:0;
+top:20px;
+white-space:nowrap;
+width:250px;
+}

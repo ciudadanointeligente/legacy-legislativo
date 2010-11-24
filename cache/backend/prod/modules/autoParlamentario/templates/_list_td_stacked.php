@@ -1,0 +1,3 @@
+<td colspan="7">
+  <?php echo __('%%nombre%% - %%apellidos%% - %%senador_diputado%% - %%id_circunscripcion%% - %%id_distrito%% - %%pacto%% - %%partido%%', array('%%nombre%%' => link_to($parlamentario->getNombre(), 'parlamentario_Parlamentario_edit', $parlamentario), '%%apellidos%%' => $parlamentario->getApellidos(), '%%senador_diputado%%' => $parlamentario->getSenadorDiputado(), '%%id_circunscripcion%%' => $parlamentario->getIdCircunscripcion(), '%%id_distrito%%' => $parlamentario->getIdDistrito(), '%%pacto%%' => $parlamentario->getPacto(), '%%partido%%' => $parlamentario->getPartido()), 'messages') ?>
+</td>

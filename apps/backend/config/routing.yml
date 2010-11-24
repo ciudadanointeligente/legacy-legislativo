@@ -1,0 +1,115 @@
+votacion_comision:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                VotacionComision
+    module:               VotacionComision
+    prefix_path:          /VotacionComision
+    column:               id_votacion
+    with_wildcard_routes: true
+
+votacion:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Votacion
+    module:               Votacion
+    prefix_path:          /Votacion
+    column:               id_votacion
+    with_wildcard_routes: true
+
+sesion:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Sesion
+    module:               Sesion
+    prefix_path:          /Sesion
+    column:               id_sesion
+    with_wildcard_routes: true
+
+autor:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Autor
+    module:               Autor
+    prefix_path:          /Autor
+    column:               id_autor
+    with_wildcard_routes: true
+
+debate:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Debate
+    module:               Debate
+    prefix_path:          /Debate
+    column:               id_debate
+    with_wildcard_routes: true
+
+comision:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Comision
+    module:               Comision
+    prefix_path:          /Comision
+    column:               id_comision
+    with_wildcard_routes: true
+
+partido:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Partido
+    module:               Partido
+    prefix_path:          /Partido
+    column:               id_partido
+    with_wildcard_routes: true
+
+parlamentario:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Parlamentario
+    module:               Parlamentario
+    prefix_path:          /Parlamentario
+    column:               id_parlamentario
+    with_wildcard_routes: true
+
+parlamentario_Parlamentario:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Parlamentario
+    module:               Parlamentario
+    prefix_path:          /Parlamentario
+    column:               id_parlamentario
+    with_wildcard_routes: true
+
+materia:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Materia
+    module:               Materia
+    prefix_path:          /Materia
+    column:               id_materia
+    with_wildcard_routes: true
+
+proyecto_ley:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ProyectoLey
+    module:               ProyectoLey
+    prefix_path:          /ProyectoLey
+    column:               id_proyecto_ley
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: ProyectoLey, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

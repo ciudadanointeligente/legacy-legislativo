@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ProyectoLey
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          proyecto_ley
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:   Gestión de Proyectos de Ley
+        display: [=nro_boletin, titulo, fecha_ingreso, iniciativa, etapa, sub_etapa]
+        sort:    [fecha_ingreso, desc]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
+          

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* ANALISIS LEGISLATIVO */
+
+#tb_balance_form{
+  table-layout:fixed
+}
+
+td.col_var1{
+	border-style:dashed;
+	border-color:C7C7C7;
+	border-width:2px;
+	margin-bottom:5px;
+	width:81px;
+	font-size:8pt;
+	vertical-align:text-top;
+}
+
+td.col_var2{
+	border-style:dashed;
+	border-color:C7C7C7;
+	border-width:2px;
+	margin-bottom:5px;
+	width:51px;
+	background-color:#f2f2f2;
+	font-size:8pt;
+	vertical-align:text-top;
+}
+
+td.col_var3{
+border-style:dashed;
+	border-color:C7C7C7;
+	border-width:2px;
+	margin-bottom:5px;
+	width:84px;
+	font-size:8pt;
+	vertical-align:text-top;
+}
+
+td.col_var4{
+	border-style:dashed;
+	border-color:C7C7C7;
+	border-width:2px;
+	margin-bottom:5px;
+	width:77px;
+	background-color:#f2f2f2;
+	font-size:8pt;
+	vertical-align:text-top;
+}
+
+td.col_var5{
+  width:300px;
+	border-style:dashed;
+	border-color:C7C7C7;
+	border-width:2px;
+	margin-bottom:5px;
+	font-size:8pt;
+	vertical-align:text-top;
+	padding-left:4px;
+}
+
+td.col_var6{
+	border-style:dashed;
+	border-color:C7C7C7;
+	border-width:2px;
+	margin-bottom:5px;
+	background-color:#f2f2f2;
+	font-size:8pt;
+	vertical-align:text-top;
+	padding-left:4px;
+}
+
+tr.even{
+	background-color:#f2f2f2;
+	padding-right:8px;
+}
+tr.odd{
+	background-color:#white;
+}
+#tb_datos tbody{
+	border:2px dashed #dddddd;
+}
+#tb_datos caption{
+	font-variant:small-caps;
+	padding-top:8px;
+	font-size:10pt;
+}

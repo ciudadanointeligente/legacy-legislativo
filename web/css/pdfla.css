@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+color:#808080;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:0.8em;
+line-height:150%;
+}
+p{
+color:#808080;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:1.0em;
+line-height:160%;
+margin: 0px;
+}
+
+.fci_dentro{
+margin-top: -25px;
+}
+.fci_cruz{
+background-image: url("http://legislativo.votainteligente.cl/css/pdfla/fondo_cruz2.jpg");
+font-family:Arial, Helvetica, sans-serif;
+background-repeat: repeat;
+background-position:top right; 
+padding: 5px; 
+  }
+  .fci_cruzoscuro{
+background-image: url("http://legislativo.votainteligente.cl/css/pdfla/fondo_cruzoscuro.jpg");
+font-family:Arial, Helvetica, sans-serif;
+background-repeat: repeat;
+background-position:top right; 
+padding: 5px; 
+  }
+  .fci_cruz p, .fci_cruzoscuro p{ font-family:Arial, Helvetica, sans-serif;}
+
+.fci_Estilo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+.fci_Estilo2 {
+	
+}
+
+fci_formulario{
+}
+.fci_test{
+	color: #660000;
+}
+.node h2 a{
+color:#FFFFFF;
+background-color:#FF6633;
+display:block; 
+padding:6px;
+margin: 0px;
+}
+.views h2 a, #center .views h2  {
+background-color:#bcbec0;
+color:#FFFFFF;
+display:block;
+font-family:arial;
+margin:0;
+padding:6px;
+}
+.view-content .jcarousel-skin-tango .jcarousel-container {
+background-color:#f7f7f7;
+
+}
+#center h2 a{
+background-color:#bcbec0;
+color:#FFFFFF;
+display:block;
+font-family:arial;
+font-size:80%;
+margin:0;
+padding:6px;
+}
+
+
+h2{
+margin-top: 0px;
+}
+#center .node {
+border: none;
+}
+.node h2 a, #center h2 a {
+background-color:#bcbec0;
+color:#FFFFFF;
+display:block;
+font-family:arial;
+font-size:80%;
+margin:0;
+padding:6px;
+}
+
+.fci_content_blanco{
+margin: 10px;
+background-color:#FFFFFF;
+display:block;
+min-height: 60px;
+padding: 10px;
+}
+table.fci_menu{
+margin: 0px;
+}
+table.fci_menu tr{
+
+
+}
+.fci_menu a:link, .fci_menu a:visited {
+color: #006699;
+}
+.fci_menu a.fci_adestacado{
+color:#FF3300;
+}
+
+.fci_menu a:link .fci_adestacado{
+color:#FF3300;
+}
+/*.fci_adestacado{
+color:#FF3300;
+}*/
+.fci_menu a:hover{
+color:#333333;
+}
+.fci_menu td{
+text-align: center;
+line-height: 100%;
+padding: 0px;
+}
+
+.fci_floatleft {
+background-color:#F3F3F3;
+float:left;
+margin:5px 0 15px;
+padding:15px;
+}
+.fci_floatleft h2{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.fci_menufichas{
+display:block;
+float:left;
+
+margin-left:-10px;
+overflow:hidden;
+position:absolute;
+width:160px;
+
+}
+img .fci_header{
+border-bottom: 2px solid #ff3300;
+}
+.fci_marco{
+height:800px;
+margin:-25px -10px 20px 170px;
+overflow:auto;
+}
+.fci_marco td.naranjo p{
+color:#FF3300;
+float:left;
+max-width:300px;
+padding-left:10px;
+vertical-align:bottom;
+margin-bottom: 5px;
+clear: both;
+}
+.naranjo{
+color:#FF3300;
+}
+.fci_marco .Estilo1{
+float:left;
+}
+.fci_marco img{
+float: left;
+clear: none; 
+}
+.fci_contacto {
+background-color: #f7f7f7;
+padding:5px;
+border: 1px solid #dcdcdc;
+width:100%;
+line-height: 110%;
+font-size: 0.9em; !important
+}
+
+.fci_contacto td, .fci_contacto th {
+padding:2px 10px;
+}
+.fci_contacto div {
+max-width:380px;
+}
+.fci_tablavalor tbody th {
+border-color:#dcdcdc;
+border-style:solid;
+border-width:1px 0;
+}
+
+.speaker{
+background-color: #ffffff;
+font-family:Arial, Helvetica, sans-serif;
+color:#666666;
+font-size:12px;
+text-align:center;
+}
+.cargo{
+background-color: #f7f7f7;
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+}
+.fci_speakers p{
+color:#808080;
+line-height:130%;
+padding-bottom:13px;
+font-family: Arial, Helvetica, sans-serif;
+max-width: 350px;
+}
+
+.fci_speakers p strong{color:#555555;
+}
+
+.sombrafoto{
+background:url("http://www.votainteligente.cl/images/modgrales_j/hover_shadow.png") no-repeat scroll center bottom transparent;
+display:block;
+height:144px;
+width:135px;
+float:left;
+}
+.sombrafoto img{
+width: 135px;
+height:135px;}
+.sombrafoto h3{
+display: inline-block;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:bold;
+margin:0;
+padding:3px;
+position:relative;
+top:-25px;
+width:129px;
+background:url("http://www.votainteligente.cl/images/modgrales_j/bg-black80.png") repeat scroll center bottom transparent;
+}
+table.speakers {
+border-bottom:3px double #DCDCDC;
+margin-bottom:20px;
+padding-bottom:45px;
+text-align:justify;
+border: none none double none;
+
+}
+table.speakers p.naranjo{}
+.itemsticket{
+background: url("http://legislativo.votainteligente.cl/css/pdfla/ticket.png") no-repeat scroll left 12px transparent;
+padding: 10px 10px 15px 38px;
+}
+.ND{
+margin-left: -10px;
+margin-top: -10px;
+}
+#center #node-17545 h2{
+margin: 0px -10px 0.3em;}
+
+
+/*--------------programa-------*/
+
+
+.sala{
+font-variant:small-caps;
+text-transform:lowercase; 
+line-height:10px;}
+
+h6.tit_prog {
+/*background: url("pdfla/bg-h6.png") repeat-x 0 0 transparent;*/
+background:none repeat scroll 0 0 #DCDCDC;
+font-size: 120%;
+font-variant: small-caps;
+text-transform: lowercase;
+font-weight:bold;
+margin:0;
+
+}
+
+h6.tit_prog span{ 
+background-color:#FFFFFF;
+margin-left:25px;
+padding:10px;
+}
+
+.tb_prog td.hora{
+letter-spacing:1px;
+padding:10px 20px 25px;
+vertical-align:top;
+}
+.tb_prog td.brake{
+letter-spacing:1px;
+padding:10px 0px;
+vertical-align:top;
+}
+
+.tdin{
+width: 225px;
+vertical-align:top;
+}
+
+.tb_prog tr{
+border-bottom: 1px solid #dcdcdc;
+}
+
+.tb_prog{
+border:none;
+border-collapse:collapse;
+line-height: 20px;}
+
+.tb_prog td{
+vertical-align: top;}
+
+.tdcenter{
+text-align:center;
+vertical-align:top;
+padding: 10px 20px;}
+.tb_inside{
+margin: 5px 10px 5px 0px;
+height:100%;
+}
+.tb_inside tr{
+padding: 10px;}
+.tb_inside td{
+padding-left: 10px;
+vertical-align: top; }
+
+.tb_inside span{ font-weight:bold;}
+
+/*--------------paneles-------*/
+span.auditorio, .auditorio span {
+color:#FF3300;
+
+}
+td.auditorio{
+border-left: 2px solid #ff3300;}
+/*--celeste--*/
+span.panel1, .panel1 span{
+color:#58b7dd;}
+td.panel1{
+border-left: 2px solid #58b7dd;}
+
+/*---verde---*/
+span.panel2, .panel2 span{
+color:#bfd73b;}
+
+td.panel2{
+border-left: 2px solid #bfd73b;}
+
+/*----magenta--*/
+span.panel3, .panel3 span {
+color:#ec008c;}
+td.panel3{
+border-left: 2px solid #ec008c;}
+
+/*---morado---*/
+
+span.panel4 .panel4 span {
+color:#91278f;}
+td.panel4{
+border-left: 2px solid #91278f;}
+/*------*/
+/*------*/
+
+p.css-vertical-text {
+	color:#ff3300;
+	border:0px solid red;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform: rotate(270deg);
+	white-space:nowrap;
+	display:block;
+	bottom:0;
+	width:20px;
+	height:20px;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	position:relative;
+	top: 60px;
+	text-transform:lowercase;
+	font-variant:small-caps;
+	letter-spacing: 1px;
+	
+	}
+	
+	.tb_prog td.salon{
+	vertical-align: top;
+	width:25px;
+	margin:0;
+	padding:10px 10px 10px 0px;
+	border-left: 2px solid #dcdcdc;}

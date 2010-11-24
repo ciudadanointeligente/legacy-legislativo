@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#contwid{
+min-width: 450px;
+display:block;
+
+}
+.bott{
+float: left;
+padding: 10px; 
+margin: 5px;
+}
+h3.nombreproyecto{
+display:block;
+overflow:hidden;
+background: url("http://legislativo.votainteligente.cl/images/modgrales/module_gradient.png") repeat-x scroll right bottom #FFFFFF;
+}
+.fecha{font-size: 90%;}

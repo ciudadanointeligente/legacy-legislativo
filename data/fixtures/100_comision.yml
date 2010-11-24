@@ -1,0 +1,6 @@
+# data/fixtures/comision.yml
+Comision:
+  1:
+    nombre: Gobierno Interior y Regionalización
+    camara: C.Diputados
+

@@ -1,0 +1,3 @@
+<td colspan="8">
+  <?php echo __('%%name%% - %%fecha%% - %%camara%% - %%tipo%% - %%articulo%% - %%materia%% - %%resultado%% - %%id_parlamento%%', array('%%name%%' => link_to($votacion->getName(), 'votacion_edit', $votacion), '%%fecha%%' => false !== strtotime($votacion->getFecha()) ? format_date($votacion->getFecha(), "f") : '&nbsp;', '%%camara%%' => $votacion->getCamara(), '%%tipo%%' => $votacion->getTipo(), '%%articulo%%' => $votacion->getArticulo(), '%%materia%%' => $votacion->getMateria(), '%%resultado%%' => $votacion->getResultado(), '%%id_parlamento%%' => $votacion->getIdParlamento()), 'messages') ?>
+</td>

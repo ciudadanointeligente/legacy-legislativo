@@ -1,0 +1,558 @@
+/*--------------------------------TB proyectos-----------------*/
+#ls_proyectos {
+border:1px solid #D4D4D4;
+margin:0 15px 10px;
+max-height:330px;
+width:676px;
+overflow-y:scroll;
+}
+
+#ls_proyectos #tb_proyectos {
+background-color:#f3f3f3;
+border:1px solid #bcbcbc;
+line-height:200%;
+}
+
+/*--------------------------------TB BALANCE-----------------*/
+#tb_balance {
+background-color:#FFFFFF;
+border-bottom:5px solid #D4D4D4;
+border-right:4px solid #D4D4D4;
+float:none;
+font-size:90%;
+margin:5px 30px 0;
+width:90%;
+}
+
+#tb_balance a {
+color:#007aca;
+}
+
+#tb_balance td {
+line-height:120%;
+padding:5px 0;
+}
+
+#tb_balance th {
+background-color:#D4D4D4;
+border:4px solid #D4D4D4;
+line-height:100%;
+padding:0;
+}
+
+#tb_balance th.borde {
+border-color:#D4D4D4;
+border-width:4px;
+}
+
+#tb_balance th.borde-bottom {
+background-color:#ffffff;
+border-color:#D4D4D4;
+border-width:0 4px 4px;
+}
+
+#tb_balance th.borde-middle {
+background-color:#ffffff;
+border-color:#D4D4D4;
+border-width:0 4px;
+}
+
+#tb_balance th.borde-top {
+background-color:#FFFFFF;
+border-collapse:collapse;
+border-color:#D4D4D4;
+border-width:4px 4px 0;
+}
+
+#tb_balance tr.odd {
+background-color:#f3f3f3;
+}
+
+#tb_balance_total {
+background-color:#f3f3f3;
+border-bottom:5px solid #ffffff;
+border-right:4px solid #ffffff;
+float:none;
+font-size:90%;
+margin:0 30px 15px;
+width:90%;
+}
+
+#tb_balance_total td,alance_total td {
+padding-bottom:4px;
+padding-top:4px;
+}
+
+#tb_balance_total th {
+background-color:#ffffff;
+border-bottom:5px solid #ffffff;
+border-right:4px solid #ffffff;
+color:#007aca;
+line-height:100%;
+padding:0 7px 0 0;
+}
+
+#tb_debate .even {
+background-color:#ffffff;
+}
+
+#tb_debate .odd {
+background-color:#f6f6f6;
+}
+
+/*------------TABLA DEBATE------------------------*/
+#tb_debate,.debate {
+float:left;
+overflow:hidden;
+}
+
+#tb_proyectos .parlamentarios {
+border-collapse:separate;
+}
+
+#tb_proyectos td, {
+padding:10px;
+}
+
+/*option configurator thingy*/
+.chartConfiguratorThingy {
+border:1px solid #ddd;
+display:none;
+overflow:auto;
+padding:10px;
+}
+
+.chartConfiguratorThingy h2 {
+color:#666;
+font-size:1.4em;
+}
+
+.debate_camara {
+float:left;
+margin-top:2px;
+padding:2px 15px 4px 5px;
+width:40px;
+}
+
+.debate_comision {
+color:white;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-variant:small-caps;
+font-weight:bold;
+letter-spacing:2px;
+padding-top:18px;
+text-align:left;
+}
+
+
+.debate_debate{
+line-height: 110%;
+}
+
+.debate_docs {
+float:left;
+margin-bottom:4px;
+}
+
+.debate_fecha {
+color:white;
+float:right;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+letter-spacing:1.5px;
+margin-right:4px;
+padding-top:18px;
+}
+
+.debate_sala {
+color:white;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-variant:small-caps;
+font-weight:bold;
+letter-spacing:2px;
+padding-top:18px;
+text-align:left;
+}
+
+.debate_tit_comision, .debate_tit_sala  {
+height:25px;
+padding-bottom:10px;
+}
+.debate_tit_comision {background-color:#003366;}
+.debate_tit_sala {background-color:#FD8D2A;}
+
+.dependencies {
+padding:15px;
+}
+
+.editableNote {
+background:#FEFBE2;
+border:1px solid #8CC264;
+font-size:1.2em;
+margin:1.5em 0;
+padding:10px;
+}
+
+.imgcell,td.subEtapa {
+text-align:center;
+}
+
+.info {
+font-size:11px;
+}
+
+.nombre {
+border-bottom:1px dotted #cccccc;
+height:45px;
+margin:0 30px;
+padding:4px 5px 4px 15px;
+text-align:left;
+}
+
+.p,.circ,.dist,.comuna,.partido {
+padding:0 20px;
+}
+
+/*-----------------------------------------------lista perfiles------------------*/
+.p,.partido {
+color:#ffffff;
+}
+
+.partidos .imgcell img {
+height:90%;
+width:90%;
+}
+
+.partidos a,.parlamentarios a,.visible a {
+text-decoration:none;
+}
+
+.partidos td {
+padding:5px 10px;
+}
+
+.partidos tr,.parlamentarios tr {
+background-color:#E9E9E9;
+border-top:3px solid #FFFFFF;
+margin-bottom:2px;
+}
+
+.patidosr .titulos:,.parlamentarios .titulos: {
+text-align:left;
+}
+
+.tb_proyecto_detalle {
+background-color:transparent;
+
+margin:15px;
+width:95%;
+}
+
+.tb_proyecto_detalle .resumen {
+background-color:white;
+font-size:12px;
+line-height:130%;
+margin-top:20px;
+padding-bottom:20px;
+padding-top:20px;
+text-align:justify;
+}
+
+.tb_proyecto_detalle .tit_bloque {
+background-color:#898989;
+color:white;
+display:block;
+font-family:arial,sans-serif;
+font-size:12px;
+font-variant:small-caps;
+font-weight:bold;
+letter-spacing:2px;
+line-height:120%;
+margin-bottom:10px;
+margin-top:25px;
+padding-bottom:0;
+padding-left:10px;
+padding-top:5px;
+text-align:left;
+}
+
+.tb_proyecto_detalle h1 {
+color:#2A2A2A;
+display:block;
+font-family:georgia;
+font-size:13px;
+font-weight:bold;
+line-height:120%;
+margin-bottom:0;
+padding-bottom:10px;
+padding-left:15px;
+padding-top:8px;
+text-align:left;
+}
+
+.tb_proyecto_detalle h2 {
+color:#2A2A2A;
+display:block;
+font-family:georgia;
+font-size:9pt;
+font-weight:bold;
+line-height:120%;
+margin-bottom:0;
+padding-bottom:5px;
+padding-left:2px;
+text-align:left;
+}
+
+.tb_proyecto_detalle td,.tb_proyecto_detalle th,.tb_proyecto_detalle2 td,.tb_proyecto_detalle2 th {
+border:none;
+padding-top:2px;
+
+}
+.tb_proyecto_detalle2 td{ font -size: inherit;}
+
+.tb_proyecto_detalle tr.titulos2 th {
+background-color:#AAAAAA;
+color:#2A2A2A;
+font-size:8pt;
+line-height:110%;
+padding:2px;
+text-align:center;
+}
+
+.tb_proyecto_detalle tr.titulos3 th {
+background-color:#AAAAAA;
+color:#2A2A2A;
+font-size:8pt;
+height:20px;
+padding:0;
+text-align:center;
+}
+
+.tb_proyecto_detalle2 {
+background-color:#F2F2F2;
+height:50px;
+margin-bottom:0;
+margin-top:-3px;
+width:100%;
+}
+
+.th_proyecto {
+background-color:#f3f3f3;
+border:1px solid #d4d4d4;
+border-bottom:none;
+border-collapse:separate;
+font-weight:bold;
+height:18px;
+margin:10px 15px 0;
+width:676px;
+}
+.fechaingreso, .nroboletin{
+width: 13%;
+}
+
+.titulos th {
+background-color:#d4d4d4;
+font-size:90%;
+font-weight:bold;
+padding:3px;
+text-align:center;
+}
+
+.tr_proyecto_detalle_sub {
+border-bottom:3px solid #aaaaaa;
+}
+
+.visible,#tb_proyectos .parlamentarios .visible,.partidos .visible {
+margin-top:10px;
+width:720px;
+}
+
+/*sample alternate styling for info block on Pie Chart */
+.visualize-pie .visualize-info {
+background:none;
+border:0;
+left:10px;
+padding:0;
+right:auto;
+top:10px;
+}
+
+.visualize-pie ul.visualize-key li {
+float:none;
+}
+
+.visualize-pie ul.visualize-title {
+border:0;
+font-weight:bold;
+}
+
+body {
+font-family:arial, sans-serif;
+font-size:70%;
+}
+
+caption {
+font-size:1.5em;
+font-weight:bold;
+margin:0 0 .5em;
+}
+
+fieldset {
+float:left;
+margin:5px 5px 5px 0;
+width:45%;
+}
+
+h1.grafico {
+background-color:#FD8D2A;
+color:white;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-variant:small-caps;
+font-weight:bold;
+letter-spacing:2px;
+margin:5px -10px;
+padding:8px 15px 2px 28px;
+}
+
+label {
+display:inline-block;
+width:90px;
+}
+
+legend {
+font-size:1.2em;
+}
+
+/*demo styles*/
+table.accessHide {
+left:-999999px;
+position:absolute;
+}
+
+td input,td input:focus {
+border:1px solid orange;
+margin:1px;
+outline:none;
+padding:2px;
+width:20px;
+}
+
+td.autores {
+color:#524F46;
+font-size:8pt;
+}
+
+td.borde {
+border-collapse:collapse;
+border-color:#D4D4D4;
+border-width:4px;
+}
+
+td.etapa {
+text-align:center;
+width: 18%;
+}
+
+td.hover {
+color:orange;
+}
+
+.iconoproyectos {
+padding:4px;
+width:50px;
+}
+
+td.input,tr.visible td.imgcell {
+padding:0;
+}
+
+td.materia {
+text-align:center;
+}
+td.nroBoletin, td.fechaIngreso, td.camaraOrigen{
+width: 11%;
+}
+.info td{
+padding: 8px;
+}
+
+td.meses {
+font-weight:bold;
+text-align:center;
+}
+
+td.nroboletin {
+color:#cc6600;
+}
+
+td.tit-ico {
+background:transparent url(http://www.votainteligente.cl/images/stories/legislativo/ley2.png) no-repeat scroll bottom left;
+height:46px;
+width:56px;
+}
+
+td.tit-m{
+background-color:#d4d4d4;
+padding:0;
+}
+
+
+/*  Para esquinas curvas: 
+ -moz-border-radius:10px; / Firefox 
+ / -webkit-border-radius:10px; / Safari and chrome
+  / -khtml-border-radius:10px; / Linux browsers
+   / border-radius:10px; / CSS3 / }
+   /behavior:url(border-radius.htc); / IEbrowsers (8 y anteriores)
+   */
+   
+
+
+
+td.tituloley {
+line-height:16px;
+padding:8px;
+text-align:left;
+width:45%;
+}
+
+th {
+font-size:8pt;
+font-weight:bold;
+padding:4px;
+}
+
+th.borde,th.borde-top,th.borde-bottom,th.borde-middle {
+background-color:#f3f3f3;
+font-weight:bold;
+text-align:center;
+}
+
+tr.destacada {
+background-color:#d4d4d4;
+border-bottom:2px solid #cc6600;
+border-top:2px solid #cc6600;
+}
+
+tr.even {
+background-color:#ee;
+}
+
+tr.odd {
+background-color:#ffffff;
+}
+
+tr.visible td.dist,tr.visible td.cir {
+font-weight:bold;
+width:20%;
+}
+
+tr.visible td.nombre {
+padding:2px 20px 2px 10px;
+}
+
+tr.visible td.p {
+width:15%;
+}

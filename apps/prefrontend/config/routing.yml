@@ -1,0 +1,53 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# proyectos por autor/partido y etapa
+ProyectoLey_filter:
+  url:      /ProyectoLey/:etapa/:start/:end/:materia/:id_parl/:id_part/:act
+  class:    sfDoctrineRoute
+  param:    { module: ProyectoLey, action: filter }
+  options:  { model: ProyectoLey, type: object }
+
+ProyectoLey_balancelist:
+  url:      /ProyectoLey/:proyecto/:anyo/:iniciativa/:camara/:materia/:etapa
+  class:    sfDoctrineRoute
+  param:    { module: ProyectoLey, action: balancelist }
+  options:  { model: ProyectoLey, type: object }
+
+# proyectos por etapa utilizado en Balance general
+ProyectoLey_situacion:
+  url:      /ProyectoLey/:etapa/:start/:end/:act
+  class:    sfDoctrineRoute
+  param:    { module: ProyectoLey, action: situacion }
+  options:  { model: ProyectoLey, type: object }
+
+# buscador por nro boletin, título y materia
+ProyectoLey_buscar:
+  url:      /ProyectoLey/:frase/:act
+  class:    sfDoctrineRoute
+  param:    { module: ProyectoLey, action: buscar }
+  options:  { model: ProyectoLey, type: object }
+
+Sesion_semana:
+  url:      /Sesion/:semana
+  class:    sfDoctrineRoute
+  param:    { module: Sesion, action: semana }
+  options:  { model: Sesion, type: object }
+
+static:
+  url:   /static/:content
+  param: { module: static, action: index }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: static, action: index, content: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

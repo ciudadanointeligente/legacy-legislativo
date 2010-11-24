@@ -1,0 +1,17 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Votainteligente - Monitoreo Parlamentario
+    author:       Carlos E. Martínez Ulloa (@cmartinez)
+    description:  Vota Inteligente es un proyecto de la fundación Ciudadano Inteligente, que busca promover el accountability y la transparencia
+    keywords:     vota, votainteligente, Vota Inteligente, elecciones, accountability, transparencia, rendición de cuentas, corrupción, corrupcion, presidenciales, acountability, acontability, piñ$
+    language:     es
+    robots:       index, follow
+
+  has_layout:     true
+  layout:         layout2

@@ -1,0 +1,297 @@
+body { font-size: 62.5%; font-family: arial, sans-serif; }
+/*demo styles*/
+table { border-collapse: collapse; margin-left: 0px; font-size: 1em;}
+table.accessHide { position: absolute; left: -999999px; }
+tr.odd{
+background-color: #ffffff;
+}
+tr.even{
+background-color: #ee;
+}
+td, th { 
+   text-align: center; 
+   border: 0px solid #ddd; 
+   padding:0px 0px; 
+  font-size: 1.2em; 
+   }
+th { background-color:#f4f4f4; }  
+td.hover { color: orange; }
+td.input { padding: 0; }
+td input, td input:focus { border: 1px solid orange; outline: none; padding: 2px; margin: 1px; width: 20px; }
+caption {margin: 0 0 .5em; font-size: 1.5em; font-weight: bold; }
+.visualize { margin: 5px 0 40px 30px; }
+h1.grafico{
+font-size:16px;
+font-weight:bold;
+margin: 5px 0px 0px 30px;
+}
+
+.editableNote { background: #FEFBE2; border: 1px solid #8CC264; padding: 10px; margin: 1.5em 0; font-size: 1.2em; }
+
+/*sample alternate styling for info block on Pie Chart */
+.visualize-pie .visualize-info { top: 10px; border: 0; right: auto; left: 10px; padding: 0; background: none; }
+.visualize-pie ul.visualize-title { font-weight: bold; border: 0; }
+.visualize-pie ul.visualize-key li { float: none; }
+
+
+
+/*option configurator thingy*/
+.chartConfiguratorThingy { border: 1px solid #ddd; padding: 10px; overflow: auto; display: none; }
+.chartConfiguratorThingy h2 { font-size: 1.4em; color: #666; }
+fieldset { margin: 5px 5px 5px 0; width: 45%; float: left; }
+legend { font-size: 1.2em; }
+.dependencies { padding: 15px; }
+label { width: 90px; display: inline-block; }
+/*--------------------------------TB BALANCE-----------------*/
+
+#tb_balance {
+background-color:#FFFFFF;
+border-bottom:5px solid #D4D4D4;
+border-right:4px solid #D4D4D4;
+float:none;
+width:90%;
+margin: 5px 30px 5px 30px;
+}
+
+#tb_balance a{
+color: #007aca;
+}
+#tb_balance tr.odd{
+background-color:#f3f3f3;
+
+}
+
+#tb_balance th{
+background-color:#D4D4D4;
+border: 4px solid #D4D4D4;
+padding: 0px; 
+}
+
+th.borde, th.borde-top, th.borde-bottom, th.borde-middle{
+font-weight:bold;
+text-align: center;
+background-color:#f3f3f3;
+
+}
+
+#tb_balance th.borde{
+border-width: 4px;
+border-color: #D4D4D4;
+}
+
+#tb_balance th.borde-top {
+background-color:#FFFFFF;
+border-color:#D4D4D4;
+border-width:4px 4px 0;
+}
+
+#tb_balance th.borde-bottom{
+background-color:#ffffff;
+border-width: 0px 4px 4px 4px;
+border-color: #D4D4D4;
+
+}
+
+#tb_balance th.borde-middle{
+background-color:#ffffff;
+border-width: 0px 4px 0px 4px;
+border-color: #D4D4D4;
+}
+
+/*--------------------------------TB proyectos-----------------*/
+#ls_proyectos {
+border:1px solid #D4D4D4;
+margin:0 15px 10px;
+max-height:330px;
+overflow-x:hidden;
+overflow-y:scroll;
+width:95%;
+
+}
+
+
+
+#ls_proyectos #tb_proyectos{
+background-color: #f3f3f3;
+line-height: 200%;
+border: 1px solid #bcbcbc;
+}
+
+.th_proyecto{
+background-color: #f3f3f3;
+width: 95%;
+border: 1px solid #d4d4d4;
+border-bottom: none;
+margin: 10px 15px 0px 15px;
+font-weight: bold;
+text-align: center;
+height: 18px;
+border-collapse:separate;
+}
+
+
+#tb_proyectos td, {
+padding: 10px 10px 10px 10px;
+}
+
+td.tituloley, td.etapa, td.nroboletin{
+padding: 8px;
+}
+
+tr.destacada{
+background-color:#d4d4d4;
+border-top: 2px solid #cc6600;
+border-bottom: 2px solid #cc6600;
+}
+/*---- individualización proyecto------*/
+td.iconoproyectos{
+width: 60px;
+}
+td.tituloley {
+line-height:16px;
+padding:8px;
+text-align:left;
+width:45%;
+}
+
+
+td.etapa{
+text-align:left;
+width:15%;
+}
+
+
+
+td.nroboletin{
+color: #cc6600;
+}
+
+th.titulos{
+font-weight:bold;
+padding: 2px; 
+text-align: center;
+width: 60px;
+height: 20px;
+}
+
+.tb_proyecto_detalle{
+font-size: 9px;
+width: 95%;
+margin: 15px;
+}
+
+
+.tb_proyecto_detalle h1{
+color:#2A2A2A;
+display:block;
+font-family:georgia;
+font-size:13px;
+font-weight:normal;
+line-height:120%;
+margin-bottom:0;
+padding-bottom:5px;
+padding-left:15px;
+padding-top:4px;
+text-align:left;
+}
+
+.tb_proyecto_detalle td, .tb_proyecto_detalle th, .tb_proyecto_detalle2 td, .tb_proyecto_detalle2 th{
+border: none;
+}
+
+.tb_proyecto_detalle tr.titulos2 th
+{color: white;
+background-color:#565656;
+font-weight:bold;
+font-size:10px;
+line-height: 110%;
+padding: 2px; 
+text-align: center;
+}
+
+.imgcell{
+text-align:center;
+vertical-align: center;
+}
+td.tit-ico{
+background: transparent url(http://www.votainteligente.cl/images/stories/legislativo/ley2.png) no-repeat scroll bottom left;
+width: 56px;
+height: 46px;
+}
+
+td.tit-tl{
+margin:0;
+padding:0;
+background: transparent url(http://www.votainteligente.cl/images/stories/legislativo/corner-tl.png) no-repeat scroll top left;
+width: 15px;
+height: 15px;
+}
+td.tit-tr{
+margin:0;
+padding:0;
+background: transparent url(http://www.votainteligente.cl/images/stories/legislativo/corner-tr.png) no-repeat scroll top right;
+width: 15px;
+height: 15px;
+}
+td.tit-m, td.tit-l, td.tit-r{
+background-color: #d4d4d4;
+padding:0px;
+}
+.info{
+font-size:10px;}
+.imgcell img.ico{
+height: 90%;
+width: 90%;
+}
+td.etapa{
+text-align: center;
+}
+td.materia{
+width: 35%;
+}
+.camaraOrigen .ico img{
+height: 60%;
+width: 60%;
+}
+
+
+.tb_proyecto_detalle tr.titulos3 th{
+color: white;
+background-color:#898989;
+font-weight:bold;
+font-size: 10px;
+padding: 0px; 
+text-align: center;
+height: 20px;
+}
+
+.tb_proyecto_detalle2 {
+background-color:#F3F3F3;
+height:50px;
+margin-bottom: 0px;
+margin-top:-3px;
+width:100%;
+}
+
+
+td.meses{
+text-align: center;
+font-weight: bold;
+}
+
+h1.grafico{
+font-size:16px;
+font-weight:bold;
+}
+
+.visible a{
+text-decoration: none;
+}
+.nombre{
+text-align: left;
+padding: 4px 5px 4px 4px;
+border-bottom: 1px dotted #cccccc;
+}
+
+/*-----------------------------------------------lista perfiles------------------*/
+

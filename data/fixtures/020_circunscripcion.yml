@@ -1,0 +1,60 @@
+# data/fixtures/circunscripcion.yml
+Circunscripcion:
+  1:
+    id_circunscripcion: 1
+    nombre: Tarapacá
+  2:
+    id_circunscripcion: 2
+    nombre: Antofagasta
+  3:
+    id_circunscripcion: 3
+    nombre: Atacama
+  4:
+    id_circunscripcion: 4
+    nombre: Coquimbo
+  5:
+    id_circunscripcion: 5
+    nombre: Quinta Cordillera
+  6:
+    id_circunscripcion: 6
+    nombre: Quinta Costa
+  7:
+    id_circunscripcion: 7
+    nombre: Santiago Poniente
+  8:
+    id_circunscripcion: 8
+    nombre: Santiago Oriente
+  9:
+    id_circunscripcion: 9
+    nombre: O'Higgins
+  10:
+    id_circunscripcion: 10
+    nombre: Maule Norte
+  11:
+    id_circunscripcion: 11
+    nombre: Maule Sur
+  12:
+    id_circunscripcion: 12
+    nombre: Biobío Costa
+  13:
+    id_circunscripcion: 13
+    nombre: Biobío Cordillera
+  14:
+    id_circunscripcion: 14
+    nombre: Araucanía Norte
+  15:
+    id_circunscripcion: 15
+    nombre: Araucanía Sur
+  16:
+    id_circunscripcion: 16
+    nombre: Los Ríos
+  17:
+    id_circunscripcion: 17
+    nombre: Los Lagos
+  18:
+    id_circunscripcion: 18
+    nombre: Aisén
+  19:
+    id_circunscripcion: 19
+    nombre: Magallanes
+

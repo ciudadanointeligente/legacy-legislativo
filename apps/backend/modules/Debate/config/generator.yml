@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Debate
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          debate
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:   Gestión de Debates
+        display: [=proyecto_ley, fecha, tema, camara, comision_sala]
+        sort:    [fecha, desc]
+      filter:
+        class: false
+      form:    ~
+      edit:    ~
+      new:     ~

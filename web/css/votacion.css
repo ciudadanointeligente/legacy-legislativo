@@ -1,0 +1,610 @@
+.tb_votacion{
+	width:80px;
+	color:#808080;
+	vertical-align:top;
+}
+
+.tb_votacion thead{
+height: 0px;}
+
+#votacion_barchart_21{
+	width:150px;
+	padding-left:-10px;
+}
+
+#votaciones h3.tit{
+color:white;
+background-color:#898989;
+display:block;
+font-family:arial,sans-serif;
+font-size:10pt;
+font-weight:bold;
+font-variant:small-caps;
+margin-top:25px;
+padding: 5px;
+letter-spacing:1.7px;
+}
+#votaciones h3.tit img {
+padding-right:10px;
+position:relative;
+vertical-align:middle;
+}
+
+.voto_titulo{
+color:#555555;
+font-size:1em;
+font-style:italic;
+font-weight:bold;
+padding:5px 4px 5px 10px;
+}
+
+.voto_nroboletin{
+	color:#898989;
+font-size:8pt;
+font-weight:normal;
+margin-top:-3px;
+padding-bottom:8px;
+white-space:pre;
+}
+
+.voto_sala{
+	color:white;
+	font-family:arial,sans-serif;
+	font-size:8pt;
+font-weight:bold;
+font-variant:small-caps;
+padding:3px 0px 0px 10px;
+text-align:left;
+background-color: #f08c17;
+}
+
+.voto_comision{
+border-radius: 5px 0px 0 0px;
+-moz-border-radius:5px 0px 0 0;
+-webkit-border-radius:5px 0px 0 0;
+-khtml-border-radius: 5px 0px 0 0;
+behavior:url(border-radius.htc);
+color:white;
+	font-family:arial,sans-serif;
+	font-size:8pt;
+font-weight:bold;
+font-variant:small-caps;
+padding:3px 0px 0px 10px;
+text-align:left;
+background-color: #003366;
+}
+
+.tb_votaciones_header{
+margin-bottom: 10px;
+}
+.tb_votaciones_header a{color: white;}
+.voto_materia{
+background-color:#e2e2e2;
+color:#808080;
+font-family:arial,sans-serif;
+font-size:8pt;
+font-weight:bold;
+height:18px;
+margin-bottom:10px;
+margin-top:25px;
+padding-bottom:2px;
+padding-left:8px;
+padding-top:5px;
+text-transform:uppercase;
+}
+
+.voto_fecha{
+color:#898989;
+font-family:arial,sans-serif;
+background-color:#E2E2E2;
+font-size:8pt;
+font-weight:bold;
+font-variant:small-caps;
+margin-bottom:8px;
+padding:3px 10px 0px 10px;
+text-align:right;
+height:20px;
+}
+
+#tb_voto_1{
+	float:left;
+	width:352px;
+	font-family:arial;
+}
+
+.voto_box_2 {
+border-left:2px solid #D9D9D9;
+padding-bottom:10px;
+}
+
+.voto_box_1{
+	color:#555555;
+	padding-bottom:8px;
+}
+
+.voto_tit_voto{
+	color:#555555;
+	font-family:arial,sans-serif;
+	background-color:#e2e2e2;
+	font-size:8pt;
+font-weight:bold;
+font-variant:small-caps;
+margin-bottom:10px;
+margin-top:25px;
+padding-bottom:2px;
+padding-top:5px;
+padding-right:4px;
+tex-align:right;
+}
+
+.voto_tit_resultado{
+	color:#555555;
+	font-family:arial,sans-serif;
+	background-color:#e2e2e2;
+	font-size:8pt;
+font-weight:bold;
+font-variant:small-caps;
+margin-bottom:10px;
+margin-top:25px;
+padding-bottom:2px;
+padding-top:5px;
+padding-right:4px;
+tex-align:right;
+}
+
+.voto_voto{
+	text-align:center;
+	padding-top:8px;
+}
+	
+.voto_resultado{
+	text-align:center;
+	padding-top:5px;
+}
+
+.voto_mas {
+font-size:7pt;
+padding-left:2px;
+padding-top:8px;
+}
+.voto_mas a{
+font-weight: normal;
+}
+
+#tb_voto_1 td{
+padding: 8px 8px 8px 10px;
+}
+
+#tb_votos {
+background-color:#FFFFFF;
+border-color: #D4D4D4 #D4D4D4;
+border-right:2px solid #D4D4D4;
+border-style:none solid solid;
+border-width:medium 2px 2px;
+display:block;
+float:left;
+}
+
+
+table#tb_votos {
+border-radius: 0px 0px 8px 8px;
+-moz-border-radius:0px 0px 8px 8px;
+-webkit-border-radius:0px 0px 8px 8px;
+-khtml-border-radius: 0px 0px 8px 8px;
+behavior:url(border-radius.htc);
+width: 460px;
+}
+#tb_votos td{
+vertical-align:top;
+}
+#tb_voto_2{
+
+}
+
+/* VOTACIONES POSICIONES */
+
+#tit_pos{
+	color:#555555;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:bold;
+	font-style:italic;
+	padding-top:12px;
+}
+	
+.activo{
+	position:absolute;
+	left: 93px;
+	top: 88px;
+}
+
+#si_activo{
+	position:absolute;
+	left: 21px;
+	top: 91px;
+}
+
+#no_activo{
+	position:absolute;
+	left: 21px;
+	top: 131px;
+}
+
+#aus_activo{
+	position:absolute;
+	left: 21px;
+	top: 171px;
+}
+
+#pareo_activo{
+	position:absolute;
+	left: 21px;
+	top: 211px;
+}
+
+#abs_activo{
+	position:absolute;
+	left: 21px;
+	top: 251px;
+}
+
+
+.par_si, .par_no, .par_aus, .par_pareo, .par-abs{
+background-color:#FFFFFF;
+font-size:10pt;
+height:275px;
+min-width:260px;
+overflow:auto;
+position:absolute;
+}
+
+
+.par_si table, .par_no table, .par_aus table, .par_pareo table, .par-abs table{
+width:260px;
+
+}
+
+
+
+.oddvoto, .evenvoto {
+font-family:Arial, Helvetica, sans-serif;
+font-size:8pt;
+color:#9C9D9F;
+padding: 4px;
+padding: 4px;
+	padding-top:4px;
+}
+
+.oddvoto a, .evenvoto a {
+color: #9C9D9F;
+}
+.oddvoto{
+	background-color:#f2f2f2;
+}
+
+.evenvoto{
+background-color:#ffffff;
+}
+
+
+.tb_votaciones_row{
+	border-right:2px solid #f2f2f2;
+	border-left:2px solid #f2f2f2;
+	border-bottom: 2px solid #f2f2f2;
+	vertical-align: top;
+}
+
+.tb_votaciones_row td{ 
+}
+.tb_votaciones_empty{
+	height:40px;
+}
+
+.tb_votaciones_row #voto{
+		background-color:white;
+}
+.tb_votaciones_row .votacion_barchart .visualize {
+		background-color:white;
+		border:4px solid white;
+}
+
+.tb_votaciones_row #tb_voto_1 td{
+	border-right:none;
+	border-left:none;
+	border-bottom:2px dashed #f2f2f2;
+}
+
+#vtab_22{
+	border-bottom:4px solid white;
+}
+
+
+/********* VERTICAL TAB *********/
+.vtab {
+    margin: auto;
+    width: 350px;
+	float: left;
+    height: 100%;
+}
+.vtab > ul > li {
+    width: 110px;
+    height: 40px;
+    background-color: #ffffff;
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    border: 1px solid #fff;
+    position: relative;
+    border-right: none;
+    opacity: .3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+}
+.vtab > ul > li.votos_si {
+    background: url('../images/votacion/1si_on.png') no-repeat center center;
+}
+.vtab > ul > li.votos_no {
+    background: url('../images/votacion/2no_on.png') no-repeat center center;
+}
+.vtab > ul > li.votos_aus {
+    background: url('../images/votacion/3aus_on.png') no-repeat center center;
+}
+.vtab > ul > li.votos_pareo {
+    background: url('../images/votacion/4pareo_on.png') no-repeat center center;
+}
+.vtab > ul > li.votos_abs {
+    background: url('../images/votacion/5abs_on.png') no-repeat center center;
+}
+.vtab > ul > li.selected {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    position: relative;
+}
+.vtab > ul {
+    float: left;
+    width: 110px;
+    text-align: left;
+    display: block;
+    margin: auto 0;
+    padding: 0;
+    position: relative;
+    top: 30px;
+}
+
+.vtab > div {
+    margin-left: 83px;
+    border: 2px solid #f2f2f2;
+    min-height: 300px;
+	padding-top: 5px;
+    position:relative;
+    z-index: 9;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-topleft: 5px;
+	width: 260px;
+}
+.vtab  div  h4 {
+    color: #898989;
+    font-size:9pt;
+    border-bottom: 2px dashed #f2f2f2;
+	font-weight:bold;
+}
+
+@charset "UTF-8";
+/* CSS Document */
+.votacion {
+background:none repeat scroll 0 0 #FFFFFF;
+border-color:#D4D4D4;
+border-style:none none none dashed;
+border-width:2px;
+clear:left;
+display:block;
+float:right;
+margin:-10px -10px 0 20px;
+width:290px;
+}
+.votacion table{
+padding: 10px;
+}
+.mas {
+clear:both;
+display:block;
+float:right;
+font-family:arial;
+font-size:11px;
+font-weight:bold;
+padding-bottom:5px;
+padding-right:10px;
+text-align:right;
+width:290px;
+}
+#tb_debate .hd{
+	color:#808080;
+	width:200px;
+	background-color:#f2f2f2;
+}
+
+
+.vota{	color:#808080;
+font-family:arial;
+font-size:10pt;
+font-weight:bold;
+padding:1px 0 3px 3px;
+width:280px;}
+.vota img {padding-right:5px;vertical-align:bottom;}
+
+
+
+#mas{text-align:right;}
+
+.no{
+	color:#fd8d2a;
+	font-weight:bold;
+	height:18px;
+	vertical-align:top;
+	padding-left:20px;
+	text-align: left;
+}
+
+.si{
+	color:#a8d342;
+	font-weight:bold;
+	height:18px;
+	vertical-align:top;
+	padding-left:20px;
+	text-align: left;
+}
+
+#grafico{
+	text-align:center;
+}
+
+.sino{
+	text-decoration:underline;
+	width:20px;
+	text-align:left;
+}
+
+.variables{
+
+	color:#808080;
+	height:18px;
+	width:25px;
+	padding-left:4px;
+}
+
+
+
+/*------------TABLA DEBATE------------------------*/
+#tb_debate,.debate {
+float:left;
+overflow:hidden;
+}
+
+.debate_docs {
+float:left;
+margin-bottom:4px;
+}
+
+.debate_fecha {
+color:white;
+float:right;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+letter-spacing:1.5px;
+margin-right:4px;
+padding-top:18px;
+}
+
+.debate_sala {
+color:white;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-variant:small-caps;
+font-weight:bold;
+letter-spacing:2px;
+padding-top:18px;
+text-align:left;
+}
+
+.debate_tit_comision, .debate_tit_sala  {
+height:25px;
+padding-bottom:10px;
+}
+.debate_tit_comision {background-color:#003366;}
+.debate_tit_sala {background-color:#FD8D2A;}
+/*---------------------debate por montse*/
+
+.debate_cuerpo {
+background-color:#F2F2F2;
+font-size:12px;
+padding:10px;
+}
+
+.debate_datitos{text-align:left;}
+.debate_datitos p{text-align:justify;}
+
+.debate_datitos span{color:#555555; display:block; width:300px;}
+.votacion .nota, .votacion p, .votacion .tipo{padding-left: 10px;}  
+.votacion p{padding-right: 10px;}
+.votacion .tipo {
+font-family: arial;
+font-style:oblique;
+font-weight: bold;
+padding-top: 10px;
+}
+td.voto{
+padding: 0px 10px;
+font-variant:small-caps;
+}
+
+.vota_asterisco{ font-size:1px; background-image: url(../images/proyectoley//asterisco.png);}
+.tb_votacion_botones{ 
+border-top:2px dashed #D4D4D4;
+clear:right;
+float:right;
+margin-left:20px;
+}
+
+.voto_boton_comision{
+float: left;
+padding:5px 5px 0 10px;
+}
+.voto_boton_comision img{
+padding-right: 5px;}
+.voto_boton_comision a{
+text-decoration: none;
+font-family:arial;
+font-weight:bold;
+font-size: 11px;
+color: #003366;}
+.voto_boton_comision a:hover{
+text-decoration:underline;}
+
+#votaciones .voto {
+background-color:#E2E2E2;
+border-top:2px dotted #FFFFFF;
+clear:both;
+display:block;
+float:left;
+padding:10px 8px 20px;
+width:460px;
+}
+.voto_semanas{
+float:right;
+padding-top:10px;
+} 
+.voto_box{
+background-color:#FFFFFF;
+width: 460px;
+
+
+}
+.voto .voto_box {
+border-radius: 5px 5px 0 0px;
+-moz-border-radius:5px 5px 0 0;
+-webkit-border-radius:5px 5px 0 0;
+-khtml-border-radius: 5px 5px 0 0;
+behavior:url(border-radius.htc);
+}
+/* VOTACION MOMENTANEO
+#tb_votos {
+border-bottom:2px solid #F2F2F2;
+display:block;
+float:left;
+background-color:#FFFFFF;
+}
+
+
+.voto {
+background-color:#E2E2E2;
+border-top:2px dotted #FFFFFF;
+clear:both;
+display:block;
+float:left;
+padding:5px;
+}
+#tb_voto_1 thead
+*/

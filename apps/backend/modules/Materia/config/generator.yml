@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Materia
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          materia
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:   Gestión de Materias
+        display: [=nombre, super_materia]
+        sort:    [nombre, asc]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

@@ -1,0 +1,157 @@
+div#header {
+clear:both;
+float:none;
+height:126px;
+margin:auto;
+padding:0;
+position:relative;
+width:950px;
+z-index:10;
+}
+
+div#toolbar {
+	width: auto;  
+	height: 0px;
+	padding: 0px 5px 0px 5px;
+	clear: both;  
+	overflow: hidden;
+	font-size: 105%;
+	line-height: 100%;
+}
+
+div#date {
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+
+div#topmenu {
+	margin: 0px 10px 0px 0px;
+	float: left;
+}
+
+div#headerbar {
+	width: auto;  
+	height: 93px;
+	padding: 0px 5px 0px 5px;
+	clear: both;  
+	overflow: hidden;
+	background: url(../images/head_bg.png) 0 0 repeat-x;
+
+}
+div#headerbar div.module {
+float:right;
+margin-left:20px;
+}
+
+div#menubar {
+	width: auto;  
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	clear: both;  
+	position: relative;
+}
+
+div#menubar div.menubar-m {
+	height: 33px;
+	background: url(../images/menubar_m.png) 0 0 repeat-x; /* ie6png:scale */
+}
+
+div#menubar div.menubar-l {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 25px;
+	height: 33px;
+	background: url(../images/menubar_m.png) 0 0 repeat-x; /* ie6png:scale */
+}
+
+div#menubar div.menubar-r {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 25px;
+	height:33px;
+	background: url(../images/menubar_m.png) 0 0 repeat-x; /* ie6png:scale */
+}
+
+
+div#menu {
+	position: absolute;
+	top: 93px;
+	left: 400px;
+	z-index: 11;
+	height: 33px;
+	color:#000000;
+}
+
+
+div#logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+div#search {
+	position: absolute;
+	top: 93px;
+	right: 10px;
+	z-index: 12;
+	width: 195px;  
+	height: 26px;
+	padding: 7px 0px 0px 7px;
+	
+}
+
+div#banner {
+	position: absolute;
+	top: 15px;
+	right: -15px;
+	width: 0px;
+	z-index: 3;
+}
+
+
+div#footer {
+background:#F3F3F3 none repeat scroll 0 0;
+clear:both;
+color:#323232;
+margin:auto;
+min-height:50px;
+padding:0 5px;
+text-align:center;
+width:950px;
+margin-top:15px;
+}
+
+div#footer a:link, div#footer a:visited {
+	color: #323232;
+}
+div#footer td{
+border: 2px solid #f3f3f3;
+
+}
+div#footer table{
+height: 100px;
+margin-bottom:10px;
+}
+
+div#footer a:hover {
+	color: #323232;
+}
+
+div#footer a.anchor {
+	margin: 0px 0px 0px 0px;
+	width: 30px;
+	height: 5px;
+	background: url(../images/footer_anchor.png) 0 0 no-repeat;
+	display: block;
+	float: right;
+	text-decoration: none;
+}
+ul.menu{
+float: left;
+}
+.menu li{
+float: left;
+}

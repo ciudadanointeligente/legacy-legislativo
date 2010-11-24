@@ -1,0 +1,33 @@
+.visualize { padding: 20px 40px 20px; }
+
+.visualize canvas { 
+border-left:2px solid #aaaaaa;
+border-bottom:2px solid #aaaaaa;
+margin-top: -5px; 
+margin-left: -20px;
+ 
+}
+
+.visualize-labels-x, .visualize-labels-y { top: 10px; left: 20px; z-index: 10; }
+
+.visualize .visualize-info { border: 0; position: static;  opacity: 1; background: none; }
+
+.visualize ul.visualize-key { visibility:hidden; }
+
+.votacion_barchart .visualize{
+	background-color:#f2f2f2;
+	 border: 8px solid #f2f2f2;
+}
+
+.votacion_barchart .label{
+	font-size:8pt;
+}
+
+.tb_votacion{
+	float:left;
+	
+}
+.tb_voto_hide{ visibility:hidden; }
+
+
+

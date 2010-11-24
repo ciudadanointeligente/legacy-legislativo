@@ -1,0 +1,62 @@
+.proyecto
+{
+ width: 700px;
+ margin: 0 auto;
+}
+
+.proyecto td
+{
+  padding: 12px 15px;
+  border-bottom: 1px dotted #999;
+  width: 600px;
+}
+
+.proyecto .nroboletin
+{
+  color: #524F46;
+  font-weight: bold;
+}
+
+#proyecto_actions
+{
+  margin: 3px 0;
+  padding: 7px;
+  padding-left: 0;
+  background-color: #ffc;
+  list-style: none;
+}
+
+#proyecto_actions ul
+{
+  display: inline;
+}
+
+#proyecto_actions h3
+{
+  display: inline;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 7px;
+  background-color: #eee;
+}
+
+#proyecto_actions li
+{
+  display: inline;
+  margin-right: 7px;
+}
+
+.expires_soon
+{
+  color: red;
+}
+
+
+
+.meta
+{
+  float: right;
+  color: #77766F;
+  margin-right: 10px;
+  font-size: 85%;
+}

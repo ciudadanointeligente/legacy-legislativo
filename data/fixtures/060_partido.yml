@@ -1,0 +1,168 @@
+# data/fixtures/partido.yml
+Partido:
+  DC:
+    id_partido: 1
+    nombre: Democracia Cristiana
+    sigla: DC
+    fecha_nacimiento: 28 de julio de 1957
+    mesa_adulta: P: Juan Carlos Latorre. 1° vicepresidente: Renán Fuentealba. Secretario: Moisés Valenzuela.
+    mesa_juventud: P: Héctor Garate. 
+    nro_diputados_2010: 19
+    nro_senadores_2010: 9
+    direccion: Alameda 1460, Santiago
+    telefono: Presidencia: 3760136
+    mail: 
+    web: www.pdc.cl
+    historia: Los orígenes de la Democracia Cristiana se remontan a fines del siglo XIX con la publicación de la primera encíclica social de la Iglesia denominada Rerum Novarum,  doctrina que se inició como un llamado a los cristianos a participar activamente en la construcción de un mundo más justo para los trabajadores y los humildes, en una época de marcada insensibilidad de la elite gobernante y los partidos políticos tradicionales. No fue hasta el año 1957 que la DC se funda oficialmente producto de la fusión de la Falange Nacional y el Partido Conservador Social Cristiano, junto a pequeñas agrupaciones independientes. Las figuras políticas más destacadas en la historia de este partido en Chile han sido los ex Presidentes de la República Eduardo Frei Montalva (período 1964-1970), Patricio Aylwin Azócar (período 1990-1994) y Eduardo Frei Ruíz-Tagle (1994-1998).
+    principios: Declaración de principios de la Democracia Cristiana en sitio Web del Congreso en http://www.bcn.cl/erecomen/pp/erecomen/pp/pdc/document_view
+  PPD:
+    id_partido: 2
+    nombre: Partido por la Democracia
+    sigla: PPD
+    fecha_nacimiento: 15 de diciembre de 1987
+    mesa_adulta: P: Pepe Auth. 1°vicepresidente: Guido Girardi. Secretario: Alejandro Bahamondes
+    mesa_juventud: P: Nicolás Navarrete
+    nro_diputados_2010: 19
+    nro_senadores_2010: 4
+    direccion: Santo Domingo 1828, Santiago
+    telefono: Mesa central: 671232
+    mail: 
+    web: www.ppd.cl
+    historia: Al llegar la década de los 80' el Gobierno del ex General Augusto Pinochet provoca el descontento de un grupo de partidos opositores a este régimen militar que buscaban restituir la democracia en Chile. Es así como nacen la Alianza Democrática, que reúne fundamentalmente a demócrata cristianos, radicales y socialistas; el Movimiento Democrático Popular, que agrupa a comunistas y socialistas y finalmente, el Bloque Socialista, que agrupa a socialistas, Mapu, Izquierda Cristiana. La unión de la mayoría de estos partidos a fines de la década de los ochenta dará origen a la Concertación de Partidos Por La Democracia. Dentro de la historia del partido la figura más reconocida es la del ex Presidente de la República Ricardo Lagos Escobar, quien gobernó entre los años 2000 y 2006.
+    principios: Declaración de principios del Partido Por La Democracia en sitio Web del Congreso en http://www.bcn.cl/erecomen/pp/ppd/document_view
+  PRI:
+    id_partido: 3
+    nombre: Partido Regionalista de los Independientes
+    sigla: PRI
+    fecha_nacimiento: 4 de julio de 2006
+    mesa_adulta: P: Adolfo Zaldívar. 1°vicepresidente: Jaime Mulet. Secretario: Rodrigo de Aguirre.
+    mesa_juventud: P: Juan Carlos Martínez
+    nro_diputados_2010: 3
+    nro_senadores_2010: 0
+    direccion: 
+    telefono: 
+    mail: informacionpri@gmail.com
+    web: http://www.chilepri.cl/
+    historia: El año 2002 se inscribe en el Servicio Electoral, la Alianza Nacional de los Independientes un partido de carácter regionalista cuyo objetivo era evitar el centralizado panorama político nacional. En el 2003 el ex miembro de la Concertación, Jorge Soria, funda otro partido independiente con el nombre de Partido de Acción Regionalista de Chile cuya área de acción era el extremo norte de Chile. La similitud ideológica de estos partidos produjo su unificación, fundándose en el 2006, el Partido Regionalista Independiente.
+    principios: 
+  PRSD:
+    id_partido: 4
+    nombre: Partido Radical Social Democráta
+    sigla: PRSD
+    fecha_nacimiento: PR: 27 de diciembre de 1863 PRSD: 18 de agosto de 1994
+    mesa_adulta: P: Fernando Meza. 
+    mesa_juventud: P: Cristián Fernández
+    nro_diputados_2010: 5
+    nro_senadores_2010: 1
+    direccion: Londres 57, Santiago
+    telefono: Sede central: 633692
+    mail: 
+    web: www.partidoradical.cl
+    historia: El partido radical se funda en 1863 perteneciendo a lo largo de su historia a conglomerados políticos como la Alianza Liberal, el Frente Popular,  la Unidad Popular y la Concertación de Partidos Por la Democracia. Fue en 1994 cuando se fusiona con el Partido Social Democracia de Chile, debido a que ambas colectividades políticas tenían los suficientes escaños en el parlamento para subsistir por sí mismo, conformándose así el Partido Radical Social Demócrata . El surgimiento de este partido se basó en una doctrina política de un régimen social, económico y político fundado en el efectivo ejercicio del poder por el pueblo y el control democrático del aparato productivo e inspirado en los principios de libertad, igualdad, solidaridad, participación y bienestar.
+    principios: Declaración de principios del Partido Radical Social Demócrata en sitio Web del Congreso en http://www.bcn.cl/erecomen/pp/prsd/document_view
+  PS:
+    id_partido: 5
+    nombre: Partido Socialista de Chile
+    sigla: PS
+    fecha_nacimiento: 19 de abril de 1933
+    mesa_adulta: P: Camilo Escalona. 1° vicepresidente: Isabel Allende. Secretario: Marcelo Schilling
+    mesa_juventud: P: Daniel Melo
+    nro_diputados_2010: 11
+    nro_senadores_2010: 5
+    direccion: París 873, Santiago
+    telefono: Mesa central: 956970
+    mail: comunicaciones@pschile.cl 
+    web: www.pschile.cl
+    historia: El Partido Socialista se fundó en Chile el año 1933 a raíz de La Gran Depresión que produjo cesantía y una gran crisis económica. Esto llevó a los sectores medios y populares del país, lo más afectados por la crisis, a congeniar con las ideas socialistas formándose el Partido Socialista de Chile. Uno de los personajes políticos más recordados de la historia de este partido en Chile fue el ex Presidente, Salvador Allende Gossens quien permaneció 3 años en el poder (1970-1973), siendo revocado de su mandato por medio de un Golpe de Estado organizado por las Fuerzas Armadas. Otra importante figura política de este partido fue la ex Presidenta Michelle Bachelet Jeria (período 2006-2010) quien ha sido en la primera y única mujer a la cabeza del Gobierno en Chile.
+    principios: Declaración de principios del Partido Socialista en sitio Web del Congreso en http://www.bcn.cl/erecomen/erecomen/pp/erecomen/pp/ps/document_view
+  RN:
+    id_partido: 6
+    nombre: Renovación Nacional
+    sigla: RN
+    fecha_nacimiento: 29 de abril de 1987
+    mesa_adulta: P: Carlos Larraín. Vicepresidente: Baldo Prokurika. Secretario: Bruno Baranda
+    mesa_juventud: P: Nicolas Duhalde
+    nro_diputados_2010: 18
+    nro_senadores_2010: 9
+    direccion: Antonio Varas 454, Providencia
+    telefono: Mesa central: 799 42
+    mail: 
+    web: www.rn.cl
+    historia: Renovación Nacional nace el año 1987 siendo sus fundadores procedentes del Movimiento de Unión Nacional, Unión Demócrata Independiente (UDI), Frente Nacional del Trabajo y antiguos militantes y partidarios del Partido Nacional y de la Democracia Cristiana que colaboraron con el régimen militar. Aunque RN se perfiló como un partido favorable a la transición demócratica, los votos de sus militantes en el plesbicito de 1988 estaban divididos, apoyando algunos al Gobierno de Pinochet y otros la opción No. El mayor cargo de Gobierno alcanzado por un político de Renovación Nacional, fue en enero del 2010, cuando Sebastián Piñera Echeñique fue escogido Presidente de la República, tras 20 años de gobiernos de la Concertación.
+    principios: Declaración de principios de Renovación Nacional en sitio Web del Congreso en http://www.bcn.cl/erecomen/pp/erecomen/pp/rn/document_view
+  UDI:
+    id_partido: 7
+    nombre: Unión Democráta Independiente
+    sigla: UDI
+    fecha_nacimiento: 24 de septiembre de 1983
+    mesa_adulta: P: Juan Antonio Coloma. Vicepresidente: Carlos Villarroel. Secretario: Victor Peréz
+    mesa_juventud: P: Tomás Hoffmann
+    nro_diputados_2010: 37
+    nro_senadores_2010: 7
+    direccion: Suecia 286, Providencia
+    telefono: Mesa Central: 241420
+    mail: udiweb@udi.cl 
+    web: www.udi.cl
+    historia: Partido fundado en 1983 por Jaime Guzmán Errázuriz, que nace con el objetivo de ser una agrupación popular, de inspiración cristiana y que apoya el sistema social de mercado. Sin embargo, sus orígenes se remontan al movimiento gremial nacido en 1966 que se caracterizaban por promover la independencia y despolitización de los grupos intermedios no políticos de la sociedad. En la actulidad conforma junto a Renovación Nacional y Chile Primero, la Coalición por el Cambio. De sus figuras políticas ha destacado el nombre de Joaquín Lavín, quien se presentó dos veces como candidato a la Presidencia siendo vencido en ambas oportunidades, pero logrando un gran porcentaje de votación para las presidenciales del 2000, ocasión en la que fue derrota por Ricardo Lagos Escobar.
+    principios: Declaración de principios de Unión Demócrata Independiente en sitio Web del Congreso en http://www.bcn.cl/erecomen/pp/udi/document_view
+  CHILE 1:
+    id_partido: 8
+    nombre: Chile primero
+    sigla: CHILE 1
+    fecha_nacimiento: 12 de mayo de 2007
+    mesa_adulta: P: Alberto Precht. 1 vicepresidente: Juan Carlos Schmidt. Secretario: Eduardo Bastías
+    mesa_juventud: 
+    nro_diputados_2010: 0
+    nro_senadores_2010: 0
+    direccion: Moneda 812, Santiago
+    telefono: 
+    mail: contacto@chileprimero.cl
+    web: http://www.chileprimero.cl/
+    historia: Chile Primero fue fundado el año 2007 por el ex senador y otrora militante PPD, Fernando Flores, como un nuevo referente social y político con la intención de diferenciarse de las tendencias izquierda, centro y derecha. En un comienzo, la directiva provisoria de este partido estaba constituida por políticos de basta trayectoria mientras se conformaba legalmente ante el servicio electoral. El 2009 la nueva directiva se compone de, en su mayoría, jóvenes y profesionales que promedian los 30 años de edad.
+    principios: Manifiesto Fundacional de Chile Primero en http://www.chileprimero.cl/content/view/480862/
+  MAS:
+    id_partido: 9
+    nombre: Movimiento Amplio Social
+    sigla: MAS
+    fecha_nacimiento: 15 de marzo de 2008
+    mesa_adulta: P: Fernando Zamorano. Vicepresidenta: Alejandra Bottinelli. S: Felipe Hazbún
+    mesa_juventud: P: Patricio Arriagada
+    nro_diputados_2010: 0
+    nro_senadores_2010: 1
+    direccion: Alonso Ovalle 726, Santiago
+    telefono: Mesa Central: 632334
+    mail: secretariamesamas@gmail.com 
+    web: http://www.movimientoampliosocial.cl/
+    historia: El MAS nace el año 2008 fundado por el senador Alejandro Navarro, quien descontento con el proyecto de programa del ex candidato presidencial, Marco Enríquez Ominami, decide crear un partido más cercano a los principios socialistas. A la fecha el MAS está inscrito en la I Región de Tarapacá, II Región de Antofagasta, III Región de Atacama, VIII Región del Biobío, XI Región Aisén del General Carlos Ibáñez del Campo y la Región Metropolitana de Santiago.
+    principios: Declaración de principios del Movimiento Amplio Social en http://www.masnuble.cl/updocumentos/Dec_Principios.pdf
+  IND:
+    id_partido: 10
+    nombre: Independientes
+    sigla: IND
+    fecha_nacimiento: 
+    mesa_adulta: 
+    mesa_juventud: 
+    nro_diputados_2010: 5
+    nro_senadores_2010: 2
+    direccion: 
+    telefono: 
+    mail: 
+    web: 
+    historia: 
+    principios: 
+  PC:
+    id_partido: 11
+    nombre: Partido Comunista
+    sigla: PC
+    fecha_nacimiento: 4 de Julio de 1912
+    mesa_adulta: P: Guillermo Teillier. S: Lautaro Carmona
+    mesa_juventud: P: Oscar Aroca
+    nro_diputados_2010: 3
+    nro_senadores_2010: 0
+    direccion: Vicuña Mackena 31
+    telefono: Mesa central:   2222
+    mail: 
+    web: www.pcchile.cl
+    historia: El Partido Comunista de Chile, que tiene sus orígenes en el Partido Obrero Socialista, se funda oficialmente en 1922 en un contexto de crisis económica y social bajo el Gobierno de Arturo Alessandri Palma. La premisa del movimiento comunista chileno se entiendo, en ese tiempo, como la toma del poder por parte del proletariado en alianza con los campesinos. En la década de los 80' el PC conformó junto a diversos partidos de la izquierda política chilena el Movimiento Democrático Popular, una alianza alternativa a la centro izquierdista Alianza Democrática pero con la cual representaban la oposición al Gobierno militar de Augusto Pinochet. El año 2009 el PC tuvo el importante logro de tener a 3 diputados en el Congreso tras 37 años sin representación en el parlamento. Gladys Marín fue una de las grandes representantes de este partido en Chile, comenzando como secretaria general del partido en 1994 hasta el 2005, año en que murió siendo presidenta de la colectividad.
+    principios: Declaración de principios del Partido Comunista en http://www.bcn.cl/erecomen/pp/pp/pcch
+

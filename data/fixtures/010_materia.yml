@@ -1,0 +1,132 @@
+# data/fixtures/materia.yml
+Materia:
+  Defensa:
+    id_materia: 1
+    nombre: Defensa
+    super_materia: Defensa
+  Impuestos:
+    id_materia: 2
+    nombre: Impuestos
+    super_materia: Hacienda, Economía, Impuesto y Empresas
+  Economía:
+    id_materia: 3
+    nombre: Economía
+    super_materia: Hacienda, Economía, Impuesto y Empresas
+  Empresas:
+    id_materia: 4
+    nombre: Empresas
+    super_materia: Hacienda, Economía, Impuesto y Empresas
+  Hacienda:
+    id_materia: 5
+    nombre: Hacienda
+    super_materia: Hacienda, Economía, Impuesto y Empresas
+  Relaciones Exteriores:
+    id_materia: 6
+    nombre: Relaciones Exteriores
+    super_materia: Relaciones Exteriores
+  Administración:
+    id_materia: 7
+    nombre: Administración
+    super_materia: Administración, Regionalización, Zonas Extremas e Indígenas
+  Asunto Indígena:
+    id_materia: 8
+    nombre: Asunto Indígena
+    super_materia: Administración, Regionalización, Zonas Extremas e Indígenas
+  Zona Extrema:
+    id_materia: 9
+    nombre: Zona Extrema
+    super_materia: Administración, Regionalización, Zonas Extremas e Indígenas
+  Regionalización:
+    id_materia: 10
+    nombre: Regionalización
+    super_materia: Administración, Regionalización, Zonas Extremas e Indígenas
+  Salud:
+    id_materia: 11
+    nombre: Salud
+    super_materia: Salud
+  Minería:
+    id_materia: 12
+    nombre: Minería
+    super_materia: Medio Ambiente, Recursos Naturales y Derechos Animales
+  Medio Ambiente:
+    id_materia: 13
+    nombre: Medio Ambiente
+    super_materia: Medio Ambiente, Recursos Naturales y Derechos Animales
+  Derechos Animales:
+    id_materia: 14
+    nombre: Derechos Animales
+    super_materia: Medio Ambiente, Recursos Naturales y Derechos Animales
+  Vivienda:
+    id_materia: 15
+    nombre: Vivienda
+    super_materia: Obras Públicas, Vivienda, Telecomunicaciones y Transporte
+  Obras Públicas:
+    id_materia: 16
+    nombre: Obras Públicas
+    super_materia: Obras Públicas, Vivienda, Telecomunicaciones y Transporte
+  Transporte:
+    id_materia: 17
+    nombre: Transporte
+    super_materia: Obras Públicas, Vivienda, Telecomunicaciones y Transporte
+  Telecomunicaciones:
+    id_materia: 18
+    nombre: Telecomunicaciones
+    super_materia: Obras Públicas, Vivienda, Telecomunicaciones y Transporte
+  Trabajo:
+    id_materia: 19
+    nombre: Trabajo
+    super_materia: Trabajo y Protección Social
+  Protección Social:
+    id_materia: 20
+    nombre: Protección Social
+    super_materia: Trabajo y Protección Social
+  Cultura:
+    id_materia: 21
+    nombre: Cultura
+    super_materia: Educación, Deportes y Cultura
+  Educación:
+    id_materia: 22
+    nombre: Educación
+    super_materia: Educación, Deportes y Cultura
+  Deportes:
+    id_materia: 23
+    nombre: Deportes
+    super_materia: Educación, Deportes y Cultura
+  Transparencia:
+    id_materia: 24
+    nombre: Transparencia
+    super_materia: Transparencia y Probidad
+  Probidad:
+    id_materia: 25
+    nombre: Probidad
+    super_materia: Transparencia y Probidad
+  Elecciones:
+    id_materia: 26
+    nombre: Elecciones
+    super_materia: Participación y Elecciones
+  Participación:
+    id_materia: 27
+    nombre: Participación
+    super_materia: Participación y Elecciones
+  Familia:
+    id_materia: 28
+    nombre: Familia
+    super_materia: Familia
+  Seguridad:
+    id_materia: 29
+    nombre: Seguridad
+    super_materia: Seguridad
+  Derechos Fundamentales:
+    id_materia: 30
+    nombre: Derechos Fundamentales
+    super_materia: Derechos Fundamentales, Nacionalidad, Ciudadanía
+  Nacionalidad:
+    id_materia: 31
+    nombre: Nacionalidad
+    super_materia: Derechos Fundamentales, Nacionalidad, Ciudadanía
+  Reconstrucción:
+    id_materia: 32
+    nombre: Reconstrucción Terremoto
+    super_materia: Reconstrucción Terremoto
+
+

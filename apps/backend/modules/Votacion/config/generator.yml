@@ -1,0 +1,24 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Votacion
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          votacion
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title:   Gestión de Votaciones
+        display: [=name, fecha, camara, tipo, articulo, materia, resultado, visible, id_parlamento]
+        sort:    [fecha, desc]
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+color:#808080;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:0.8em;
+line-height:150%;
+}
+p{
+color:#808080;
+font-family:Georgia,"Times New Roman",Times,serif;
+font-size:1.0em;
+line-height:160%;
+margin: 0px;
+}
+
+.fci_dentro{
+background-color:#FF6633;
+margin-top: -25px;
+}
+.fci_cruz{
+background-image: url("http://legislativo.votainteligente.cl/css/pdfla/fondo_cruz2.jpg");
+font-family:Arial, Helvetica, sans-serif;
+background-repeat: repeat;
+background-position:top right; 
+padding: 5px; 
+  }
+
+.fci_Estilo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+.fci_Estilo2 {
+	
+}
+
+fci_formulario{
+}
+.fci_test{
+	color: #660000;
+}
+.node h2 a{
+color:#FFFFFF;
+background-color:#FF6633;
+display:block; 
+padding:6px;
+margin: 0px;
+}
+
+#center h2 a{
+background-color:#bcbec0;
+color:#FFFFFF;
+display:block;
+font-family:arial;
+font-size:80%;
+margin:0;
+padding:6px;
+}
+
+h2{
+margin-top: 0px;
+}
+
+.node h2 a, #center h2 a {
+background-color:#bcbec0;
+color:#FFFFFF;
+display:block;
+font-family:arial;
+font-size:80%;
+margin:0;
+padding:6px;
+}
+
+.fci_content_blanco{
+margin: 10px;
+background-color:#FFFFFF;
+display:block;
+min-height: 60px;
+padding: 10px;
+}
+.fci_menu a:link, .fci_menu a:visited {
+color: #006699;
+}
+.fci_menu a.fci_adestacado{
+color:#FF3300;
+}
+
+.fci_menu a:link .fci_adestacado{
+color:#FF3300;
+}
+.fci_menu a:hover{
+color:#333333;
+}
+.fci_menu td{
+text-align: center;
+}
+
+.fci_floatleft {
+background-color:#F3F3F3;
+float:left;
+margin:5px 0 15px;
+padding:15px;
+}
+
+.fci_menufichas{
+float: left; 
+width: 24%;
+min-height:400px;
+}
+img .fci_header{
+border-bottom: 2px solid #ff3300;
+}
+.fci_marco{
+margin:-25px 10px 20px 170px;
+
+}
+.fci_marco .Estilo5{
+color:#FF3300;
+float:left;
+}
+.fci_marco .Estilo1{
+float:left;
+}
+.fci_marco img{
+float: left;
+clear: none; 
+}

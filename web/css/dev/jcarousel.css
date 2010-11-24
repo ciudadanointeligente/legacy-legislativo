@@ -1,0 +1,114 @@
+#jCarouselLiteDemo {
+color:#000000;
+float:left;
+}
+
+#jCarouselLiteDemo .carousel  {
+    float:left;
+    position: relative;     
+
+}
+#jCarouselLiteDemo .digg {
+    position: absolute;
+    left: 610px;
+    top: 110px;
+}
+#jCarouselLiteDemo .main {
+float:left;
+   
+}
+
+#jCarouselLiteDemo .demo em {
+    color: #FF3300;
+    font-weight: bold;
+    font-size: 60%;        
+    font-style: normal;
+}
+#jCarouselLiteDemo .carousel button { /*Don't remove this. we still use this for individual demos. only the front pages use images as of now*/
+    float: left;
+}              
+#jCarouselLiteDemo .carousel a.prev, #jCarouselLiteDemo .carousel a.next {
+    display: block;
+    float: left;
+    width: 25px;
+	height:30px;
+    text-decoration: none;
+    background: url("/images/imageNavLeft.gif") no-repeat scroll 0 2px transparent;
+}
+#jCarouselLiteDemo .carousel a.next {
+background:url("/images/imageNavRight.gif") no-repeat scroll 0 2px transparent;
+padding-left:5px;
+}
+#jCarouselLiteDemo .carousel a.next:hover {
+    background-image: url("/images/imageNavRightHover.gif");
+}
+#jCarouselLiteDemo .carousel a.prev:hover {
+    background-image: url("/images/imageNavLeftHover.gif");
+}    
+#jCarouselLiteDemo .carousel a:hover, #jCarouselLiteDemo .carousel a:active {
+    border: none;
+    outline: none;
+}                 
+#jCarouselLiteDemo .carousel .jCarouselLite {
+    border: 1px solid #aaaaaa;
+    float: left;
+    background-color: #dfdfdf;
+	width: 200px;
+	height: 145px;
+	
+    
+    /* Needed for rendering without flicker */
+    position: relative;
+    visibility: hidden;
+    left: -5000px;
+}
+#jCarouselLiteDemo .carousel ul {
+    margin: 0;
+	height: 120px;
+}
+#jCarouselLiteDemo .carousel li img, 
+#jCarouselLiteDemo .carousel li p {
+background-color:#FFFFFF;
+display:block;
+height:110px;
+margin:10px 0;
+padding:5px;
+text-align: center;
+}
+
+#jCarouselLiteDemo .carousel li a {
+background-color:#FFFFFF;
+display:block;
+height:110px;
+margin:10px 0;
+padding:5px;
+text-decoration: none;
+text-align: center;
+}
+
+#jCarouselLiteDemo .widget img {
+    cursor: pointer;
+}
+    #jCarouselLiteDemo .mid {
+        margin-left: 80px;
+        width: 400px;
+        height: 300px;
+    }
+
+#jCarouselLiteDemo .vertical {
+    margin-left: 200px;
+}
+    #jCarouselLiteDemo .vertical .jCarouselLite {   /* so that in IE 6, the carousel div doesnt expand to fill the space */
+        width: 200px;
+    }
+#jCarouselLiteDemo .imageSlider li img, 
+#jCarouselLiteDemo .imageSlider li p, 
+#jCarouselLiteDemo .imageSliderExt li img , 
+#jCarouselLiteDemo .imageSliderExt li p {
+    width: 400px;
+    height: 300px;
+}
+
+.jCarouselLite li{
+width: 200px;
+}

@@ -1,0 +1,11 @@
+all:
+  doctrine:
+    class:        sfDoctrineDatabase
+    param:
+      classname:  DoctrinePDO
+      dsn:        mysql:dbname=votainteligente_proyectos;host=localhost
+      username:   vota_p
+      password:   vota_754
+      encoding:   utf8
+      persistent: false
+      pooling:    false

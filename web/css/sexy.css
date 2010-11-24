@@ -1,0 +1,233 @@
+div.sexy-bookmarks {
+float:left;
+margin:10px 0 0;
+}
+div.sexy-bookmarks-expand {
+height:29px;
+overflow:hidden;
+}
+.sexy-bookmarks-bg-sexy, .sexy-bookmarks-bg-caring, .sexy-bookmarks-bg-caring-old, .sexy-bookmarks-bg-love, .sexy-bookmarks-bg-wealth {
+background-image:url(../images/proyectoley/sexy-trans.png) !important;
+background-repeat:no-repeat;
+}
+div.sexy-bookmarks-bg-sexy {
+background-position:left -348px !important;
+padding:28px 0 0 10px;
+}
+div.sexy-bookmarks ul.socials {
+float:left;
+margin:0 !important;
+padding:0 !important;
+width:100% !important;
+}
+div.sexy-bookmarks ul.socials {
+-moz-background-clip:border !important;
+-moz-background-inline-policy:continuous !important;
+-moz-background-origin:padding !important;
+background:transparent none repeat scroll 0 0 !important;
+border:0 none !important;
+outline-color:-moz-use-text-color !important;
+outline-style:none !important;
+outline-width:0 !important;
+}
+div.sexy-bookmarks ul.socials li {
+background-color:transparent !important;
+border:0 none !important;
+cursor:pointer !important;
+display:inline !important;
+float:left !important;
+height:29px !important;
+list-style-type:none !important;
+margin:0 !important;
+outline-color:-moz-use-text-color !important;
+outline-style:none !important;
+outline-width:0 !important;
+padding:0 !important;
+width:60px !important;
+}
+div.sexy-bookmarks ul.socials li:before, div.sexy-bookmarks ul.socials li:after, div.sexy-bookmarks ul.socials li a:before, div.sexy-bookmarks ul.socials li a:after {
+content:none !important;
+}
+div.sexy-bookmarks ul.socials a {
+background-color:transparent !important;
+display:block !important;
+height:29px !important;
+text-indent:-9999px !important;
+width:60px !important;
+}
+div.sexy-bookmarks ul.socials a:hover, div.sexy-bookmarks ul.socials li:hover {
+background-color:transparent !important;
+border:0 none !important;
+outline-color:-moz-use-text-color !important;
+outline-style:none !important;
+outline-width:0 !important;
+}
+.sexy-diigo, .sexy-diigo:hover, .sexy-digg, .sexy-digg:hover, .sexy-reddit, .sexy-reddit:hover, .sexy-stumbleupon, .sexy-stumbleupon:hover, .sexy-delicious, .sexy-delicious:hover, .sexy-yahoobuzz, .sexy-yahoobuzz:hover, .sexy-blinklist, .sexy-blinklist:hover, .sexy-technorati, .sexy-technorati:hover, .sexy-facebook, .sexy-facebook:hover, .sexy-twitter, .sexy-twitter:hover, .sexy-myspace, .sexy-myspace:hover, .sexy-mixx, .sexy-mixx:hover, .sexy-scriptstyle, .sexy-scriptstyle:hover, .sexy-designfloat, .sexy-designfloat:hover, .sexy-comfeed, .sexy-comfeed:hover, .sexy-newsvine, .sexy-newsvine:hover, .sexy-devmarks, .sexy-devmarks:hover, .sexy-linkedin, .sexy-linkedin:hover, .sexy-google, .sexy-google:hover, .sexy-misterwong, .sexy-misterwong:hover, .sexy-izeby, .sexy-izeby:hover, .sexy-twittley, .sexy-twittley:hover, .sexy-tipd, .sexy-tipd:hover, .sexy-pfbuzz, .sexy-pfbuzz:hover, .sexy-friendfeed, .sexy-friendfeed:hover, .sexy-blogmarks, .sexy-blogmarks:hover, .sexy-fwisp, .sexy-fwisp:hover {
+-moz-background-clip:border !important;
+-moz-background-inline-policy:continuous !important;
+-moz-background-origin:padding !important;
+background:transparent url(../images/proyectoley/sexy-sprite.png) no-repeat scroll 0 0 !important;
+}
+.sexy-diigo {
+background-position:-910px bottom !important;
+}
+.sexy-diigo:hover {
+background-position:-910px top !important;
+}
+.sexy-digg {
+background-position:-980px bottom !important;
+}
+.sexy-digg:hover {
+background-position:-980px top !important;
+}
+.sexy-reddit {
+background-position:-700px bottom !important;
+}
+.sexy-reddit:hover {
+background-position:-700px top !important;
+}
+.sexy-stumbleupon {
+background-position:-630px bottom !important;
+}
+.sexy-stumbleupon:hover {
+background-position:-630px top !important;
+}
+.sexy-delicious {
+background-position:-1190px bottom !important;
+}
+.sexy-delicious:hover {
+background-position:-1190px top !important;
+}
+.sexy-yahoobuzz {
+background-position:-1120px bottom !important;
+}
+.sexy-yahoobuzz:hover {
+background-position:-1120px top !important;
+}
+.sexy-blinklist {
+background-position:-1260px bottom !important;
+}
+.sexy-blinklist:hover {
+background-position:-1260px top !important;
+}
+.sexy-technorati {
+background-position:-560px bottom !important;
+}
+.sexy-technorati:hover {
+background-position:-560px top !important;
+}
+.sexy-myspace {
+background-position:-770px bottom !important;
+}
+.sexy-myspace:hover {
+background-position:-770px top !important;
+}
+.sexy-twitter {
+background-position:-490px bottom !important;
+}
+.sexy-twitter:hover {
+background-position:-490px top !important;
+}
+.sexy-facebook {
+background-position:-1330px bottom !important;
+}
+.sexy-facebook:hover {
+background-position:-1330px top !important;
+}
+.sexy-mixx {
+background-position:-840px bottom !important;
+}
+.sexy-mixx:hover {
+background-position:-840px top !important;
+}
+.sexy-scriptstyle {
+background-position:-280px bottom !important;
+}
+.sexy-scriptstyle:hover {
+background-position:-280px top !important;
+}
+.sexy-designfloat {
+background-position:-1050px bottom !important;
+}
+.sexy-designfloat:hover {
+background-position:-1050px top !important;
+}
+.sexy-newsvine {
+background-position:left bottom !important;
+}
+.sexy-newsvine:hover {
+background-position:left top !important;
+}
+.sexy-google {
+background-position:-210px bottom !important;
+}
+.sexy-google:hover {
+background-position:-210px top !important;
+}
+.sexy-comfeed {
+background-position:-420px bottom !important;
+}
+.sexy-comfeed:hover {
+background-position:-420px top !important;
+}
+.sexy-devmarks {
+background-position:-140px bottom !important;
+}
+.sexy-devmarks:hover {
+background-position:-140px top !important;
+}
+.sexy-linkedin {
+background-position:-70px bottom !important;
+}
+.sexy-linkedin:hover {
+background-position:-70px top !important;
+}
+.sexy-misterwong {
+background-position:-1400px bottom !important;
+}
+.sexy-misterwong:hover {
+background-position:-1400px top !important;
+}
+.sexy-izeby {
+background-position:-1470px bottom !important;
+}
+.sexy-izeby:hover {
+background-position:-1470px top !important;
+}
+.sexy-twittley {
+background-position:-1540px bottom !important;
+}
+.sexy-twittley:hover {
+background-position:-1540px top !important;
+}
+.sexy-tipd {
+background-position:-1610px bottom !important;
+}
+.sexy-tipd:hover {
+background-position:-1610px top !important;
+}
+.sexy-pfbuzz {
+background-position:-1680px bottom !important;
+}
+.sexy-pfbuzz:hover {
+background-position:-1680px top !important;
+}
+.sexy-friendfeed {
+background-position:-1750px bottom !important;
+}
+.sexy-friendfeed:hover {
+background-position:-1750px top !important;
+}
+.sexy-blogmarks {
+background-position:-1820px bottom !important;
+}
+.sexy-blogmarks:hover {
+background-position:-1820px top !important;
+}
+.sexy-fwisp {
+background-position:-1890px bottom !important;
+}
+.sexy-fwisp:hover {
+background-position:-1890px top !important;
+}
+
