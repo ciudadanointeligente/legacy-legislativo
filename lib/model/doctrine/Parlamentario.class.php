@@ -53,7 +53,9 @@ class Parlamentario extends BaseParlamentario
       foreach ($autores as $i=>$autor)
       if (count($autor->getAutorProyectoLey()) > 0){
         if ($i == 0) $leyes = $autor->getAutorProyectoLey();
-        else $leyes->merge($autor->getAutorProyectoLey());
+        else
+          if ($leyes) $leyes->merge($autor->getAutorProyectoLey());
+          else $leyes = $autor->getAutorProyectoLey();
       }
     }
     return $leyes;
