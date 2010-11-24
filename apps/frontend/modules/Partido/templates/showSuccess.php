@@ -86,7 +86,7 @@
 <!--<div id="midcontent" ><p>Conoce las mociones presentadas por el partido según materia y estado del proyecto de ley desde el periódo legislativo 2006-2010.<br>Próximamente pondremos a tu disposición gráficos con las mociones presentadas por tu partido en el actual período legislativo 2010-2014.</p>
 
   <div id="mociones">
-  <?php include_partial('Partido/mociones', array('partido' => $partido)) ?>
+  <?php /*include_partial('Partido/mociones', array('partido' => $partido)) */?>
   </div>
 
 </div>-->
