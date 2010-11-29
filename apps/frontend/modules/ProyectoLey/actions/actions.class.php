@@ -196,9 +196,9 @@ class ProyectoLeyActions extends sfActions {
                     if (count($leyes) > 0) {
                         foreach ($leyes as $j => $ley) {
                             if ($i == 0 && $j == 0)
-                                $q_str2 = '(p.id_proyecto_ley = ?';
+                                $q_str2 = 'p.id_proyecto_ley IN (?';
                             else
-                                $q_str2 .= ' OR p.id_proyecto_ley = ?';
+                                $q_str2 .= ', ?';
                             $q_val2[] = $ley->getIdProyectoLey();
                         }
                     }
