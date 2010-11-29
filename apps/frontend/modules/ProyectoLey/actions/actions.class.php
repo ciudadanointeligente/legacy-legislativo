@@ -189,14 +189,17 @@ class ProyectoLeyActions extends sfActions {
         }
 
         //proyectos ley por parlamentario o partido
+        $firstElement = TRUE;
         if ($id_part != 0 || $id_parl != 0) {
             if (count($autores) > 0) {
                 for($i = 0; $i < count($autores); $i++){
                     $leyes = $autores[$i]->getAutorProyectoLey();
                     if (count($leyes) > 0) {
                         for($j = 0; $j < count($leyes); $j++){
-                            if ($i == 0 && $j == 0)
+                            if ($firstElement){
                                 $q_str2 = 'p.id_proyecto_ley IN (?';
+                                $firstElement = FALSE;
+                            }
                             else
                                 $q_str2 .= ', ?';
                             $q_val2[] = $leyes[$j]->getIdProyectoLey();
