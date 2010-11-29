@@ -196,13 +196,14 @@ class ProyectoLeyActions extends sfActions {
                     if (count($leyes) > 0) {
                         foreach ($leyes as $j => $ley) {
                             if ($i == 0 && $j == 0)
-                                $q_str2 = 'p.id_proyecto_ley = ?';
+                                $q_str2 = '(p.id_proyecto_ley = ?';
                             else
                                 $q_str2 .= ' OR p.id_proyecto_ley = ?';
                             $q_val2[] = $ley->getIdProyectoLey();
                         }
                     }
                 }
+                $q_str2 .= ')';
                 $q = $q->andWhere($q_str2, $q_val2);
             }
             else {
@@ -526,27 +527,23 @@ class ProyectoLeyActions extends sfActions {
             }
 
             //build query según estado
+            if ($i > 0)
+                $q_str .= ' OR ';
             if ($state14 != null) {
-                if ($i > 0)
-                    $q_str .= ' OR ';
-                $q_str .= 'p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ?';
+                $q_str .= 'p.etapa IN (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
                 $q_val = array_merge($q_val, array($state, $state1, $state2, $state3, $state4, $state5, $state6, $state7, $state8, $state9, $state10, $state11, $state12, $state13, $state14));
             }
             else if ($state1 != null) {
-                if ($i > 0)
-                    $q_str .= ' OR ';
-                $q_str .= 'p.etapa = ? OR p.etapa = ?';
+                $q_str .= 'p.etapa IN (?, ?)';
                 $q_val[] = $state;
                 $q_val[] = $state1;
             }
             else if ($state != null) {
-                if ($i > 0)
-                    $q_str .= ' OR ';
                 $q_str .= 'p.etapa = ?';
                 $q_val[] = $state;
                 //sub-etapas
                 if ($substate2 != null) {
-                    $q_str .= 'AND p.sub_etapa = ? OR p.sub_etapa = ? OR p.sub_etapa = ?';
+                    $q_str .= 'AND p.sub_etapa IN (?, ?, ?)';
                     $q_val[] = $substate;
                     $q_val[] = $substate1;
                     $q_val[] = $substate2;
