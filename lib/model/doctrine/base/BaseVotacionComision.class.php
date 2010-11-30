@@ -18,6 +18,7 @@
  * @property integer $voto_aus
  * @property string $resultado
  * @property string $quorum
+ * @property string $comentario
  * @property integer $id_proyecto_ley
  * @property integer $id_debate
  * @property Comision $Comision
@@ -39,6 +40,7 @@
  * @method integer             getVotoAus()                       Returns the current record's "voto_aus" value
  * @method string              getResultado()                     Returns the current record's "resultado" value
  * @method string              getQuorum()                        Returns the current record's "quorum" value
+ * @method string              getComentario()                    Returns the current record's "comentario" value
  * @method integer             getIdProyectoLey()                 Returns the current record's "id_proyecto_ley" value
  * @method integer             getIdDebate()                      Returns the current record's "id_debate" value
  * @method Comision            getComision()                      Returns the current record's "Comision" value
@@ -59,6 +61,7 @@
  * @method VotacionComision    setVotoAus()                       Sets the current record's "voto_aus" value
  * @method VotacionComision    setResultado()                     Sets the current record's "resultado" value
  * @method VotacionComision    setQuorum()                        Sets the current record's "quorum" value
+ * @method VotacionComision    setComentario()                    Sets the current record's "comentario" value
  * @method VotacionComision    setIdProyectoLey()                 Sets the current record's "id_proyecto_ley" value
  * @method VotacionComision    setIdDebate()                      Sets the current record's "id_debate" value
  * @method VotacionComision    setComision()                      Sets the current record's "Comision" value

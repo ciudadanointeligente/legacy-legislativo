@@ -61,6 +61,16 @@
       <td><?php include_partial('ProyectoLey/votacion2_comision', array('votacion' => $votacion)) ?>
       </td>
     </tr>
+    <?php if($votacion->getComentario()): ?>
+    <tr>
+        <td colspan="2">
+            <div class="votacion_comentario">
+                <h4>Comentario</h4>
+                <?php echo $votacion->getComentario(); ?>
+            </div>
+        </td>
+    </tr>
+    <?php endif; ?>
     <tr class="tb_votaciones_empty"></tr>
   <?php endforeach; ?>
 </table>
