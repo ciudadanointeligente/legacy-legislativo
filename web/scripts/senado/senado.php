@@ -2,8 +2,8 @@
 require_once 'lib/simplehtmldom/simple_html_dom.php';
 
 $db_host = 'localhost';
-$db_user = 'root';
-$db_passwd = 'mk.cl45!';
+$db_user = 'cargaSenado';
+$db_passwd = 'cargaSenado';
 $db_database = 'votainteligente_proyectos';
 
 $conn = mysql_connect($db_host, $db_user, $db_passwd);
