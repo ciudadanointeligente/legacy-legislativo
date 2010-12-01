@@ -134,7 +134,7 @@ class MySQL {
 	  -------------------------------------------------- */
 
 	function getIdProyectoLey($nro_boletin="") {
-		$sql = "SELECT id_proyecto_ley FROM ProyectoLey WHERE nro_boletin='$nro_boletin'";
+		$sql = "SELECT id_proyecto_ley FROM ProyectoLey WHERE nro_boletin LIKE '%$nro_boletin%'";
 		$results = $this->select($sql);
 
 		if (!empty($results)) {

@@ -88,7 +88,8 @@ function cl_camara_division2array($division_id) {
 	$out['info']['enSala'] = 'true';
 
 	if (strpos($name, 'Bolet') == 0) {
-		$nro_boletin = substr($name, 12);
+		preg_match('(\d+)', $name, $matches);
+		$nro_boletin = $matches[0];
 	}
 
 	if ($nro_boletin != null) {
