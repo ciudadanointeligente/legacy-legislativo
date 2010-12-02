@@ -14,7 +14,7 @@ $mes = array(
 	'Sep' => '09',
 	'Oct' => '10',
 	'Nov' => '11',
-	'Dec' => '12'
+	'Dic' => '12'
 );
 
 function cl_camara_division2array($division_id) {
