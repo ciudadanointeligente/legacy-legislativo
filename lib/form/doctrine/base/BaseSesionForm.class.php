@@ -18,7 +18,7 @@ abstract class BaseSesionForm extends BaseFormDoctrine
       'id_sesion'         => new sfWidgetFormInputHidden(),
       'fecha'              => new sfWidgetFormDate(array(
                               'format' => '%day% - %month% - %year%', 
-                              'years' => array_combine(range(date('Y')-10, date('Y')), range(date('Y')-10, date('Y'))),
+                              'years' => array_combine(range(date('Y')-10, date('Y')+1), range(date('Y')-10, date('Y')+1)),
                           )),
       'camara'            => new sfWidgetFormChoice(array(
                                 'choices'  => Doctrine::getTable('Debate')->getCamaras(),
