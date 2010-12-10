@@ -33,7 +33,7 @@ abstract class BaseDebateForm extends BaseFormDoctrine
                               )),
       'fecha'             => new sfWidgetFormDate(array(
                               'format' => '%day% - %month% - %year%', 
-                              'years' => array_combine(range(date('Y')-10, date('Y')), range(date('Y')-10, date('Y'))),
+                              'years' => array_combine(range(date('Y')-10, date('Y')+1), range(date('Y')-10, date('Y')+1)),
                           )),
       /*'fecha'             => new sfWidgetFormDateTime(array(
                             'default' => '03/11/2010 12:00',

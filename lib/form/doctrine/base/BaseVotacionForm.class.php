@@ -19,7 +19,7 @@ abstract class BaseVotacionForm extends BaseFormDoctrine
       'name'               => new sfWidgetFormInputText(),
       'fecha'              => new sfWidgetFormDate(array(
                                 'format' => '%day% - %month% - %year%', 
-                                'years' => array_combine(range(date('Y')-10, date('Y')), range(date('Y')-10, date('Y'))),
+                                'years' => array_combine(range(date('Y')-10, date('Y')+1), range(date('Y')-10, date('Y')+1)),
                               )),
       'hora'               => new sfWidgetFormTime(),
       'materia'            => new sfWidgetFormTextarea(),
