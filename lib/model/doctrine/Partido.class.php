@@ -21,11 +21,12 @@ class Partido extends BasePartido {
 		$parls = Doctrine_Core::getTable('Parlamentario')->createQuery('x')->where('x.id_partido = ?', $this->getIdPartido())->execute();
 		foreach ($parls as $i => $parl) {
 			if ($i == 0)
-				$q_str3 = 'a.id_parlamentario = ?';
+				$q_str3 = '(a.id_parlamentario = ?';
 			else
 				$q_str3 .= ' OR a.id_parlamentario = ?';
 			$q_val3[] = $parl->getIdParlamentario();
 		}
+		$q_str3 .= ")";
 		$autores = Doctrine_Core::getTable('Autor')->createQuery('a')->where($q_str3, $q_val3)->execute();
 		if (count($autores) > 0) {
 			foreach ($autores as $i => $autor) {
@@ -51,11 +52,12 @@ class Partido extends BasePartido {
 		$q = Doctrine_Core::getTable('ProyectoLey')->createQuery('p');
 		foreach ($leyes as $i => $proyecto) {
 			if ($i == 0)
-				$q_str = 'p.id_proyecto_ley = ?';
+				$q_str = 'p.id_proyecto_ley IN ( ?';
 			else
-				$q_str .= ' OR p.id_proyecto_ley = ?';
+				$q_str .= ', ?';
 			$q_val[] = $proyecto->getIdProyectoLey();
 		}
+		$q_str .= ")";
 		$q = $q->andWhere($q_str, $q_val)->andWhere('p.fecha_ingreso > ? AND p.fecha_ingreso <= ?', array($f1, $f2));
 
 		return $q;
@@ -66,11 +68,12 @@ class Partido extends BasePartido {
 		if ($super_materias != null) {
 			foreach ($super_materias as $i => $super) {
 				if ($i == 0)
-					$q_str = 'p.id_materia = ?';
+					$q_str = 'p.id_materia IN ( ?';
 				else
-					$q_str .= ' OR p.id_materia = ?';
+					$q_str .= ', ?';
 				$q_val[] = $super;
 			}
+			$q_str .= ")";
 			$q = $q->andWhere($q_str, $q_val);
 		}
 		return Doctrine_Core::getTable('ProyectoLey')->countProyectos($q);
@@ -141,14 +144,14 @@ class Partido extends BasePartido {
 		}
 
 		if ($state16 != null) {
-			$q = $q->andWhere('p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ? OR p.etapa = ?', array($state, $state1, $state2, $state3, $state4, $state5, $state6, $state7, $state8, $state9, $state10, $state11, $state12, $state13, $state14));
+			$q = $q->andWhere('p.etapa IN (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', array($state, $state1, $state2, $state3, $state4, $state5, $state6, $state7, $state8, $state9, $state10, $state11, $state12, $state13, $state14));
 		} else if ($state1 != null) {
-			$q = $q->andWhere('p.etapa = ? OR p.etapa = ?', array($state, $state1));
+			$q = $q->andWhere('p.etapa IN (?, ?)', array($state, $state1));
 		} else if ($state != null) {
 			$q = $q->andWhere('p.etapa = ?', $state);
 			//sub-etapas
 			if ($substate2 != null) {
-				$q = $q->andWhere('p.sub_etapa = ? OR p.sub_etapa = ? OR p.sub_etapa = ?', array($substate, $substate1, $substate2));
+				$q = $q->andWhere('p.sub_etapa IN (?, ?, ?)', array($substate, $substate1, $substate2));
 			} else if ($substate != null) {
 				$q = $q->andWhere('p.sub_etapa = ?', $substate);
 			}

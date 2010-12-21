@@ -47,7 +47,7 @@
           </tr>
           <tr>
             <th>Web:</th>
-            <td><?php echo $partido->getWeb() ?></td>
+            <td><a href="<?php echo $partido->getWeb() ?>"><?php echo $partido->getWeb() ?></a></td>
           </tr>
         </tbody>
       </table>

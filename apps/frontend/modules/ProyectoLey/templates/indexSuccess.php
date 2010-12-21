@@ -1,4 +1,5 @@
-<?php 
+<?php
+  header("Location: index.php");
   use_stylesheet('visualize.jQuery.css');
   use_stylesheet('demopage.css');
   use_javascript('jquery.min.js');
